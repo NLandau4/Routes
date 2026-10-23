@@ -144,6 +144,42 @@
     "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
   },
   {
+    "id": "insurance",
+    "code": "C6",
+    "number": 6,
+    "term": "Insurance basics",
+    "path": "Cushion & Protection",
+    "hook": "Insurance is the one thing you buy hoping to never use.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "You pay a premium each month, and if a covered bad thing happens, the insurer pays for it, after you pay the deductible. Health, auto, renters or homeowners, and term life are the ones most people need at some point. Each has a limit on what it pays and a list of what it doesn't cover."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Health: nearly everyone. Auto: required by every state and every lender. Renters: anyone renting, and it's cheap. Term life: people with someone who depends on their income."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "Premiums are priced so that, across all customers, the insurer takes in more than it pays out. Riders, low deductibles, and add-ons raise the premium more than they raise the coverage. Whole life and other investment-style policies carry high commissions, which is why they're sold hard."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Being underinsured on the big things (liability, health) and overinsured on the small ones (phone, extended warranties). Not knowing the deductible until the claim. Letting a policy lapse and finding out the gap isn't covered."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What's the deductible and what's the maximum it pays? What specifically is excluded? Is this term or permanent life insurance, and why? What does the same coverage cost from two other companies?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
     "id": "score",
     "code": "D1",
     "number": 1,
@@ -175,6 +211,42 @@
         "key": "ask",
         "label": "What to ask",
         "text": "Which score is this (FICO? Vantage? which version)? What's dragging it down: late payments, high utilization, short history? When did I last pull my free reports from the three bureaus?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "payoff",
+    "code": "D10",
+    "number": 10,
+    "term": "Debt payoff math",
+    "path": "Debt",
+    "hook": "The minimum payment is a number designed to keep you paying.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "The arithmetic of getting out of debt. Two numbers decide it: the rate and how much more than the minimum you pay. At a 22% card rate, paying only the minimum on a balance can take well over a decade and cost more in interest than the original purchases. Every card statement is required to show you this calculation."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Anyone carrying a balance on more than one thing: cards, a BNPL plan, a car, a student loan. The question is which to pay down first."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "Lenders earn on the balance, so the longer it lasts the more they make. The minimum payment is set low enough to keep the balance alive for years. Debt-relief companies charge fees for plans you can usually set up yourself."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Paying extra on the lowest-rate loan first. Consolidating into a new loan and then running the cards back up. Not noticing a 0% promo ending and interest charging back from day one."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What's the rate on each balance? What's the minimum on each, and what happens if I put the extra on the highest rate first versus the smallest balance first? How long does the statement say this balance takes at the minimum?"
       }
     ],
     "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
@@ -283,6 +355,78 @@
         "key": "ask",
         "label": "What to ask",
         "text": "Is this plan 0%, and what's the APR if not? What's the late fee? Does this report to credit bureaus, and does paying on time help or only hurt? How many of these do I have open right now?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "student",
+    "code": "D6",
+    "number": 6,
+    "term": "Student loans",
+    "path": "Debt",
+    "hook": "The loan you signed at 18 has two versions, and the difference is thousands of dollars.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "Money borrowed for school. Federal loans come from the government with a fixed rate set each year (6.52% for undergraduates in 2026-27), income-based repayment options, and no credit check. Private loans come from banks, with rates set by your credit and fewer ways out if things go wrong."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "About half of people who finish a four-year degree, and plenty who don't finish. Parents too, through PLUS loans, which carry the highest federal rate."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "Interest. On an unsubsidized loan it starts accruing the day the money is sent, while you're still in school, and gets added to the balance when repayment begins. Servicers are paid by the government to collect; private lenders keep the spread between what they borrow at and what they charge you."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Not knowing which type you have, because the rules are different. Interest capitalizing during a deferment. Missing that federal loans have income-based plans and private ones usually don't. Refinancing federal loans into private ones and losing those protections for a slightly lower rate."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "Are these federal or private? Subsidized or not? What's the rate on each loan, and is interest accruing right now? Who is the servicer, and what repayment plans am I eligible for?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "carloan",
+    "code": "D7",
+    "number": 7,
+    "term": "Car loans",
+    "path": "Debt",
+    "hook": "The dealer asks what you can afford per month. That question is the sales tactic.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "A loan to buy a vehicle, with the vehicle as collateral: miss payments and it can be repossessed. You pay the price plus interest over a set term. In early 2026 the average new-car loan was about $44,000 at $770 a month over 69 months, and more than a third of new loans ran longer than six years."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Most people who buy a car. Dealers arrange many of these loans on the spot, often through their own lender partners."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "Interest, and the term. Stretching a loan from 60 to 84 months lowers the monthly payment and raises the total you pay, which is why the conversation starts with the payment, not the price. Dealers can also earn a markup on the rate they arrange for you, and sell add-ons (warranties, protection plans) rolled into the loan."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Being underwater: owing more than the car is worth for the first few years, which is nearly guaranteed on a long loan with a small down payment. Negotiating the payment instead of the price. Not knowing the rate until the paperwork."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What's the total price of the car, and what's the APR? What's the term? What would the payment be at a shorter term? Is there a rate from my own bank or credit union to compare against before I sit down?"
       }
     ],
     "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
@@ -463,6 +607,186 @@
         "key": "ask",
         "label": "What to ask",
         "text": "What rate is this projection assuming, and is it after fees? Over how many years? What does the same math say about my debt?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "brokerage",
+    "code": "I6",
+    "number": 6,
+    "term": "Brokerage account",
+    "path": "Investing",
+    "hook": "The account is free. The broker still gets paid. Here's how.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "An account at a brokerage firm where you can hold and trade investments: stocks, bonds, funds. Unlike a 401(k) or IRA it has no contribution limits and no tax break, so gains are taxed when you sell. Money moves in from your bank, sits as cash until you buy something, and comes out whenever you want."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Anyone investing outside a retirement account, or who has already filled their tax-advantaged ones. Also the account most people open first when they want to try investing."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "Even with zero-commission trades: interest on your uninvested cash (they pay you little and lend it out), payment for order flow (market makers pay the broker to execute your trades), margin interest, and fees on the broker's own funds. Free is the price of the account, not of the relationship."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Leaving cash sitting uninvested for months. Trading often because it feels free. Confusing SIPC protection (covers the broker failing) with protection against losses."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What do you pay on uninvested cash? Do you accept payment for order flow? Are there fees to transfer out? Is this account SIPC protected?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "stocksbonds",
+    "code": "I7",
+    "number": 7,
+    "term": "Stocks vs bonds",
+    "path": "Investing",
+    "hook": "One is owning. The other is lending. Everything else is detail.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "A stock is a slice of ownership in a company: you get a share of its profits if it does well and nothing promised if it doesn't. A bond is a loan to a company or government: they pay you a set interest rate and give the money back at the end. Stocks swing more and have historically returned more; bonds swing less and pay less."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Nearly every investment account holds some of each, usually through funds. The mix is what people mean by how risky a portfolio is."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "Stocks: the company earns on your money, not off you, but the fund or broker you hold it through charges fees. Bonds: the borrower pays you interest; the middlemen earn on the spread and on fund fees."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Thinking bond prices only go one way (they fall when rates rise). Holding all stocks and selling in the first drop. Holding all bonds for decades and losing ground to inflation."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What's the mix of stocks and bonds in what I own? How much did a portfolio like this fall in the last bad year? What am I being paid to lend, and to whom?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "etfmf",
+    "code": "I8",
+    "number": 8,
+    "term": "ETF vs mutual fund",
+    "path": "Investing",
+    "hook": "Same fund, two wrappers. The difference is when you can buy it and what it costs to hold.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "Two ways to package the same basket of investments. A mutual fund is bought and sold once a day at that day's closing price, often with a minimum investment. An ETF trades on an exchange all day like a stock, with no minimum beyond one share. Many index funds exist in both forms with the same holdings."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Anyone buying a fund. In a 401(k) you usually get mutual funds; in a brokerage account most people buy ETFs."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "The expense ratio either way. Mutual funds sometimes add sales charges (loads) or 12b-1 marketing fees. ETFs cost a bid-ask spread each time you trade. In a taxable account ETFs usually pass on fewer capital gains, which matters at tax time."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Paying a load on a mutual fund when a near-identical ETF has none. Trading an ETF often because you can. Buying an ETF at a thin moment and paying a wide spread."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "Is there a sales charge or a minimum? What's the expense ratio for each version? Does this fund distribute capital gains every year? If I'm in a 401(k), which wrapper does the plan actually offer?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "tdf",
+    "code": "I9",
+    "number": 9,
+    "term": "Target-date fund",
+    "path": "Investing",
+    "hook": "The fund that picks itself. Convenient, and where fees most often hide.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "A single fund that holds a mix of stocks and bonds and shifts toward bonds as a chosen year (2055, 2060) approaches. You pick the year closest to when you'd retire and it rebalances itself. It's the default option in many 401(k) plans and held $4.8 trillion in 2025."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "People who want one choice and never want to think about it again, and everyone who was auto-enrolled in a 401(k) and never changed the default."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "The expense ratio, which averaged 0.27% in 2025 but ranges from under 0.1% to over 0.7% depending on the provider. The fund of funds structure can stack a fee on top of the underlying funds' fees. Compare that to 0.14% for a plain index ETF."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Assuming all target-date funds are cheap. Two funds with the same year can hold very different mixes. Holding one in a brokerage account alongside other funds and ending up with the same thing twice."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What's the total expense ratio, including the underlying funds? What's the stock/bond mix today and at the target year? Is there a cheaper target-date series in the same plan? Is it built from index funds or actively managed ones?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "scams",
+    "code": "M1",
+    "number": 1,
+    "term": "Scams & red flags",
+    "path": "Modern Money",
+    "hook": "Every scam has the same three parts. Learn the shape and the version doesn't matter.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "Someone getting you to send money or information by pretending to be something they're not. People reported about $16 billion in fraud losses in 2025, a record, with $3.5 billion of that from imposters posing as a bank, a government agency, a company, or a relative. The method changes monthly; the structure doesn't."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Everyone, and increasingly younger adults, who report losing money more often than older ones. Nobody thinks they're the target until they are."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "The scam is the product; the whole thing is how it makes money off you. The three parts: a promise or a threat (guaranteed returns, your account is compromised, a relative in trouble), urgency (act now, don't tell anyone), and an untraceable payment (wire, crypto, gift cards, a payment app to a stranger)."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Acting before checking. Trusting caller ID, an email address, or a voice (all can be faked). Sending a second payment to recover the first, which is its own scam. Not reporting it because of embarrassment."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "Can I hang up and call the organization back at the number on my card or statement? Why does this need to happen right now? Why this payment method? Would a real bank, agency, or employer ever ask for this?"
       }
     ],
     "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
@@ -715,6 +1039,42 @@
         "key": "ask",
         "label": "What to ask",
         "text": "What would I actually need to cover if income stopped? How many months of that feels like enough for my situation? Where can it sit so it's reachable in a day or two but not reachable by my debit card?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "budget",
+    "code": "P8",
+    "number": 8,
+    "term": "Budget basics",
+    "path": "Paycheck & Taxes",
+    "hook": "A budget isn't a diet. It's a map of where the money already goes.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "A plan for where each paycheck goes before it arrives: bills, saving, spending. Any method works if you look at it monthly. The common ones are a fixed split (needs, wants, saving), giving every dollar a job, or just tracking what left the account last month and deciding what to change."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Anyone whose money runs out before the month does, and anyone who has no idea what they spent last month. That's most people the first time they try it."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "The idea is free. The apps around it are not: budgeting apps charge monthly fees or sell you the products they show next to your spending. A spreadsheet or your bank's own category view does the same job for nothing."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Making one so detailed it dies in week two. Budgeting on gross pay instead of net. Treating it as a one-time setup instead of a monthly check. Forgetting the once-a-year bills that land all at once."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What did I actually spend last month, by category? Which of those are fixed and which did I choose? What's the one category I'd change first? When will I look at this again?"
       }
     ],
     "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."

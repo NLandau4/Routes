@@ -239,7 +239,7 @@
         "P"
       ],
       "zone": 2,
-      "status": "planned",
+      "status": "written",
       "summary": "Where the net pay goes each month, and the handful of methods people actually stick with."
     },
     "P9": {
@@ -343,7 +343,7 @@
         "C"
       ],
       "zone": 2,
-      "status": "planned",
+      "status": "written",
       "summary": "Health, renters, auto, term life: what each actually covers, what a deductible is, and how premiums are set."
     },
     "C7": {
@@ -489,7 +489,7 @@
         "D"
       ],
       "zone": 2,
-      "status": "planned",
+      "status": "written",
       "summary": "Federal versus private, how interest accrues while you're in school, and what the repayment plans really cost."
     },
     "D7": {
@@ -502,7 +502,7 @@
         "D"
       ],
       "zone": 2,
-      "status": "planned",
+      "status": "written",
       "summary": "Why the dealer asks about the monthly payment first, and how a longer term hides a higher price."
     },
     "D8": {
@@ -541,7 +541,7 @@
         "D"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "Avalanche versus snowball, minimum payments, and how long a balance actually takes to clear."
     },
     "I1": {
@@ -606,7 +606,7 @@
         "I"
       ],
       "zone": 2,
-      "status": "planned",
+      "status": "written",
       "summary": "The account that holds investments. Taxable, no limits, and how brokers earn on cash and order flow."
     },
     "I7": {
@@ -619,7 +619,7 @@
         "I"
       ],
       "zone": 2,
-      "status": "planned",
+      "status": "written",
       "summary": "Ownership versus lending. Why one swings more, and why most portfolios hold both."
     },
     "I8": {
@@ -632,7 +632,7 @@
         "I"
       ],
       "zone": 2,
-      "status": "planned",
+      "status": "written",
       "summary": "Two wrappers for the same holdings: one trades all day, one prices once. What that changes for you."
     },
     "I9": {
@@ -645,7 +645,7 @@
         "I"
       ],
       "zone": 2,
-      "status": "planned",
+      "status": "written",
       "summary": "A fund that rebalances itself as a year approaches. Convenient, and where high fees hide most often in 401(k)s."
     },
     "I10": {
@@ -921,7 +921,7 @@
         "M"
       ],
       "zone": 2,
-      "status": "planned",
+      "status": "written",
       "summary": "Guaranteed returns, urgency, and payment by gift card. The patterns, so you recognize the next variation."
     },
     "M2": {

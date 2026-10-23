@@ -6,16 +6,16 @@ line: I
 lines: [I]
 also: []
 zone: 2
-status: planned
+status: written
 summary: "The account that holds investments. Taxable, no limits, and how brokers earn on cash and order flow."
-hook: null
+hook: "The account is free. The broker still gets paid. Here's how."
 related: []
 connects: [C9]
 reading_minutes:
-  short: null
+  short: 2
   long: null
 sources: []
-updated: 2026-10-22
+updated: 2026-10-23
 lint_allow: []
 ---
 
@@ -23,7 +23,7 @@ lint_allow: []
 
 ### Short
 
-_Not yet written._
+An account at a brokerage firm where you can hold and trade investments: stocks, bonds, funds. Unlike a 401(k) or IRA it has no contribution limits and no tax break, so gains are taxed when you sell. Money moves in from your bank, sits as cash until you buy something, and comes out whenever you want.
 
 ### Long
 
@@ -33,7 +33,7 @@ _Not yet written._
 
 ### Short
 
-_Not yet written._
+Anyone investing outside a retirement account, or who has already filled their tax-advantaged ones. Also the account most people open first when they want to try investing.
 
 ### Long
 
@@ -43,7 +43,7 @@ _Not yet written._
 
 ### Short
 
-_Not yet written._
+Even with zero-commission trades: interest on your uninvested cash (they pay you little and lend it out), payment for order flow (market makers pay the broker to execute your trades), margin interest, and fees on the broker's own funds. Free is the price of the account, not of the relationship.
 
 ### Long
 
@@ -53,7 +53,7 @@ _Not yet written._
 
 ### Short
 
-_Not yet written._
+Leaving cash sitting uninvested for months. Trading often because it feels free. Confusing SIPC protection (covers the broker failing) with protection against losses.
 
 ### Long
 
@@ -63,7 +63,7 @@ _Not yet written._
 
 ### Short
 
-_Not yet written._
+What do you pay on uninvested cash? Do you accept payment for order flow? Are there fees to transfer out? Is this account SIPC protected?
 
 ### Long
 

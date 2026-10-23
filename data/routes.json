@@ -22,28 +22,28 @@
         "code": "D7",
         "why": "Why the conversation starts with the monthly payment and what that framing hides.",
         "title": "Car loans",
-        "status": "planned",
+        "status": "written",
         "line": "D"
       },
       {
         "code": "C6",
         "why": "Auto coverage is required by the lender and priced separately; this card explains the parts.",
         "title": "Insurance basics",
-        "status": "planned",
+        "status": "written",
         "line": "C"
       },
       {
         "code": "D10",
         "why": "How a loan's total cost is calculated over its full term.",
         "title": "Debt payoff math",
-        "status": "planned",
+        "status": "written",
         "line": "D"
       },
       {
         "code": "P8",
         "why": "Where a car payment sits alongside everything else that comes out of net pay.",
         "title": "Budget basics",
-        "status": "planned",
+        "status": "written",
         "line": "P"
       }
     ],
@@ -93,7 +93,7 @@
         "code": "D10",
         "why": "The arithmetic of minimums versus more, and how people describe the two common orderings.",
         "title": "Debt payoff math",
-        "status": "planned",
+        "status": "written",
         "line": "D"
       },
       {
@@ -207,7 +207,7 @@
         "code": "I9",
         "why": "The default option in many plans, and where fees most often hide.",
         "title": "Target-date fund",
-        "status": "planned",
+        "status": "written",
         "line": "I"
       },
       {
@@ -229,7 +229,7 @@
         "code": "I7",
         "why": "The two things nearly every investment is made of.",
         "title": "Stocks vs bonds",
-        "status": "planned",
+        "status": "written",
         "line": "I"
       },
       {
@@ -243,7 +243,7 @@
         "code": "I8",
         "why": "The two wrappers you'll see the same fund sold in.",
         "title": "ETF vs mutual fund",
-        "status": "planned",
+        "status": "written",
         "line": "I"
       },
       {
