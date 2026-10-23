@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Card, map, routes, resolve, getCard } from "@/lib/data";
+import { Subscribe } from "./Subscribe";
 
 type Props = {
   card: Card;
@@ -99,6 +100,7 @@ export function CardPanel({ card, read, onToggleRead, routeSlug, onClose }: Prop
           <button className="pill-y d" style={{ flex: 1 }} onClick={onToggleRead}>{read ? `UNMARK ${card.code}` : `MARK ${card.code} READ`}</button>
           <Link href={`/card/${card.code}`} className="ghost d">OPEN</Link>
         </div>
+        <Subscribe source={`card:${card.code}`} />
         <div className="disc m">{card.disclaimer.toUpperCase()} · {card.pledge.toUpperCase()}</div>
       </div>
     </aside>

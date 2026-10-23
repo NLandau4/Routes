@@ -128,3 +128,15 @@ button { font: inherit; cursor: pointer; }
   .cardhead h1 { font-size: 36px; }
   .mapwrap { height: calc(100vh - 64px - 54px) !important; }
 }
+
+/* auth + subscribe */
+.ghost-top { font-size: 12px; background: transparent; border: 1.5px solid rgba(255,255,255,.4); color: #fff; padding: 8px 12px; border-radius: 999px; }
+.authpop { position: absolute; right: 20px; top: 70px; width: 320px; background: var(--paper); color: var(--ink); border-radius: 16px; box-shadow: 0 16px 48px rgba(14,17,22,.25); padding: 18px; display: flex; flex-direction: column; gap: 10px; z-index: 20; }
+.authpop p { margin: 0; font-size: 14px; color: var(--muted); }
+.authpop input { font: inherit; padding: 10px 12px; border: 1.5px solid var(--rule); border-radius: 10px; }
+.subscribe { display: flex; gap: 6px; margin-top: 10px; }
+.subscribe input { flex: 1; min-width: 0; font: inherit; font-size: 13px; padding: 9px 12px; border-radius: 999px; border: 1.5px solid rgba(255,255,255,.3); background: rgba(255,255,255,.08); color: #fff; }
+.subscribe input::placeholder { color: rgba(255,255,255,.5); }
+.subscribe button { font-weight: 800; font-size: 13px; padding: 0 14px; border-radius: 999px; border: 0; background: var(--yellow); color: var(--ink); }
+.page .subscribe input { border-color: var(--rule); background: var(--paper); color: var(--ink); }
+.page .subscribe input::placeholder { color: var(--muted); }

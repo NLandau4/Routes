@@ -3,6 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 import { map, writtenCount } from "@/lib/data";
 import { YouCounter } from "@/components/YouCounter";
+import { AuthButton } from "@/components/AuthButton";
 
 
 export const metadata: Metadata = {
@@ -19,11 +20,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=Instrument+Sans:wght@400;500;600&display=swap" />
       </head>
       <body>
-        <header className="top">
+        <header className="top" style={{ position: "relative" }}>
           <Link href="/" className="mark"><span className="ring" /><span className="d word">ROUTES</span></Link>
           <span className="m sub">SYSTEM MAP · {Object.keys(map.lines).length} LINES · {total} STATIONS · {writtenCount()} WRITTEN</span>
           <div className="right m">
             <YouCounter total={total} />
+            <AuthButton />
             <Link href="/about" className="pill-y">ABOUT · THE PLEDGE</Link>
           </div>
         </header>

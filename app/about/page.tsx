@@ -1,4 +1,5 @@
 import { map } from "@/lib/data";
+import { Subscribe } from "@/components/Subscribe";
 export const metadata = { title: "About · Routes" };
 export default function About() {
   return (
@@ -12,8 +13,11 @@ export default function About() {
       <p>Advice. Nothing here recommends buying, selling, opening, closing, or switching anything, and nothing is personalized to you. A route is a reading order, not a plan. For decisions about your own situation, talk to a licensed professional who can see the whole picture.</p>
       <h2 className="d">Who writes it</h2>
       <p>Someone who has spent years investing and trading his own money and learning what the fine print means. Not a licensed advisor.</p>
+      <h2 className="d">One card a week</h2>
+      <p>The map is free and stays free. If you want the next card in your inbox, leave an email. That is the only thing we ask for.</p>
+      <Subscribe source="about" />
       <h2 className="d">Your data</h2>
-      <p>Which stations you've read is stored in your browser and nowhere else until you choose to make an account. Routes never asks for balances, account numbers, or holdings.</p>
+      <p>Which stations you've read is stored in your browser. If you sign in with an email link, it is also saved to your account so it follows you between devices. Routes never asks for balances, account numbers, or holdings.</p>
       <p className="m" style={{ fontSize: 11, color: "var(--muted)", marginTop: 32 }}>{map.disclaimer.toUpperCase()}</p>
     </main>
   );

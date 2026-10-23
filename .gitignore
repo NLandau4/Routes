@@ -3,3 +3,4 @@ node_modules/
 __pycache__/
 routes-video/out/
 .DS_Store
+.env.local
