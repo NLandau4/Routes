@@ -1,0 +1,1074 @@
+{
+  "lines": {
+    "P": {
+      "name": "Paycheck & Taxes",
+      "color": "#1F9D5A",
+      "stations": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10",
+        "P11"
+      ]
+    },
+    "C": {
+      "name": "Cushion & Protection",
+      "color": "#2F6BFF",
+      "stations": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11"
+      ]
+    },
+    "D": {
+      "name": "Debt",
+      "color": "#E8322B",
+      "stations": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9",
+        "D10"
+      ]
+    },
+    "I": {
+      "name": "Investing",
+      "color": "#F28B00",
+      "stations": [
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5",
+        "I6",
+        "I7",
+        "I8",
+        "I9",
+        "I10",
+        "I11",
+        "I12",
+        "I13",
+        "I14",
+        "I15",
+        "I16",
+        "I17",
+        "I18",
+        "I19"
+      ]
+    },
+    "T": {
+      "name": "Trading",
+      "color": "#8A3FFC",
+      "stations": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "T7",
+        "T8",
+        "T9",
+        "T10",
+        "T11"
+      ]
+    },
+    "M": {
+      "name": "Modern Money",
+      "color": "#00A3A3",
+      "stations": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8"
+      ]
+    }
+  },
+  "zones": [
+    {
+      "n": 1,
+      "name": "Basics",
+      "tagline": "Your first paycheck"
+    },
+    {
+      "n": 2,
+      "name": "Getting set",
+      "tagline": "Accounts, cover, first borrowing"
+    },
+    {
+      "n": 3,
+      "name": "Building",
+      "tagline": "Investing with a plan"
+    },
+    {
+      "n": 4,
+      "name": "Advanced",
+      "tagline": "Markets, rates, leverage"
+    },
+    {
+      "n": 5,
+      "name": "Expert",
+      "tagline": "Long horizons and edge cases"
+    }
+  ],
+  "stations": {
+    "P1": {
+      "code": "P1",
+      "also": [],
+      "title": "Paycheck",
+      "slug": "paycheck",
+      "line": "P",
+      "lines": [
+        "P"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "What an employer pays you for a pay period after taxes and deductions, and how to read the stub that comes with it."
+    },
+    "P2": {
+      "code": "P2",
+      "also": [],
+      "title": "Gross vs net pay",
+      "slug": "gross",
+      "line": "P",
+      "lines": [
+        "P"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "Gross is what you earned. Net is what landed. Offers and loan applications use gross; your budget runs on net."
+    },
+    "P3": {
+      "code": "P3",
+      "also": [],
+      "title": "Taxes withheld",
+      "slug": "withheld",
+      "line": "P",
+      "lines": [
+        "P"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "Money sent to the government out of each check: federal, FICA, and state where it applies. A big refund was your money all along."
+    },
+    "P4": {
+      "code": "P4",
+      "also": [],
+      "title": "Direct deposit",
+      "slug": "deposit",
+      "line": "P",
+      "lines": [
+        "P"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "Pay sent straight to your account. Banks love it, which is why bonuses and fee waivers depend on it."
+    },
+    "P5": {
+      "code": "P5",
+      "also": [],
+      "title": "Checking account",
+      "slug": "checking",
+      "line": "P",
+      "lines": [
+        "P"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "The account money moves through. Built for spending, not growing, so it pays almost nothing."
+    },
+    "P6": {
+      "code": "P6",
+      "also": [],
+      "title": "Overdraft",
+      "slug": "overdraft",
+      "line": "P",
+      "lines": [
+        "P"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "Spending more than you have. The bank declines it or covers it and charges a fee, historically $30 to $35 each."
+    },
+    "P7": {
+      "code": "P7",
+      "also": [
+        "C5"
+      ],
+      "title": "Emergency fund",
+      "slug": "emergency",
+      "line": "P",
+      "lines": [
+        "P",
+        "C"
+      ],
+      "zone": 2,
+      "status": "written",
+      "summary": "Cash kept separate for the car repair or the job gap. A concept, not a product, and nobody is selling it."
+    },
+    "P8": {
+      "code": "P8",
+      "also": [],
+      "title": "Budget basics",
+      "slug": "budget",
+      "line": "P",
+      "lines": [
+        "P"
+      ],
+      "zone": 2,
+      "status": "planned",
+      "summary": "Where the net pay goes each month, and the handful of methods people actually stick with."
+    },
+    "P9": {
+      "code": "P9",
+      "also": [],
+      "title": "Side income & 1099",
+      "slug": "sideincome",
+      "line": "P",
+      "lines": [
+        "P"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "Getting paid without withholding: what you owe, when, and the quarterly payments nobody mentions."
+    },
+    "P10": {
+      "code": "P10",
+      "also": [],
+      "title": "Capital gains tax",
+      "slug": "capgains",
+      "line": "P",
+      "lines": [
+        "P"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "What you owe when you sell something for more than you paid, and why holding a year changes the rate."
+    },
+    "P11": {
+      "code": "P11",
+      "also": [],
+      "title": "Tax-loss harvesting",
+      "slug": "tlh",
+      "line": "P",
+      "lines": [
+        "P"
+      ],
+      "zone": 4,
+      "status": "planned",
+      "summary": "Selling a loser to offset a winner's tax bill, and the wash-sale rule that trips people up."
+    },
+    "C1": {
+      "code": "C1",
+      "also": [],
+      "title": "Savings account",
+      "slug": "savings",
+      "line": "C",
+      "lines": [
+        "C"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "An account for holding money. Pays interest, limits withdrawals, and at big banks pays close to zero."
+    },
+    "C2": {
+      "code": "C2",
+      "also": [],
+      "title": "High-yield savings account",
+      "slug": "hysa",
+      "line": "C",
+      "lines": [
+        "C"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "Same account, 10 to 50 times the rate, usually from an online bank with no branches to pay for."
+    },
+    "C3": {
+      "code": "C3",
+      "also": [],
+      "title": "APY vs interest rate",
+      "slug": "apy",
+      "line": "C",
+      "lines": [
+        "C"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "APY is what you actually earn once interest earns interest. Always compare APY to APY."
+    },
+    "C4": {
+      "code": "C4",
+      "also": [],
+      "title": "FDIC insurance",
+      "slug": "fdic",
+      "line": "C",
+      "lines": [
+        "C"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "Government guarantee on deposits up to $250,000 per depositor, per bank. Covers deposits, not investments."
+    },
+    "C6": {
+      "code": "C6",
+      "also": [],
+      "title": "Insurance basics",
+      "slug": "insurance",
+      "line": "C",
+      "lines": [
+        "C"
+      ],
+      "zone": 2,
+      "status": "planned",
+      "summary": "Health, renters, auto, term life: what each actually covers, what a deductible is, and how premiums are set."
+    },
+    "C7": {
+      "code": "C7",
+      "also": [],
+      "title": "HSA",
+      "slug": "hsa",
+      "line": "C",
+      "lines": [
+        "C"
+      ],
+      "zone": 2,
+      "status": "planned",
+      "summary": "A health savings account with three tax breaks, and why some people treat it as a retirement account."
+    },
+    "C8": {
+      "code": "C8",
+      "also": [],
+      "title": "Certificate of deposit",
+      "slug": "cd",
+      "line": "C",
+      "lines": [
+        "C"
+      ],
+      "zone": 2,
+      "status": "planned",
+      "summary": "Lock money up for a set term for a set rate. The penalty for leaving early is the product."
+    },
+    "C9": {
+      "code": "C9",
+      "also": [],
+      "title": "Money market fund",
+      "slug": "mmf",
+      "line": "C",
+      "lines": [
+        "C"
+      ],
+      "zone": 2,
+      "status": "planned",
+      "summary": "Looks like savings, is actually an investment fund. Not FDIC insured, and that difference matters."
+    },
+    "C10": {
+      "code": "C10",
+      "also": [],
+      "title": "Inflation",
+      "slug": "inflation",
+      "line": "C",
+      "lines": [
+        "C"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "Why cash loses buying power, how it's measured, and what it does to every other station on this map."
+    },
+    "C11": {
+      "code": "C11",
+      "also": [],
+      "title": "The Fed & interest rates",
+      "slug": "fed",
+      "line": "C",
+      "lines": [
+        "C"
+      ],
+      "zone": 4,
+      "status": "planned",
+      "summary": "Who sets the rate that moves your savings APY, your card APR, and your mortgage, and how to read a rate decision."
+    },
+    "D1": {
+      "code": "D1",
+      "also": [],
+      "title": "Credit score",
+      "slug": "score",
+      "line": "D",
+      "lines": [
+        "D"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "A three-digit guess at how likely you are to repay. Built from your history, sold by bureaus, and yours to dispute."
+    },
+    "D2": {
+      "code": "D2",
+      "also": [],
+      "title": "Credit card",
+      "slug": "ccard",
+      "line": "D",
+      "lines": [
+        "D"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "Borrow with each purchase, pay in full and owe no interest. Pay less and you're carrying one of the priciest loans around."
+    },
+    "D3": {
+      "code": "D3",
+      "also": [],
+      "title": "APR",
+      "slug": "apr",
+      "line": "D",
+      "lines": [
+        "D"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "The yearly cost of borrowing. A 24% APR on $1,000 carried for a year is about $240."
+    },
+    "D4": {
+      "code": "D4",
+      "also": [],
+      "title": "Buy now, pay later",
+      "slug": "bnpl",
+      "line": "D",
+      "lines": [
+        "D"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "Four payments over six weeks at checkout. The store pays the fee; you pay if you miss one or stack five plans."
+    },
+    "I5": {
+      "code": "I5",
+      "also": [
+        "D5"
+      ],
+      "title": "Compound growth",
+      "slug": "compound",
+      "line": "I",
+      "lines": [
+        "D",
+        "I"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "Returns on returns. Works for you in a fund and against you on a card balance. Starting early beats starting big."
+    },
+    "D6": {
+      "code": "D6",
+      "also": [],
+      "title": "Student loans",
+      "slug": "student",
+      "line": "D",
+      "lines": [
+        "D"
+      ],
+      "zone": 2,
+      "status": "planned",
+      "summary": "Federal versus private, how interest accrues while you're in school, and what the repayment plans really cost."
+    },
+    "D7": {
+      "code": "D7",
+      "also": [],
+      "title": "Car loans",
+      "slug": "carloan",
+      "line": "D",
+      "lines": [
+        "D"
+      ],
+      "zone": 2,
+      "status": "planned",
+      "summary": "Why the dealer asks about the monthly payment first, and how a longer term hides a higher price."
+    },
+    "D8": {
+      "code": "D8",
+      "also": [],
+      "title": "Mortgage & PMI",
+      "slug": "mortgage",
+      "line": "D",
+      "lines": [
+        "D"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "The biggest loan most people take, the insurance you pay when you put less than 20% down, and what escrow is."
+    },
+    "D9": {
+      "code": "D9",
+      "also": [],
+      "title": "Refinancing",
+      "slug": "refi",
+      "line": "D",
+      "lines": [
+        "D"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "Replacing a loan with a cheaper one, when the closing costs make it worth it, and when they don't."
+    },
+    "D10": {
+      "code": "D10",
+      "also": [],
+      "title": "Debt payoff math",
+      "slug": "payoff",
+      "line": "D",
+      "lines": [
+        "D"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "Avalanche versus snowball, minimum payments, and how long a balance actually takes to clear."
+    },
+    "I1": {
+      "code": "I1",
+      "also": [],
+      "title": "401(k) match",
+      "slug": "match",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "Employer money you only get if you contribute. Vesting decides when it's really yours."
+    },
+    "I2": {
+      "code": "I2",
+      "also": [],
+      "title": "Roth vs traditional",
+      "slug": "roth",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "Two tax timings for the same account: pay tax now or pay it later. A label, not a product."
+    },
+    "I3": {
+      "code": "I3",
+      "also": [],
+      "title": "Index fund",
+      "slug": "index",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "One purchase, a slice of everything on a list. Cheap because nobody is paid to pick."
+    },
+    "I4": {
+      "code": "I4",
+      "also": [],
+      "title": "Expense ratio",
+      "slug": "expense",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 1,
+      "status": "written",
+      "summary": "The fund's yearly fee, taken automatically. The one number known in advance, and it compounds against you."
+    },
+    "I6": {
+      "code": "I6",
+      "also": [],
+      "title": "Brokerage account",
+      "slug": "brokerage",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 2,
+      "status": "planned",
+      "summary": "The account that holds investments. Taxable, no limits, and how brokers earn on cash and order flow."
+    },
+    "I7": {
+      "code": "I7",
+      "also": [],
+      "title": "Stocks vs bonds",
+      "slug": "stocksbonds",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 2,
+      "status": "planned",
+      "summary": "Ownership versus lending. Why one swings more, and why most portfolios hold both."
+    },
+    "I8": {
+      "code": "I8",
+      "also": [],
+      "title": "ETF vs mutual fund",
+      "slug": "etfmf",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 2,
+      "status": "planned",
+      "summary": "Two wrappers for the same holdings: one trades all day, one prices once. What that changes for you."
+    },
+    "I9": {
+      "code": "I9",
+      "also": [],
+      "title": "Target-date fund",
+      "slug": "tdf",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 2,
+      "status": "planned",
+      "summary": "A fund that rebalances itself as a year approaches. Convenient, and where high fees hide most often in 401(k)s."
+    },
+    "I10": {
+      "code": "I10",
+      "also": [],
+      "title": "Diversification",
+      "slug": "diversify",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "Not putting it all in one place. What it protects against, and what it doesn't."
+    },
+    "I11": {
+      "code": "I11",
+      "also": [],
+      "title": "Dollar-cost averaging",
+      "slug": "dca",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "Investing a fixed amount on a schedule regardless of price. What it does to your average cost, and what it doesn't."
+    },
+    "I12": {
+      "code": "I12",
+      "also": [],
+      "title": "Dividends",
+      "slug": "dividends",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "Cash a company pays holders, how it's taxed, and why a high yield can be a warning rather than a gift."
+    },
+    "I13": {
+      "code": "I13",
+      "also": [],
+      "title": "Rebalancing",
+      "slug": "rebalance",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "Selling what grew to buy what shrank, back to your target mix. How often, and why it feels wrong."
+    },
+    "I14": {
+      "code": "I14",
+      "also": [],
+      "title": "Risk tolerance",
+      "slug": "risk",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "How much drop you can sit through without selling. A behavior, not a questionnaire score."
+    },
+    "I15": {
+      "code": "I15",
+      "also": [],
+      "title": "Valuation basics",
+      "slug": "valuation",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 4,
+      "status": "planned",
+      "summary": "P/E, market cap, and the other numbers on a quote page, and what each one can and can't tell you."
+    },
+    "I16": {
+      "code": "I16",
+      "also": [],
+      "title": "Bond yields",
+      "slug": "yields",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 4,
+      "status": "planned",
+      "summary": "Why bond prices fall when rates rise, what a yield curve is, and why people watch its shape."
+    },
+    "I17": {
+      "code": "I17",
+      "also": [
+        "T7"
+      ],
+      "title": "Leverage",
+      "slug": "leverage",
+      "line": "I",
+      "lines": [
+        "I",
+        "T"
+      ],
+      "zone": 4,
+      "status": "planned",
+      "summary": "Borrowing to invest or trade. Multiplies gains and losses alike, and the broker gets paid either way."
+    },
+    "I18": {
+      "code": "I18",
+      "also": [],
+      "title": "Withdrawal rates",
+      "slug": "withdrawal",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 5,
+      "status": "planned",
+      "summary": "How much a portfolio can pay out each year without running dry, and where the famous 4% came from."
+    },
+    "I19": {
+      "code": "I19",
+      "also": [],
+      "title": "Estate basics",
+      "slug": "estate",
+      "line": "I",
+      "lines": [
+        "I"
+      ],
+      "zone": 5,
+      "status": "planned",
+      "summary": "Beneficiaries, wills, and why the form you filled out at the bank can override the will."
+    },
+    "T1": {
+      "code": "T1",
+      "also": [],
+      "title": "Order types",
+      "slug": "orders",
+      "line": "T",
+      "lines": [
+        "T"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "Market, limit, stop. What each one promises, and when a market order costs you."
+    },
+    "T2": {
+      "code": "T2",
+      "also": [],
+      "title": "Bid-ask spread",
+      "slug": "spread",
+      "line": "T",
+      "lines": [
+        "T"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "The gap between the buy and sell price. The quiet fee on every trade, biggest where volume is thinnest."
+    },
+    "T3": {
+      "code": "T3",
+      "also": [],
+      "title": "Volatility",
+      "slug": "volatility",
+      "line": "T",
+      "lines": [
+        "T"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "How much a price moves, how it's measured, and why it's priced into everything on this line."
+    },
+    "T4": {
+      "code": "T4",
+      "also": [],
+      "title": "Technical vs fundamental",
+      "slug": "techfund",
+      "line": "T",
+      "lines": [
+        "T"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "Charts versus financials. What each approach claims, and what the evidence says about both."
+    },
+    "T5": {
+      "code": "T5",
+      "also": [],
+      "title": "Margin",
+      "slug": "margin",
+      "line": "T",
+      "lines": [
+        "T"
+      ],
+      "zone": 4,
+      "status": "planned",
+      "summary": "Borrowing from your broker to buy more. The interest, the margin call, and who decides when you're sold out."
+    },
+    "T6": {
+      "code": "T6",
+      "also": [],
+      "title": "Short selling",
+      "slug": "short",
+      "line": "T",
+      "lines": [
+        "T"
+      ],
+      "zone": 4,
+      "status": "planned",
+      "summary": "Betting a price falls by selling what you borrowed. Why the loss is unlimited and the borrow has a fee."
+    },
+    "T8": {
+      "code": "T8",
+      "also": [],
+      "title": "Options basics",
+      "slug": "options",
+      "line": "T",
+      "lines": [
+        "T"
+      ],
+      "zone": 4,
+      "status": "planned",
+      "summary": "Calls, puts, premium, expiry. How most retail options expire worthless, and who collects the premium."
+    },
+    "T9": {
+      "code": "T9",
+      "also": [],
+      "title": "Position sizing",
+      "slug": "sizing",
+      "line": "T",
+      "lines": [
+        "T"
+      ],
+      "zone": 5,
+      "status": "planned",
+      "summary": "How much to put in any one trade. The math that keeps one bad call from ending the account."
+    },
+    "T10": {
+      "code": "T10",
+      "also": [],
+      "title": "Futures",
+      "slug": "futures",
+      "line": "T",
+      "lines": [
+        "T"
+      ],
+      "zone": 5,
+      "status": "planned",
+      "summary": "Contracts on a future price, built-in leverage, and why they were invented for farmers, not traders."
+    },
+    "T11": {
+      "code": "T11",
+      "also": [],
+      "title": "Backtesting",
+      "slug": "backtest",
+      "line": "T",
+      "lines": [
+        "T"
+      ],
+      "zone": 5,
+      "status": "planned",
+      "summary": "Testing a strategy on past data, and the overfitting trap that makes every backtest look great."
+    },
+    "M1": {
+      "code": "M1",
+      "also": [],
+      "title": "Scams & red flags",
+      "slug": "scams",
+      "line": "M",
+      "lines": [
+        "M"
+      ],
+      "zone": 2,
+      "status": "planned",
+      "summary": "Guaranteed returns, urgency, and payment by gift card. The patterns, so you recognize the next variation."
+    },
+    "M2": {
+      "code": "M2",
+      "also": [],
+      "title": "Fintech \"banks\"",
+      "slug": "fintech",
+      "line": "M",
+      "lines": [
+        "M"
+      ],
+      "zone": 2,
+      "status": "planned",
+      "summary": "Apps that look like banks but aren't. Where your money actually sits, and what happens if the app fails."
+    },
+    "M3": {
+      "code": "M3",
+      "also": [],
+      "title": "Robo-advisors",
+      "slug": "robo",
+      "line": "M",
+      "lines": [
+        "M"
+      ],
+      "zone": 2,
+      "status": "planned",
+      "summary": "Automated portfolios for a fee. What they do, what the fee buys, and what a target-date fund does for less."
+    },
+    "M4": {
+      "code": "M4",
+      "also": [],
+      "title": "AI money tools",
+      "slug": "aitools",
+      "line": "M",
+      "lines": [
+        "M"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "How to evaluate one: who trained it, what it sells, whether it personalizes, and what it can't know about you."
+    },
+    "M5": {
+      "code": "M5",
+      "also": [],
+      "title": "AI-generated finance content",
+      "slug": "aicontent",
+      "line": "M",
+      "lines": [
+        "M"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "How to spot it, why it hallucinates numbers, and the questions to ask before trusting any explainer, including this one."
+    },
+    "M6": {
+      "code": "M6",
+      "also": [],
+      "title": "Crypto & stablecoins",
+      "slug": "crypto",
+      "line": "M",
+      "lines": [
+        "M"
+      ],
+      "zone": 3,
+      "status": "planned",
+      "summary": "Tokens, exchanges, wallets, and what a stablecoin is actually backed by. The custody risk nobody explains."
+    },
+    "M7": {
+      "code": "M7",
+      "also": [],
+      "title": "Tokenized assets",
+      "slug": "tokenized",
+      "line": "M",
+      "lines": [
+        "M"
+      ],
+      "zone": 4,
+      "status": "planned",
+      "summary": "Stocks and real estate on a blockchain. What's real, what's a wrapper, and who holds the underlying thing."
+    },
+    "M8": {
+      "code": "M8",
+      "also": [],
+      "title": "Prediction markets",
+      "slug": "prediction",
+      "line": "M",
+      "lines": [
+        "M"
+      ],
+      "zone": 4,
+      "status": "planned",
+      "summary": "Betting on events, priced as probabilities. How the odds are set and why they're not quite forecasts."
+    }
+  },
+  "interchanges": [
+    {
+      "card": "P7",
+      "codes": [
+        "P7",
+        "C5"
+      ]
+    },
+    {
+      "card": "I5",
+      "codes": [
+        "I5",
+        "D5"
+      ]
+    },
+    {
+      "card": "I17",
+      "codes": [
+        "I17",
+        "T7"
+      ]
+    }
+  ],
+  "connections": [
+    [
+      "C3",
+      "D3"
+    ],
+    [
+      "C4",
+      "M2"
+    ],
+    [
+      "C10",
+      "I10"
+    ],
+    [
+      "C11",
+      "I16"
+    ],
+    [
+      "I4",
+      "M3"
+    ],
+    [
+      "D10",
+      "I5"
+    ],
+    [
+      "C9",
+      "I6"
+    ]
+  ],
+  "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+  "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+html,body{margin:0;background:#FFD100}
+.wrap{width:1500px;height:750px;position:relative;overflow:hidden;background:#FFD100;font-family:'Inter Display','Inter',sans-serif}
+</style></head><body>
+<div class="wrap">
+<svg width="1500" height="750" viewBox="0 0 1500 750" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="wob"><feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="4"/></filter>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="3" fill="#0E1116" opacity=".08"/></pattern>
+  </defs>
+  <rect width="1500" height="750" fill="#FFD100"/>
+  <rect width="1500" height="750" fill="url(#dots)"/>
+
+  <!-- counter / table -->
+  <rect x="0" y="600" width="1500" height="150" fill="#0E1116"/>
+  <rect x="0" y="588" width="1500" height="14" fill="#0E1116"/>
+
+  <!-- shadow -->
+  <ellipse cx="470" cy="596" rx="230" ry="18" fill="#0E1116" opacity=".25"/>
+
+  <g filter="url(#wob)">
+    <!-- saucer -->
+    <ellipse cx="470" cy="572" rx="250" ry="34" fill="#FFFFFF" stroke="#0E1116" stroke-width="10"/>
+    <!-- cup body -->
+    <path d="M300 300 Q290 560 470 560 Q650 560 640 300 Z" fill="#FFFFFF" stroke="#0E1116" stroke-width="10" stroke-linejoin="round"/>
+    <!-- handle -->
+    <path d="M640 330 Q760 330 750 420 Q740 500 630 500" fill="none" stroke="#0E1116" stroke-width="10" stroke-linecap="round"/>
+    <path d="M640 355 Q720 355 712 420 Q705 475 630 475" fill="#FFD100" stroke="none"/>
+    <path d="M640 355 Q720 355 712 420 Q705 475 630 475" fill="none" stroke="#0E1116" stroke-width="10" stroke-linecap="round"/>
+    <!-- rim -->
+    <ellipse cx="470" cy="300" rx="172" ry="42" fill="#FFFFFF" stroke="#0E1116" stroke-width="10"/>
+    <!-- coffee -->
+    <ellipse cx="470" cy="302" rx="146" ry="30" fill="#6B3A1E" stroke="#0E1116" stroke-width="8"/>
+    <!-- steam -->
+    <path d="M400 240 Q380 200 400 170 Q420 140 400 105" fill="none" stroke="#0E1116" stroke-width="8" stroke-linecap="round"/>
+    <path d="M470 230 Q450 190 470 160 Q490 130 470 95" fill="none" stroke="#0E1116" stroke-width="8" stroke-linecap="round"/>
+    <path d="M540 240 Q520 200 540 170 Q560 140 540 105" fill="none" stroke="#0E1116" stroke-width="8" stroke-linecap="round"/>
+    <!-- face: wide shocked eyes, small open mouth -->
+    <ellipse cx="415" cy="400" rx="34" ry="40" fill="#FFFFFF" stroke="#0E1116" stroke-width="8"/>
+    <ellipse cx="525" cy="400" rx="34" ry="40" fill="#FFFFFF" stroke="#0E1116" stroke-width="8"/>
+    <circle cx="422" cy="408" r="13" fill="#0E1116"/>
+    <circle cx="532" cy="408" r="13" fill="#0E1116"/>
+    <circle cx="427" cy="402" r="4" fill="#FFFFFF"/>
+    <circle cx="537" cy="402" r="4" fill="#FFFFFF"/>
+    <path d="M380 345 Q412 325 445 348" fill="none" stroke="#0E1116" stroke-width="8" stroke-linecap="round"/>
+    <path d="M560 345 Q528 325 495 348" fill="none" stroke="#0E1116" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="470" cy="485" rx="22" ry="30" fill="#0E1116"/>
+    <ellipse cx="470" cy="498" rx="12" ry="12" fill="#E8322B"/>
+    <!-- sweat drop -->
+    <path d="M585 330 Q600 300 610 330 Q612 350 598 352 Q584 350 585 330 Z" fill="#5B8CFF" stroke="#0E1116" stroke-width="6"/>
+    <!-- price tag on cup -->
+    <g transform="rotate(-8 300 470)">
+      <rect x="230" y="440" width="120" height="64" rx="8" fill="#FFFFFF" stroke="#0E1116" stroke-width="8"/>
+      <circle cx="250" cy="472" r="8" fill="#0E1116"/>
+      <text x="300" y="486" text-anchor="middle" font-family="Inter Display, Inter, sans-serif" font-weight="900" font-size="38" fill="#0E1116">$4</text>
+    </g>
+  </g>
+
+  <!-- receipt -->
+  <g transform="translate(880 50) rotate(5)">
+    <path d="M0 0 H420 V560 L395 540 L370 560 L345 540 L320 560 L295 540 L270 560 L245 540 L220 560 L195 540 L170 560 L145 540 L120 560 L95 540 L70 560 L45 540 L20 560 L0 540 Z" fill="#FFFFFF" stroke="#0E1116" stroke-width="10" stroke-linejoin="round"/>
+    <g font-family="Courier, 'Courier 10 Pitch', monospace" font-weight="bold" fill="#0E1116">
+      <text x="210" y="70" text-anchor="middle" font-size="30">FIRST NATIONAL</text>
+      <text x="210" y="104" text-anchor="middle" font-size="22">* * * * * * * * * * *</text>
+      <text x="36" y="170" font-size="30">COFFEE</text><text x="384" y="170" text-anchor="end" font-size="30">$4.00</text>
+      <text x="36" y="250" font-size="30">OVERDRAFT</text>
+      <text x="36" y="286" font-size="30">FEE</text><text x="384" y="286" text-anchor="end" font-size="30">$35.00</text>
+      <line x1="36" y1="330" x2="384" y2="330" stroke="#0E1116" stroke-width="6" stroke-dasharray="14 10"/>
+      <text x="36" y="400" font-size="42">TOTAL</text><text x="384" y="400" text-anchor="end" font-size="42">$39.00</text>
+      <text x="210" y="470" text-anchor="middle" font-size="20">THANK YOU FOR</text>
+      <text x="210" y="498" text-anchor="middle" font-size="20">YOUR BUSINESS :)</text>
+    </g>
+    <!-- red circle around fee -->
+    <ellipse cx="300" cy="268" rx="130" ry="46" fill="none" stroke="#E8322B" stroke-width="9" transform="rotate(-4 300 268)"/>
+  </g>
+
+  <!-- headline on counter -->
+  <text x="60" y="680" font-family="Inter Display, Inter, sans-serif" font-weight="900" font-size="54" fill="#FFFFFF" letter-spacing="-1">THE $4 COFFEE THAT COST $39</text>
+  <g transform="translate(1230 638)">
+    <circle cx="28" cy="34" r="26" fill="#FFD100" stroke="#FFFFFF" stroke-width="6"/>
+    <text x="28" y="43" text-anchor="middle" font-family="Courier, monospace" font-weight="bold" font-size="24" fill="#0E1116">P6</text>
+    <text x="70" y="30" font-family="Inter Display, Inter, sans-serif" font-weight="900" font-size="28" fill="#FFFFFF">ROUTES</text>
+    <text x="70" y="56" font-family="Courier, monospace" font-weight="bold" font-size="16" fill="#FFD100">PAYCHECK LINE</text>
+  </g>
+</svg>
+</div>
+</body></html>

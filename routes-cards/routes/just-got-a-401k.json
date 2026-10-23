@@ -1,0 +1,35 @@
+{
+  "slug": "just-got-a-401k",
+  "title": "Just Got a 401(k)",
+  "for": "HR handed you a form with fund names on it and you don't know what any of them mean.",
+  "stops": [
+    {
+      "code": "P2",
+      "why": "Contributions come out before net pay, so the gross/net distinction explains the first paycheck after enrolling."
+    },
+    {
+      "code": "I1",
+      "why": "The match formula and the vesting schedule are the two things on the form that are specific to your employer."
+    },
+    {
+      "code": "I2",
+      "why": "The form's Roth/traditional checkbox is a tax-timing choice, and this card explains what each box means."
+    },
+    {
+      "code": "I4",
+      "why": "The fee column on the fund menu is the one number known in advance."
+    },
+    {
+      "code": "I3",
+      "why": "Most 401(k) menus include one; this card explains what the name means."
+    },
+    {
+      "code": "I9",
+      "why": "The default option in many plans, and where fees most often hide."
+    },
+    {
+      "code": "I5",
+      "why": "Why the account's early years look slow and the late years don't."
+    }
+  ]
+}

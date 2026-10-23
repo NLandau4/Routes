@@ -1,0 +1,287 @@
+[
+  {
+    "slug": "buying-a-car",
+    "title": "Buying a Car",
+    "for": "You're about to finance a car and the dealer keeps talking about the monthly payment.",
+    "stops": [
+      {
+        "code": "D1",
+        "why": "The rate you'll be offered is set by this number before you walk in.",
+        "title": "Credit score",
+        "status": "written",
+        "line": "D"
+      },
+      {
+        "code": "D3",
+        "why": "The number to compare across the dealer's offer and a bank's, and what a longer term does to it.",
+        "title": "APR",
+        "status": "written",
+        "line": "D"
+      },
+      {
+        "code": "D7",
+        "why": "Why the conversation starts with the monthly payment and what that framing hides.",
+        "title": "Car loans",
+        "status": "planned",
+        "line": "D"
+      },
+      {
+        "code": "C6",
+        "why": "Auto coverage is required by the lender and priced separately; this card explains the parts.",
+        "title": "Insurance basics",
+        "status": "planned",
+        "line": "C"
+      },
+      {
+        "code": "D10",
+        "why": "How a loan's total cost is calculated over its full term.",
+        "title": "Debt payoff math",
+        "status": "planned",
+        "line": "D"
+      },
+      {
+        "code": "P8",
+        "why": "Where a car payment sits alongside everything else that comes out of net pay.",
+        "title": "Budget basics",
+        "status": "planned",
+        "line": "P"
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "slug": "drowning-in-cards",
+    "title": "Drowning in Cards",
+    "for": "You carry balances on more than one card and the statements don't make sense.",
+    "stops": [
+      {
+        "code": "D1",
+        "why": "Every card decision you've made is already recorded here, so it's the place to start reading.",
+        "title": "Credit score",
+        "status": "written",
+        "line": "D"
+      },
+      {
+        "code": "D2",
+        "why": "How the bill, the grace period, and the minimum payment actually work.",
+        "title": "Credit card",
+        "status": "written",
+        "line": "D"
+      },
+      {
+        "code": "D3",
+        "why": "The number on the statement that decides what the balance costs.",
+        "title": "APR",
+        "status": "written",
+        "line": "D"
+      },
+      {
+        "code": "I5",
+        "why": "Why the balance grows faster than the purchases that created it.",
+        "title": "Compound growth",
+        "status": "written",
+        "line": "I"
+      },
+      {
+        "code": "D4",
+        "why": "The other installment plans that often run alongside cards and don't show up on one bill.",
+        "title": "Buy now, pay later",
+        "status": "written",
+        "line": "D"
+      },
+      {
+        "code": "D10",
+        "why": "The arithmetic of minimums versus more, and how people describe the two common orderings.",
+        "title": "Debt payoff math",
+        "status": "planned",
+        "line": "D"
+      },
+      {
+        "code": "P7",
+        "why": "The concept most people name as the reason the balances started.",
+        "title": "Emergency fund",
+        "status": "written",
+        "line": "P"
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "slug": "first-paycheck",
+    "title": "First Paycheck",
+    "for": "You just started a job and the stub, the bank, and the fees are all new.",
+    "stops": [
+      {
+        "code": "P1",
+        "why": "The stub is the document everything else on this route refers to, so it comes first.",
+        "title": "Paycheck",
+        "status": "written",
+        "line": "P"
+      },
+      {
+        "code": "P2",
+        "why": "The gap between what you earned and what landed is the first number people misread.",
+        "title": "Gross vs net pay",
+        "status": "written",
+        "line": "P"
+      },
+      {
+        "code": "P3",
+        "why": "Most of that gap is withholding, and the W-4 you signed on day one set it.",
+        "title": "Taxes withheld",
+        "status": "written",
+        "line": "P"
+      },
+      {
+        "code": "P5",
+        "why": "The account the money lands in has fees of its own, and they depend on the deposit you just set up.",
+        "title": "Checking account",
+        "status": "written",
+        "line": "P"
+      },
+      {
+        "code": "P6",
+        "why": "The single most common fee in the first year of working, and the one people say they never understood.",
+        "title": "Overdraft",
+        "status": "written",
+        "line": "P"
+      },
+      {
+        "code": "P7",
+        "why": "The concept that explains why the overdraft fee happens to some people and not others.",
+        "title": "Emergency fund",
+        "status": "written",
+        "line": "P"
+      },
+      {
+        "code": "D2",
+        "why": "Usually the next thing offered to someone with a new paycheck, so its mechanics come last on this route.",
+        "title": "Credit card",
+        "status": "written",
+        "line": "D"
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "slug": "just-got-a-401k",
+    "title": "Just Got a 401(k)",
+    "for": "HR handed you a form with fund names on it and you don't know what any of them mean.",
+    "stops": [
+      {
+        "code": "P2",
+        "why": "Contributions come out before net pay, so the gross/net distinction explains the first paycheck after enrolling.",
+        "title": "Gross vs net pay",
+        "status": "written",
+        "line": "P"
+      },
+      {
+        "code": "I1",
+        "why": "The match formula and the vesting schedule are the two things on the form that are specific to your employer.",
+        "title": "401(k) match",
+        "status": "written",
+        "line": "I"
+      },
+      {
+        "code": "I2",
+        "why": "The form's Roth/traditional checkbox is a tax-timing choice, and this card explains what each box means.",
+        "title": "Roth vs traditional",
+        "status": "written",
+        "line": "I"
+      },
+      {
+        "code": "I4",
+        "why": "The fee column on the fund menu is the one number known in advance.",
+        "title": "Expense ratio",
+        "status": "written",
+        "line": "I"
+      },
+      {
+        "code": "I3",
+        "why": "Most 401(k) menus include one; this card explains what the name means.",
+        "title": "Index fund",
+        "status": "written",
+        "line": "I"
+      },
+      {
+        "code": "I9",
+        "why": "The default option in many plans, and where fees most often hide.",
+        "title": "Target-date fund",
+        "status": "planned",
+        "line": "I"
+      },
+      {
+        "code": "I5",
+        "why": "Why the account's early years look slow and the late years don't.",
+        "title": "Compound growth",
+        "status": "written",
+        "line": "I"
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "slug": "understand-the-market",
+    "title": "Understand the Market Before Touching It",
+    "for": "You want to know how investing works before opening anything.",
+    "stops": [
+      {
+        "code": "I7",
+        "why": "The two things nearly every investment is made of.",
+        "title": "Stocks vs bonds",
+        "status": "planned",
+        "line": "I"
+      },
+      {
+        "code": "I3",
+        "why": "The most common way people hold many stocks at once, and the vocabulary that comes with it.",
+        "title": "Index fund",
+        "status": "written",
+        "line": "I"
+      },
+      {
+        "code": "I8",
+        "why": "The two wrappers you'll see the same fund sold in.",
+        "title": "ETF vs mutual fund",
+        "status": "planned",
+        "line": "I"
+      },
+      {
+        "code": "I4",
+        "why": "The one cost known in advance, and how it's charged.",
+        "title": "Expense ratio",
+        "status": "written",
+        "line": "I"
+      },
+      {
+        "code": "I10",
+        "why": "What spreading money across holdings protects against, and what it doesn't.",
+        "title": "Diversification",
+        "status": "planned",
+        "line": "I"
+      },
+      {
+        "code": "C10",
+        "why": "The reason cash isn't a neutral choice, and the yardstick returns are measured against.",
+        "title": "Inflation",
+        "status": "planned",
+        "line": "C"
+      },
+      {
+        "code": "T3",
+        "why": "What a 'drop' actually looks like in numbers, before you've seen one.",
+        "title": "Volatility",
+        "status": "planned",
+        "line": "T"
+      },
+      {
+        "code": "I14",
+        "why": "The behavior question that every other station on this route feeds into.",
+        "title": "Risk tolerance",
+        "status": "planned",
+        "line": "I"
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "savings",
+    "code": "C1",
+    "number": 1,
+    "term": "Savings account",
+    "path": "Cushion & Protection",
+    "hook": "Your bank pays you 0.01% and lends your money out at 7%. That gap has a name: their profit.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "A bank account built for holding money rather than spending it. No debit card for purchases, usually a limit on how many withdrawals per month, and it pays interest: the bank pays you a small percentage for leaving money there."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Anyone keeping money aside for a goal or an emergency. Most people's first one is at the same bank as their checking."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "The bank lends your deposits out at a much higher rate than it pays you. The FDIC's national average savings rate was 0.38% in August 2026, many large banks paid 0.01%, and competitive online accounts paid around 4%. That gap is the bank's profit."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Earning almost nothing without realizing better options exist. Monthly fees on some accounts if the balance drops."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What's the APY? Is there a minimum balance or a fee? How fast can I move money back to checking?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "hysa",
+    "code": "C2",
+    "number": 2,
+    "term": "High-yield savings account",
+    "path": "Cushion & Protection",
+    "hook": "Same savings account. Ten to fifty times the interest. The difference is a building.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "A savings account that pays a much higher interest rate, often 10 to 50 times a traditional bank's rate. Usually offered by online-only banks that have no branches to pay for."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "People holding an emergency fund or saving for something within the next few years who want the money to earn something while staying safe and reachable."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "Same model as any bank, with a smaller cut. The rate is also a marketing tool: it moves with the Federal Reserve's rates and some banks trim it quietly once you've moved money in."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "The rate is variable and can drop. Transfers to your main bank can take 1 to 3 business days. Some accounts have tiers or caps on what earns the headline rate."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "Is this FDIC insured? Is the rate the same on the whole balance, or only up to a cap? How long do transfers take? Has this bank's rate held up over the last year?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "apy",
+    "code": "C3",
+    "number": 3,
+    "term": "APY vs interest rate",
+    "path": "Cushion & Protection",
+    "hook": "Two accounts, same rate, different earnings. The letter that explains it is Y.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "The interest rate is the plain percentage. APY (annual percentage yield) is what you actually earn in a year once interest is paid on interest, called compounding. APY is always equal to or slightly higher than the rate. For borrowing, the equivalent number is APR, which has its own card."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Anyone comparing two savings accounts or CDs. APY is the number that lets you compare apples to apples."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "Marketing. Ads lead with whichever number looks better. For savings they show APY (bigger); for loans they'd rather you not look at APR at all."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Comparing one account's rate to another's APY and picking wrong. Also mistaking a short promotional APY for the ongoing one."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "Is this number APY or rate? Is it promotional, and for how long? What's the APY after the promo ends?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "fdic",
+    "code": "C4",
+    "number": 4,
+    "term": "FDIC insurance",
+    "path": "Cushion & Protection",
+    "hook": "The logo on the app is not the same as the guarantee on your money.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "A government guarantee that if your bank fails, you get your money back, up to $250,000 per depositor, per bank, per account category. Credit unions have the same thing under a different name (NCUA). It covers deposits like checking, savings, and CDs. It does not cover investments."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Everyone with a bank account, automatically, as long as the bank is a member. Nearly all U.S. banks are."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "It doesn't. Banks pay premiums into the fund. The thing to watch is companies that aren't banks (some fintech apps, some crypto platforms) using the FDIC logo loosely. Their coverage, if any, runs through a partner bank and can have gaps."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Assuming an app is a bank. Keeping more than $250,000 at one bank in one name. Confusing \"FDIC insured\" (deposits) with \"SIPC\" (brokerage accounts, which protect against the broker failing, not against investments losing value)."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "Is this company itself an FDIC-insured bank, or does it hold my money at a partner bank? Which partner? Does coverage apply if the app, not the bank, goes under?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "score",
+    "code": "D1",
+    "number": 1,
+    "term": "Credit score",
+    "path": "Debt",
+    "hook": "You have several credit scores, not one, and three companies sell them.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "A three-digit number, usually 300 to 850, that lenders use to guess how likely you are to pay back what you borrow. Built from your history: whether you pay on time, how much of your available credit you use, how long you've had accounts, and how often you apply for new ones. The most common versions are FICO and VantageScore, and you have several scores, not one."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Anyone who will ever rent an apartment, get a phone plan, finance a car, or take a mortgage. Employers and insurers sometimes check it too."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "Credit bureaus (Equifax, Experian, TransUnion) sell your data to lenders. \"Free credit score\" apps are usually paid by the cards and loans they show you next to your score. Paid \"credit monitoring\" is often selling what you can get free by law."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "A low score makes every loan cost more, sometimes for years. Errors on your report are common and are yours to dispute. Checking your own score does not hurt it; a lender's \"hard pull\" when you apply does, a little."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "Which score is this (FICO? Vantage? which version)? What's dragging it down: late payments, high utilization, short history? When did I last pull my free reports from the three bureaus?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "ccard",
+    "code": "D2",
+    "number": 2,
+    "term": "Credit card",
+    "path": "Debt",
+    "hook": "The minimum payment is set exactly where it is for a reason. The reason is not you.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "A card that lets you borrow from the card company each time you buy something. You get a bill once a month. Pay the full balance by the due date and you pay no interest. Pay less than that and interest starts on what's left, at a rate that's usually among the highest of any common loan."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Most adults. Used in full each month, it's a convenient way to pay that builds credit history and sometimes earns rewards. Used as a loan, it's expensive."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "Three ways: interest on balances you carry (the big one), a fee the store pays on every swipe (which funds rewards), and annual or late fees. Rewards programs are designed to work only if you spend more, and they're funded by people who carry balances."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "The minimum payment. It's set low enough that a balance can take years and cost more in interest than the original purchase. Also: a card is not an emergency fund, though it gets used as one."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What's the APR, and is there a different one for cash advances? Is there an annual fee? What's the grace period? If I only paid the minimum, how long would this balance take to clear (the statement has to tell you)?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "apr",
+    "code": "D3",
+    "number": 3,
+    "term": "APR",
+    "path": "Debt",
+    "hook": "Most people with a card balance can't name their APR within ten points.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "Annual percentage rate: the yearly cost of borrowing, shown as a percentage. It's the borrowing twin of APY. The average rate on cards that carried a balance was about 22% in August 2026. At 24%, a $1,000 balance carried for a year costs roughly $240 in interest, charged a bit each day. Loans with fees fold those fees into APR, which is why APR is the number to compare across lenders."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Anyone with a card, a car loan, a mortgage, a student loan, or a BNPL plan. It's on every one of them, by law."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "It is how they make money. The trick is where it's shown: big for the 0% promo, small for what comes after. \"Variable\" APR means it moves when the Federal Reserve moves rates, which is most cards."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Not knowing yours. Promotional 0% periods that end and sometimes charge back interest from day one (\"deferred interest\") if any balance remains."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What's the APR after any promo? Fixed or variable? Is this \"0% APR\" or \"no interest if paid in full,\" which is a different and worse thing?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "bnpl",
+    "code": "D4",
+    "number": 4,
+    "term": "Buy now, pay later",
+    "path": "Debt",
+    "hook": "Four easy payments. The store pays the fee. So who's the product?",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "Splitting a purchase into a few payments, typically four over six weeks, offered at checkout by companies like Affirm, Klarna, and Afterpay, and increasingly by card issuers themselves. The short \"pay in 4\" plans usually charge no interest. Longer plans for bigger purchases often do."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Online shoppers, heavily under 35, and increasingly for groceries and everyday items, which is what regulators watch."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "The store pays the BNPL company a fee (often 2 to 8% of the sale) for the extra sales it drives. You pay late fees if you miss an installment, and interest on the longer plans. The business model depends on people buying more than they would have with one payment."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Stacking: four or five plans running at once across different apps, with no single bill. Affirm began reporting all its plans to Experian in April 2025, and FICO released score versions that include BNPL data in late 2025, so these plans are starting to show up on credit files. Returns and refunds get messy when the merchant and the lender are different companies."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "Is this plan 0%, and what's the APR if not? What's the late fee? Does this report to credit bureaus, and does paying on time help or only hurt? How many of these do I have open right now?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "match",
+    "code": "I1",
+    "number": 1,
+    "term": "401(k) match",
+    "path": "Investing",
+    "hook": "Part of your salary is sitting in a drawer at HR, and you only get it if you ask.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "A 401(k) is a retirement account offered through an employer. Money goes in from your paycheck before it reaches you. A match is when the employer adds its own money on top, usually a formula like \"50% of what you put in, up to 6% of your pay\" or \"100% of the first 3%, then 50% of the next 2%.\" The match is part of your pay that you only get if you contribute."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Employees whose company offers one. Not every job does, and some require a waiting period before the match kicks in."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "The plan provider charges fees, often buried in the funds inside the plan (see Expense ratio). Some plans have good, cheap fund menus; some have bad, expensive ones, and you can't shop around because your employer picked it."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Leaving the match on the table. Not knowing the vesting schedule: the employer's contributions may not fully belong to you until you've stayed a certain number of years. Early withdrawals before 59½ generally mean taxes plus a 10% penalty."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What's the match formula, exactly? When am I fully vested? What funds are in the plan and what do they cost? Is there a Roth option inside it?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "roth",
+    "code": "I2",
+    "number": 2,
+    "term": "Roth vs traditional",
+    "path": "Investing",
+    "hook": "Roth and traditional are not two products. They're one account with two tax calendars.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "Two tax treatments that apply to retirement accounts (both 401(k)s and IRAs). Traditional: money goes in before tax, grows untaxed, and you pay income tax when you take it out. Roth: money goes in after tax, grows untaxed, and comes out tax-free. Same account, different timing of the tax. An IRA is the version you open yourself, not through work, with lower annual limits."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Anyone saving for retirement in a tax-advantaged account has to pick one, and the choice turns on tax rates now versus later, which nobody knows for sure."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "The accounts themselves don't. Brokerages earn on what's inside them and on cash sitting uninvested. Some providers charge IRA account fees; many charge none."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Thinking it's a product rather than a tax label. Contributing to a Roth IRA when income is above the limit. Treating \"tax-free later\" as free: Roth contributions cost you the deduction today."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "Is my income likely higher or lower now than it will be in retirement? What are this year's contribution limits? For 2026 the IRA limit is $7,500 under age 50, and Roth IRA eligibility phases out above $153,000 of income for single filers and $242,000 for joint filers; they change yearly, so check the IRS page. Does my 401(k) offer both?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "index",
+    "code": "I3",
+    "number": 3,
+    "term": "Index fund",
+    "path": "Investing",
+    "hook": "One purchase, 500 companies, and nobody getting paid to guess.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "A fund that buys a whole list of investments at once, matching an index like the S&P 500 (500 large U.S. companies) rather than trying to pick winners. One purchase gives you a small slice of everything on the list. Comes in two wrappers: a mutual fund (priced once a day) or an ETF (trades like a stock during the day)."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Most first-time investors and a large share of professionals. It's the default inside many 401(k)s and robo-advisors."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "The expense ratio, which is small by design, often 0.03 to 0.20% per year. That's the whole pitch: it's cheap because no one is being paid to pick stocks. Some brokers also earn on the cash in your account or on \"payment for order flow\" when you trade."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "It goes down when the market goes down, fully. There's no manager stepping in. Historically broad markets have recovered, but over years, not weeks, and past results don't guarantee future ones. Also: not all \"index funds\" track broad indexes; some track narrow or gimmicky ones with higher fees."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What index does it track? What's the expense ratio? Is there a sales charge (\"load\") or a minimum? Is this a mutual fund or an ETF, and does that matter for how I'd buy it?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "expense",
+    "code": "I4",
+    "number": 4,
+    "term": "Expense ratio",
+    "path": "Investing",
+    "hook": "A fee you never see a bill for, charged every year for the rest of your life.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "The yearly fee a fund charges, as a percentage of what you have in it, taken out automatically so you never see a bill. 0.05% means $5 a year on $10,000. 1.00% means $100. It's the single most reliable predictor of how one fund will do against a similar one, because it's the one thing known in advance."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Anyone holding a fund, whether they know it or not. It's on every fund's fact sheet and in your 401(k) plan documents."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "This is the fee. It's how fund companies, and often the advisor or plan that put you in the fund, get paid. Because it's a percentage, it grows with your balance for the rest of your life."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Compounding against you. Two funds holding similar things at 0.05% and 1.00% can end up tens of thousands of dollars apart over a working life, on the same contributions. Target-date funds and \"managed\" options in 401(k)s are where high ratios hide most often."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What's the expense ratio of each fund I'm in? Is there a similar fund in the menu that's cheaper? Are there other fees on top (advisory, administrative, 12b-1)?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "compound",
+    "code": "I5",
+    "number": 5,
+    "term": "Compound growth",
+    "path": "Investing",
+    "hook": "The same math that grows a retirement account is the math that grows a card balance.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "Earning returns on your returns. Money that grows 7% in year one is a bigger pile in year two, so 7% of that is more dollars, and so on. Over long periods the curve bends upward. It works the same way in reverse on debt: unpaid interest gets added to the balance and then earns interest itself."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Everyone, whether they mean to or not. Savers and investors benefit from it; people carrying card balances are on the other side of it."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "The idea is free. But it's the engine behind both the expense ratio (a small fee compounding against you for decades) and credit card APR. Anyone selling you something will show compounding working for you and skip where it's working against you."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Expecting it to feel like much in the first few years. It doesn't; the dramatic part comes late, which is why time in the market has mattered more than the size of the first deposit. And mistaking a projection (\"at 7% a year\") for a promise. Returns are not steady. Broad U.S. stocks have averaged roughly 6.5 to 7% a year after inflation over two centuries, with long stretches well above and below that, and none of it is a guarantee."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What rate is this projection assuming, and is it after fees? Over how many years? What does the same math say about my debt?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "paycheck",
+    "code": "P1",
+    "number": 1,
+    "term": "Paycheck",
+    "path": "Paycheck & Taxes",
+    "hook": "Your paycheck is lying to you. Not on purpose. Here's what it's actually saying.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "The money an employer pays you for a pay period, after it takes out taxes and anything you've agreed to have deducted. The paper or PDF that comes with it is the pay stub, and it shows every deduction line by line."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Anyone employed by someone else. Self-employed people get paid differently (invoices, no withholding), which is why their taxes work differently too."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "It doesn't, but the companies around it do: payroll providers charge your employer, and some \"get paid early\" apps charge you a fee or tip to advance money you've already earned."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Not reading the stub. Errors in withholding, missed hours, or a benefit deduction you never signed up for are common and go unnoticed for months."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "How often am I paid? What does each deduction line mean? Is this a W-2 job (employer withholds taxes) or 1099 work (I owe them myself)?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "gross",
+    "code": "P2",
+    "number": 2,
+    "term": "Gross vs net pay",
+    "path": "Paycheck & Taxes",
+    "hook": "A $25-an-hour job does not put $1,000 in the bank for a 40-hour week. Here's where the rest went.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "Gross pay is what you earned before anything is taken out. Net pay is what actually lands in your account. The difference is taxes and deductions."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Everyone who gets a paycheck, and everyone who's ever been surprised that a $25/hour job doesn't put $1,000 in the bank for a 40-hour week."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "Nothing directly. But job offers, loan applications, and rent screens all use gross, while your actual budget runs on net. Mixing them up is how people overcommit."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Budgeting on the gross number. For most people net is roughly 70 to 80% of gross, depending on state and benefits."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What's my net per paycheck? Which deductions are required (taxes) and which did I choose (retirement, insurance)?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "withheld",
+    "code": "P3",
+    "number": 3,
+    "term": "Taxes withheld",
+    "path": "Paycheck & Taxes",
+    "hook": "A big tax refund feels like a bonus. It's an interest-free loan you gave the government.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "Money your employer sends to the government on your behalf out of each paycheck: federal income tax, Social Security (6.2%) and Medicare (1.45%), together called FICA, and state income tax where it applies. The W-4 form you filled out when hired tells them how much to take."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Every W-2 employee. It's not optional."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "The government doesn't profit, but over-withholding means you lend it money interest-free all year and get it back as a refund. Under-withholding means a bill, sometimes with a penalty, in April."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Treating a big refund as a bonus. It was your money all along. The reverse risk is a surprise tax bill after a second job or a side gig with no withholding."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What did I put on my W-4, and has my situation changed (marriage, second job, kids)? Does my state have income tax?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "deposit",
+    "code": "P4",
+    "number": 4,
+    "term": "Direct deposit",
+    "path": "Paycheck & Taxes",
+    "hook": "Banks pay $300 bonuses for direct deposit. Here's why it's worth that much to them.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "Your employer sends pay electronically into a bank account instead of handing you a check. You give them a routing number and an account number once."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Nearly everyone with a bank account. Many employers require it."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "Banks love it: a steady deposit is why they offer \"$300 bonus with direct deposit\" and why fee waivers often depend on it. The bank earns by lending out the money that sits there."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Low. The main one is splitting it wrong or forgetting to update it after changing banks."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "Can I split it between two accounts (say, checking and savings)? Does my bank waive fees if a deposit comes in?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "checking",
+    "code": "P5",
+    "number": 5,
+    "term": "Checking account",
+    "path": "Paycheck & Taxes",
+    "hook": "Your checking account is a hallway, not a room. Money that lives there earns nothing.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "The bank account money moves through: pay comes in, bills and purchases go out. Comes with a debit card. It's built for spending, not for growing money, so most pay little or no interest."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Anyone who gets paid and pays bills. It's the base account most people open first."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "Monthly maintenance fees (often waived with a minimum balance or direct deposit), ATM fees, overdraft fees, and the interest the bank earns lending out your balance while paying you close to nothing."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Fees that add up quietly, and keeping a large balance here where it earns nothing while prices rise."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What's the monthly fee and exactly what waives it? Which ATMs are free? What happens if I spend more than I have?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "overdraft",
+    "code": "P6",
+    "number": 6,
+    "term": "Overdraft",
+    "path": "Paycheck & Taxes",
+    "hook": "The $35 fee for having $4 in your account.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "Spending more than is in your checking account. The bank either declines the transaction or covers it and charges an overdraft fee, often around $35 per occurrence. Several large banks dropped the fee in 2021 and 2022 and others cut it to about $10; many still charge the full amount."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Nobody on purpose. It happens most to people living paycheck to paycheck, which is why it's been the subject of so much regulation."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "The fee itself. Overdraft and NSF fees ran about $5.8 billion in 2023, down from $12.6 billion in 2019. A federal rule capping the fee at $5 at large banks was finalized in December 2024 and repealed by Congress in May 2025, so the fee is back to whatever each bank sets. \"Overdraft protection\" is a product you opt into that covers the shortfall from a linked account, sometimes for a smaller fee."
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Several fees in one day from small purchases. Some banks have reordered transactions largest-first, which triggers more overdrafts."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "Am I opted in to overdraft coverage, or will the card just decline? What's the fee, and is there a daily cap? Can I link savings as a backstop instead?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  },
+  {
+    "id": "emergency",
+    "code": "P7",
+    "number": 7,
+    "term": "Emergency fund",
+    "path": "Paycheck & Taxes",
+    "hook": "The only money idea with nobody selling it.",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "text": "Cash kept separate from spending money, meant for things like a car repair, a medical bill, or a gap between jobs. It's a concept, not a product: it usually lives in a savings account."
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "text": "Anyone whose income could stop or whose expenses could spike, which is nearly everyone. People without one tend to end up on credit cards or overdraft when the surprise comes."
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "text": "Nothing. This is one of the few ideas in money with no one selling it. (Banks do benefit when it sits in a low-rate account; see High-yield savings.)"
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "text": "Raiding it for non-emergencies, so it's gone when needed. The opposite risk is keeping far more than needed in cash while it loses buying power to inflation."
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "text": "What would I actually need to cover if income stopped? How many months of that feels like enough for my situation? Where can it sit so it's reachable in a day or two but not reachable by my debit card?"
+      }
+    ],
+    "outro": "Educational only. Not investment, tax, or legal advice, and not personalized to you."
+  }
+]

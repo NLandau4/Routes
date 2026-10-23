@@ -1,0 +1,3935 @@
+{
+  "C1": {
+    "code": "C1",
+    "slug": "savings",
+    "title": "Savings account",
+    "line": "C",
+    "lines": [
+      "C"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "An account for holding money. Pays interest, limits withdrawals, and at big banks pays close to zero.",
+    "hook": "Your bank pays you 0.01% and lends your money out at 7%. That gap has a name: their profit.",
+    "related": [
+      "C2",
+      "C3",
+      "C4",
+      "P7"
+    ],
+    "connects": [],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [
+      "FDIC National Rates and Rate Caps (national average savings rate 0.38%",
+      "August 2026) · https://www.fdic.gov/national-rates-and-rate-caps · 2026-08-31"
+    ],
+    "updated": "2026-10-23",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "A bank account built for holding money rather than spending it. No debit card for purchases, usually a limit on how many withdrawals per month, and it pays interest: the bank pays you a small percentage for leaving money there.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Anyone keeping money aside for a goal or an emergency. Most people's first one is at the same bank as their checking.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "The bank lends your deposits out at a much higher rate than it pays you. The FDIC's national average savings rate was 0.38% in August 2026, many large banks paid 0.01%, and competitive online accounts paid around 4%. That gap is the bank's profit.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "Earning almost nothing without realizing better options exist. Monthly fees on some accounts if the balance drops.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "What's the APY? Is there a minimum balance or a fee? How fast can I move money back to checking?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "C10": {
+    "code": "C10",
+    "slug": "inflation",
+    "title": "Inflation",
+    "line": "C",
+    "lines": [
+      "C"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "Why cash loses buying power, how it's measured, and what it does to every other station on this map.",
+    "hook": null,
+    "related": [],
+    "connects": [
+      "I10"
+    ],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "C11": {
+    "code": "C11",
+    "slug": "fed",
+    "title": "The Fed & interest rates",
+    "line": "C",
+    "lines": [
+      "C"
+    ],
+    "also": [],
+    "zone": 4,
+    "status": "planned",
+    "summary": "Who sets the rate that moves your savings APY, your card APR, and your mortgage, and how to read a rate decision.",
+    "hook": null,
+    "related": [],
+    "connects": [
+      "I16"
+    ],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "C2": {
+    "code": "C2",
+    "slug": "hysa",
+    "title": "High-yield savings account",
+    "line": "C",
+    "lines": [
+      "C"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "Same account, 10 to 50 times the rate, usually from an online bank with no branches to pay for.",
+    "hook": "Same savings account. Ten to fifty times the interest. The difference is a building.",
+    "related": [
+      "C1",
+      "C3",
+      "C4",
+      "P7"
+    ],
+    "connects": [],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [
+      "FDIC National Rates and Rate Caps (national average savings rate 0.38%",
+      "August 2026) · https://www.fdic.gov/national-rates-and-rate-caps · 2026-08-31"
+    ],
+    "updated": "2026-10-23",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "A savings account that pays a much higher interest rate, often 10 to 50 times a traditional bank's rate. Usually offered by online-only banks that have no branches to pay for.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "People holding an emergency fund or saving for something within the next few years who want the money to earn something while staying safe and reachable.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "Same model as any bank, with a smaller cut. The rate is also a marketing tool: it moves with the Federal Reserve's rates and some banks trim it quietly once you've moved money in.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "The rate is variable and can drop. Transfers to your main bank can take 1 to 3 business days. Some accounts have tiers or caps on what earns the headline rate.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "Is this FDIC insured? Is the rate the same on the whole balance, or only up to a cap? How long do transfers take? Has this bank's rate held up over the last year?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "C3": {
+    "code": "C3",
+    "slug": "apy",
+    "title": "APY vs interest rate",
+    "line": "C",
+    "lines": [
+      "C"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "APY is what you actually earn once interest earns interest. Always compare APY to APY.",
+    "hook": "Two accounts, same rate, different earnings. The letter that explains it is Y.",
+    "related": [
+      "C1",
+      "C2",
+      "D3",
+      "I5"
+    ],
+    "connects": [
+      "D3"
+    ],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "The interest rate is the plain percentage. APY (annual percentage yield) is what you actually earn in a year once interest is paid on interest, called compounding. APY is always equal to or slightly higher than the rate. For borrowing, the equivalent number is APR, which has its own card.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Anyone comparing two savings accounts or CDs. APY is the number that lets you compare apples to apples.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "Marketing. Ads lead with whichever number looks better. For savings they show APY (bigger); for loans they'd rather you not look at APR at all.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "Comparing one account's rate to another's APY and picking wrong. Also mistaking a short promotional APY for the ongoing one.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "Is this number APY or rate? Is it promotional, and for how long? What's the APY after the promo ends?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "C4": {
+    "code": "C4",
+    "slug": "fdic",
+    "title": "FDIC insurance",
+    "line": "C",
+    "lines": [
+      "C"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "Government guarantee on deposits up to $250,000 per depositor, per bank. Covers deposits, not investments.",
+    "hook": "The logo on the app is not the same as the guarantee on your money.",
+    "related": [
+      "P5",
+      "C1",
+      "C2",
+      "I3",
+      "M2"
+    ],
+    "connects": [
+      "M2"
+    ],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [
+      "FDIC: Understanding Deposit Insurance · https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance · 2024-04-01",
+      "SEC Investor Bulletin: SIPC Protection Part 1 · https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investor-bulletin-sipc-protection-part-1-sipc-basics · 2023-06-07"
+    ],
+    "updated": "2026-10-23",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "A government guarantee that if your bank fails, you get your money back, up to $250,000 per depositor, per bank, per account category. Credit unions have the same thing under a different name (NCUA). It covers deposits like checking, savings, and CDs. It does not cover investments.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Everyone with a bank account, automatically, as long as the bank is a member. Nearly all U.S. banks are.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "It doesn't. Banks pay premiums into the fund. The thing to watch is companies that aren't banks (some fintech apps, some crypto platforms) using the FDIC logo loosely. Their coverage, if any, runs through a partner bank and can have gaps.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "Assuming an app is a bank. Keeping more than $250,000 at one bank in one name. Confusing \"FDIC insured\" (deposits) with \"SIPC\" (brokerage accounts, which protect against the broker failing, not against investments losing value).",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "Is this company itself an FDIC-insured bank, or does it hold my money at a partner bank? Which partner? Does coverage apply if the app, not the bank, goes under?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "C6": {
+    "code": "C6",
+    "slug": "insurance",
+    "title": "Insurance basics",
+    "line": "C",
+    "lines": [
+      "C"
+    ],
+    "also": [],
+    "zone": 2,
+    "status": "planned",
+    "summary": "Health, renters, auto, term life: what each actually covers, what a deductible is, and how premiums are set.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "C7": {
+    "code": "C7",
+    "slug": "hsa",
+    "title": "HSA",
+    "line": "C",
+    "lines": [
+      "C"
+    ],
+    "also": [],
+    "zone": 2,
+    "status": "planned",
+    "summary": "A health savings account with three tax breaks, and why some people treat it as a retirement account.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "C8": {
+    "code": "C8",
+    "slug": "cd",
+    "title": "Certificate of deposit",
+    "line": "C",
+    "lines": [
+      "C"
+    ],
+    "also": [],
+    "zone": 2,
+    "status": "planned",
+    "summary": "Lock money up for a set term for a set rate. The penalty for leaving early is the product.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "C9": {
+    "code": "C9",
+    "slug": "mmf",
+    "title": "Money market fund",
+    "line": "C",
+    "lines": [
+      "C"
+    ],
+    "also": [],
+    "zone": 2,
+    "status": "planned",
+    "summary": "Looks like savings, is actually an investment fund. Not FDIC insured, and that difference matters.",
+    "hook": null,
+    "related": [],
+    "connects": [
+      "I6"
+    ],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "D1": {
+    "code": "D1",
+    "slug": "score",
+    "title": "Credit score",
+    "line": "D",
+    "lines": [
+      "D"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "A three-digit guess at how likely you are to repay. Built from your history, sold by bureaus, and yours to dispute.",
+    "hook": "You have several credit scores, not one, and three companies sell them.",
+    "related": [
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "connects": [],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [
+      "Capital One: Understanding types of credit scores (FICO and VantageScore ranges) · https://www.capitalone.com/learn-grow/money-management/understanding-types-of-credit-scores/ · 2024-10-24",
+      "AnnualCreditReport.com (free reports from all three bureaus) · https://www.annualcreditreport.com · 2026-10-23"
+    ],
+    "updated": "2026-10-23",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "A three-digit number, usually 300 to 850, that lenders use to guess how likely you are to pay back what you borrow. Built from your history: whether you pay on time, how much of your available credit you use, how long you've had accounts, and how often you apply for new ones. The most common versions are FICO and VantageScore, and you have several scores, not one.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Anyone who will ever rent an apartment, get a phone plan, finance a car, or take a mortgage. Employers and insurers sometimes check it too.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "Credit bureaus (Equifax, Experian, TransUnion) sell your data to lenders. \"Free credit score\" apps are usually paid by the cards and loans they show you next to your score. Paid \"credit monitoring\" is often selling what you can get free by law.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "A low score makes every loan cost more, sometimes for years. Errors on your report are common and are yours to dispute. Checking your own score does not hurt it; a lender's \"hard pull\" when you apply does, a little.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "Which score is this (FICO? Vantage? which version)? What's dragging it down: late payments, high utilization, short history? When did I last pull my free reports from the three bureaus?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "D10": {
+    "code": "D10",
+    "slug": "payoff",
+    "title": "Debt payoff math",
+    "line": "D",
+    "lines": [
+      "D"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "Avalanche versus snowball, minimum payments, and how long a balance actually takes to clear.",
+    "hook": null,
+    "related": [],
+    "connects": [
+      "I5"
+    ],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "D2": {
+    "code": "D2",
+    "slug": "ccard",
+    "title": "Credit card",
+    "line": "D",
+    "lines": [
+      "D"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "Borrow with each purchase, pay in full and owe no interest. Pay less and you're carrying one of the priciest loans around.",
+    "hook": "The minimum payment is set exactly where it is for a reason. The reason is not you.",
+    "related": [
+      "D3",
+      "D1",
+      "P7",
+      "P6",
+      "D4"
+    ],
+    "connects": [],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [
+      "Federal Reserve G.19 via FRED: interest rate on credit card accounts assessed interest",
+      "22.36% in August 2026 · https://fred.stlouisfed.org/series/TERMCBCCINTNS · 2026-10-07"
+    ],
+    "updated": "2026-10-23",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "A card that lets you borrow from the card company each time you buy something. You get a bill once a month. Pay the full balance by the due date and you pay no interest. Pay less than that and interest starts on what's left, at a rate that's usually among the highest of any common loan.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Most adults. Used in full each month, it's a convenient way to pay that builds credit history and sometimes earns rewards. Used as a loan, it's expensive.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "Three ways: interest on balances you carry (the big one), a fee the store pays on every swipe (which funds rewards), and annual or late fees. Rewards programs are designed to work only if you spend more, and they're funded by people who carry balances.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "The minimum payment. It's set low enough that a balance can take years and cost more in interest than the original purchase. Also: a card is not an emergency fund, though it gets used as one.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "What's the APR, and is there a different one for cash advances? Is there an annual fee? What's the grace period? If I only paid the minimum, how long would this balance take to clear (the statement has to tell you)?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "D3": {
+    "code": "D3",
+    "slug": "apr",
+    "title": "APR",
+    "line": "D",
+    "lines": [
+      "D"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "The yearly cost of borrowing. A 24% APR on $1,000 carried for a year is about $240.",
+    "hook": "Most people with a card balance can't name their APR within ten points.",
+    "related": [
+      "C3",
+      "D2",
+      "D4"
+    ],
+    "connects": [
+      "C3"
+    ],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [
+      "Federal Reserve G.19 via FRED: interest rate on credit card accounts assessed interest",
+      "22.36% in August 2026 · https://fred.stlouisfed.org/series/TERMCBCCINTNS · 2026-10-07"
+    ],
+    "updated": "2026-10-23",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "Annual percentage rate: the yearly cost of borrowing, shown as a percentage. It's the borrowing twin of APY. The average rate on cards that carried a balance was about 22% in August 2026. At 24%, a $1,000 balance carried for a year costs roughly $240 in interest, charged a bit each day. Loans with fees fold those fees into APR, which is why APR is the number to compare across lenders.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Anyone with a card, a car loan, a mortgage, a student loan, or a BNPL plan. It's on every one of them, by law.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "It is how they make money. The trick is where it's shown: big for the 0% promo, small for what comes after. \"Variable\" APR means it moves when the Federal Reserve moves rates, which is most cards.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "Not knowing yours. Promotional 0% periods that end and sometimes charge back interest from day one (\"deferred interest\") if any balance remains.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "What's the APR after any promo? Fixed or variable? Is this \"0% APR\" or \"no interest if paid in full,\" which is a different and worse thing?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "D4": {
+    "code": "D4",
+    "slug": "bnpl",
+    "title": "Buy now, pay later",
+    "line": "D",
+    "lines": [
+      "D"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "Four payments over six weeks at checkout. The store pays the fee; you pay if you miss one or stack five plans.",
+    "hook": "Four easy payments. The store pays the fee. So who's the product?",
+    "related": [
+      "D2",
+      "D3",
+      "D1"
+    ],
+    "connects": [],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [
+      "CFPB Buy Now",
+      "Pay Later market report · https://files.consumerfinance.gov/f/documents/cfpb_bnpl-market-report_2025-12.pdf · 2025-12-01",
+      "FICO to launch credit scores that incorporate BNPL data (PYMNTS) · https://www.pymnts.com/bnpl/2025/fico-launch-credit-scores-that-incorporate-bnpl-data/ · 2025-06-23",
+      "What merchants should know about BNPL (merchant fees 2% to 8%) · https://www.practicalecommerce.com/what-merchants-should-know-about-buy-now-pay-later · 2022-10-18"
+    ],
+    "updated": "2026-10-23",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "Splitting a purchase into a few payments, typically four over six weeks, offered at checkout by companies like Affirm, Klarna, and Afterpay, and increasingly by card issuers themselves. The short \"pay in 4\" plans usually charge no interest. Longer plans for bigger purchases often do.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Online shoppers, heavily under 35, and increasingly for groceries and everyday items, which is what regulators watch.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "The store pays the BNPL company a fee (often 2 to 8% of the sale) for the extra sales it drives. You pay late fees if you miss an installment, and interest on the longer plans. The business model depends on people buying more than they would have with one payment.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "Stacking: four or five plans running at once across different apps, with no single bill. Affirm began reporting all its plans to Experian in April 2025, and FICO released score versions that include BNPL data in late 2025, so these plans are starting to show up on credit files. Returns and refunds get messy when the merchant and the lender are different companies.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "Is this plan 0%, and what's the APR if not? What's the late fee? Does this report to credit bureaus, and does paying on time help or only hurt? How many of these do I have open right now?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "D6": {
+    "code": "D6",
+    "slug": "student",
+    "title": "Student loans",
+    "line": "D",
+    "lines": [
+      "D"
+    ],
+    "also": [],
+    "zone": 2,
+    "status": "planned",
+    "summary": "Federal versus private, how interest accrues while you're in school, and what the repayment plans really cost.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "D7": {
+    "code": "D7",
+    "slug": "carloan",
+    "title": "Car loans",
+    "line": "D",
+    "lines": [
+      "D"
+    ],
+    "also": [],
+    "zone": 2,
+    "status": "planned",
+    "summary": "Why the dealer asks about the monthly payment first, and how a longer term hides a higher price.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "D8": {
+    "code": "D8",
+    "slug": "mortgage",
+    "title": "Mortgage & PMI",
+    "line": "D",
+    "lines": [
+      "D"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "The biggest loan most people take, the insurance you pay when you put less than 20% down, and what escrow is.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "D9": {
+    "code": "D9",
+    "slug": "refi",
+    "title": "Refinancing",
+    "line": "D",
+    "lines": [
+      "D"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "Replacing a loan with a cheaper one, when the closing costs make it worth it, and when they don't.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I1": {
+    "code": "I1",
+    "slug": "match",
+    "title": "401(k) match",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "Employer money you only get if you contribute. Vesting decides when it's really yours.",
+    "hook": "Part of your salary is sitting in a drawer at HR, and you only get it if you ask.",
+    "related": [
+      "I2",
+      "I3",
+      "I4",
+      "P2"
+    ],
+    "connects": [],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [
+      "IRS: Tax rules on early withdrawals from retirement plans (10% additional tax before 59½) · https://www.irs.gov/newsroom/tax-rules-on-early-withdrawals-from-retirement-plans · 2013-03-18",
+      "Vanguard: New 401(k) match formulas (typical design 50% of up to 6%) · https://corporate.vanguard.com/content/corporatesite/us/en/corp/articles/new-401k-match-formulas-can-unlock-retirement-gains.html · 2026-08-04"
+    ],
+    "updated": "2026-10-23",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "A 401(k) is a retirement account offered through an employer. Money goes in from your paycheck before it reaches you. A match is when the employer adds its own money on top, usually a formula like \"50% of what you put in, up to 6% of your pay\" or \"100% of the first 3%, then 50% of the next 2%.\" The match is part of your pay that you only get if you contribute.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Employees whose company offers one. Not every job does, and some require a waiting period before the match kicks in.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "The plan provider charges fees, often buried in the funds inside the plan (see Expense ratio). Some plans have good, cheap fund menus; some have bad, expensive ones, and you can't shop around because your employer picked it.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "Leaving the match on the table. Not knowing the vesting schedule: the employer's contributions may not fully belong to you until you've stayed a certain number of years. Early withdrawals before 59½ generally mean taxes plus a 10% penalty.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "What's the match formula, exactly? When am I fully vested? What funds are in the plan and what do they cost? Is there a Roth option inside it?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I10": {
+    "code": "I10",
+    "slug": "diversify",
+    "title": "Diversification",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "Not putting it all in one place. What it protects against, and what it doesn't.",
+    "hook": null,
+    "related": [],
+    "connects": [
+      "C10"
+    ],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I11": {
+    "code": "I11",
+    "slug": "dca",
+    "title": "Dollar-cost averaging",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "Investing a fixed amount on a schedule regardless of price. What it does to your average cost, and what it doesn't.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I12": {
+    "code": "I12",
+    "slug": "dividends",
+    "title": "Dividends",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "Cash a company pays holders, how it's taxed, and why a high yield can be a warning rather than a gift.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I13": {
+    "code": "I13",
+    "slug": "rebalance",
+    "title": "Rebalancing",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "Selling what grew to buy what shrank, back to your target mix. How often, and why it feels wrong.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I14": {
+    "code": "I14",
+    "slug": "risk",
+    "title": "Risk tolerance",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "How much drop you can sit through without selling. A behavior, not a questionnaire score.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I15": {
+    "code": "I15",
+    "slug": "valuation",
+    "title": "Valuation basics",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 4,
+    "status": "planned",
+    "summary": "P/E, market cap, and the other numbers on a quote page, and what each one can and can't tell you.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I16": {
+    "code": "I16",
+    "slug": "yields",
+    "title": "Bond yields",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 4,
+    "status": "planned",
+    "summary": "Why bond prices fall when rates rise, what a yield curve is, and why people watch its shape.",
+    "hook": null,
+    "related": [],
+    "connects": [
+      "C11"
+    ],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I17": {
+    "code": "I17",
+    "slug": "leverage",
+    "title": "Leverage",
+    "line": "I",
+    "lines": [
+      "I",
+      "T"
+    ],
+    "also": [
+      "T7"
+    ],
+    "zone": 4,
+    "status": "planned",
+    "summary": "Borrowing to invest or trade. Multiplies gains and losses alike, and the broker gets paid either way.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I18": {
+    "code": "I18",
+    "slug": "withdrawal",
+    "title": "Withdrawal rates",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 5,
+    "status": "planned",
+    "summary": "How much a portfolio can pay out each year without running dry, and where the famous 4% came from.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I19": {
+    "code": "I19",
+    "slug": "estate",
+    "title": "Estate basics",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 5,
+    "status": "planned",
+    "summary": "Beneficiaries, wills, and why the form you filled out at the bank can override the will.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I2": {
+    "code": "I2",
+    "slug": "roth",
+    "title": "Roth vs traditional",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "Two tax timings for the same account: pay tax now or pay it later. A label, not a product.",
+    "hook": "Roth and traditional are not two products. They're one account with two tax calendars.",
+    "related": [
+      "I1",
+      "P3",
+      "I3",
+      "I5"
+    ],
+    "connects": [],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [
+      "NerdWallet: 2026 Roth IRA contribution and income limits ($7",
+      "500; phase-out $153",
+      "000 to $168",
+      "000 single",
+      "$242",
+      "000 to $252",
+      "000 joint) · https://www.nerdwallet.com/blog/investing/roth-rules/ · 2026-04-16"
+    ],
+    "updated": "2026-10-23",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "Two tax treatments that apply to retirement accounts (both 401(k)s and IRAs). Traditional: money goes in before tax, grows untaxed, and you pay income tax when you take it out. Roth: money goes in after tax, grows untaxed, and comes out tax-free. Same account, different timing of the tax. An IRA is the version you open yourself, not through work, with lower annual limits.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Anyone saving for retirement in a tax-advantaged account has to pick one, and the choice turns on tax rates now versus later, which nobody knows for sure.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "The accounts themselves don't. Brokerages earn on what's inside them and on cash sitting uninvested. Some providers charge IRA account fees; many charge none.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "Thinking it's a product rather than a tax label. Contributing to a Roth IRA when income is above the limit. Treating \"tax-free later\" as free: Roth contributions cost you the deduction today.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "Is my income likely higher or lower now than it will be in retirement? What are this year's contribution limits? For 2026 the IRA limit is $7,500 under age 50, and Roth IRA eligibility phases out above $153,000 of income for single filers and $242,000 for joint filers; they change yearly, so check the IRS page. Does my 401(k) offer both?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I3": {
+    "code": "I3",
+    "slug": "index",
+    "title": "Index fund",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "One purchase, a slice of everything on a list. Cheap because nobody is paid to pick.",
+    "hook": "One purchase, 500 companies, and nobody getting paid to guess.",
+    "related": [
+      "I4",
+      "I5",
+      "I1",
+      "C4"
+    ],
+    "connects": [],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [
+      "ICI: Mutual fund and ETF fees remained near historic lows in 2025 (index equity ETFs averaged 0.14%) · https://www.ici.org/news-release/mutual-fund-and-etf-fees-remained-near-historic-lows-in-2025 · 2026-03-25"
+    ],
+    "updated": "2026-10-23",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "A fund that buys a whole list of investments at once, matching an index like the S&P 500 (500 large U.S. companies) rather than trying to pick winners. One purchase gives you a small slice of everything on the list. Comes in two wrappers: a mutual fund (priced once a day) or an ETF (trades like a stock during the day).",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Most first-time investors and a large share of professionals. It's the default inside many 401(k)s and robo-advisors.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "The expense ratio, which is small by design, often 0.03 to 0.20% per year. That's the whole pitch: it's cheap because no one is being paid to pick stocks. Some brokers also earn on the cash in your account or on \"payment for order flow\" when you trade.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "It goes down when the market goes down, fully. There's no manager stepping in. Historically broad markets have recovered, but over years, not weeks, and past results don't guarantee future ones. Also: not all \"index funds\" track broad indexes; some track narrow or gimmicky ones with higher fees.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "What index does it track? What's the expense ratio? Is there a sales charge (\"load\") or a minimum? Is this a mutual fund or an ETF, and does that matter for how I'd buy it?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I4": {
+    "code": "I4",
+    "slug": "expense",
+    "title": "Expense ratio",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "The fund's yearly fee, taken automatically. The one number known in advance, and it compounds against you.",
+    "hook": "A fee you never see a bill for, charged every year for the rest of your life.",
+    "related": [
+      "I3",
+      "I1",
+      "I5",
+      "M3"
+    ],
+    "connects": [
+      "M3"
+    ],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [
+      "ICI: Mutual fund and ETF fees remained near historic lows in 2025 (index equity ETFs 0.14%",
+      "equity mutual funds 0.40%) · https://www.ici.org/news-release/mutual-fund-and-etf-fees-remained-near-historic-lows-in-2025 · 2026-03-25"
+    ],
+    "updated": "2026-10-23",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "The yearly fee a fund charges, as a percentage of what you have in it, taken out automatically so you never see a bill. 0.05% means $5 a year on $10,000. 1.00% means $100. It's the single most reliable predictor of how one fund will do against a similar one, because it's the one thing known in advance.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Anyone holding a fund, whether they know it or not. It's on every fund's fact sheet and in your 401(k) plan documents.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "This is the fee. It's how fund companies, and often the advisor or plan that put you in the fund, get paid. Because it's a percentage, it grows with your balance for the rest of your life.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "Compounding against you. Two funds holding similar things at 0.05% and 1.00% can end up tens of thousands of dollars apart over a working life, on the same contributions. Target-date funds and \"managed\" options in 401(k)s are where high ratios hide most often.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "What's the expense ratio of each fund I'm in? Is there a similar fund in the menu that's cheaper? Are there other fees on top (advisory, administrative, 12b-1)?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I5": {
+    "code": "I5",
+    "slug": "compound",
+    "title": "Compound growth",
+    "line": "I",
+    "lines": [
+      "D",
+      "I"
+    ],
+    "also": [
+      "D5"
+    ],
+    "zone": 1,
+    "status": "written",
+    "summary": "Returns on returns. Works for you in a fund and against you on a card balance. Starting early beats starting big.",
+    "hook": "The same math that grows a retirement account is the math that grows a card balance.",
+    "related": [
+      "C3",
+      "I4",
+      "D3",
+      "I3"
+    ],
+    "connects": [
+      "D10"
+    ],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [
+      "McKinsey: Markets will be markets",
+      "long-term S&P 500 returns (6.5 to 7% a year after inflation since about 1800) · https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/prime-numbers/markets-will-be-markets-an-analysis-of-long-term-returns-from-the-s-and-p-500 · 2022-08-04"
+    ],
+    "updated": "2026-10-23",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "Earning returns on your returns. Money that grows 7% in year one is a bigger pile in year two, so 7% of that is more dollars, and so on. Over long periods the curve bends upward. It works the same way in reverse on debt: unpaid interest gets added to the balance and then earns interest itself.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Everyone, whether they mean to or not. Savers and investors benefit from it; people carrying card balances are on the other side of it.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "The idea is free. But it's the engine behind both the expense ratio (a small fee compounding against you for decades) and credit card APR. Anyone selling you something will show compounding working for you and skip where it's working against you.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "Expecting it to feel like much in the first few years. It doesn't; the dramatic part comes late, which is why time in the market has mattered more than the size of the first deposit. And mistaking a projection (\"at 7% a year\") for a promise. Returns are not steady. Broad U.S. stocks have averaged roughly 6.5 to 7% a year after inflation over two centuries, with long stretches well above and below that, and none of it is a guarantee.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "What rate is this projection assuming, and is it after fees? Over how many years? What does the same math say about my debt?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I6": {
+    "code": "I6",
+    "slug": "brokerage",
+    "title": "Brokerage account",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 2,
+    "status": "planned",
+    "summary": "The account that holds investments. Taxable, no limits, and how brokers earn on cash and order flow.",
+    "hook": null,
+    "related": [],
+    "connects": [
+      "C9"
+    ],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I7": {
+    "code": "I7",
+    "slug": "stocksbonds",
+    "title": "Stocks vs bonds",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 2,
+    "status": "planned",
+    "summary": "Ownership versus lending. Why one swings more, and why most portfolios hold both.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I8": {
+    "code": "I8",
+    "slug": "etfmf",
+    "title": "ETF vs mutual fund",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 2,
+    "status": "planned",
+    "summary": "Two wrappers for the same holdings: one trades all day, one prices once. What that changes for you.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "I9": {
+    "code": "I9",
+    "slug": "tdf",
+    "title": "Target-date fund",
+    "line": "I",
+    "lines": [
+      "I"
+    ],
+    "also": [],
+    "zone": 2,
+    "status": "planned",
+    "summary": "A fund that rebalances itself as a year approaches. Convenient, and where high fees hide most often in 401(k)s.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "M1": {
+    "code": "M1",
+    "slug": "scams",
+    "title": "Scams & red flags",
+    "line": "M",
+    "lines": [
+      "M"
+    ],
+    "also": [],
+    "zone": 2,
+    "status": "planned",
+    "summary": "Guaranteed returns, urgency, and payment by gift card. The patterns, so you recognize the next variation.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "M2": {
+    "code": "M2",
+    "slug": "fintech",
+    "title": "Fintech \"banks\"",
+    "line": "M",
+    "lines": [
+      "M"
+    ],
+    "also": [],
+    "zone": 2,
+    "status": "planned",
+    "summary": "Apps that look like banks but aren't. Where your money actually sits, and what happens if the app fails.",
+    "hook": null,
+    "related": [],
+    "connects": [
+      "C4"
+    ],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "M3": {
+    "code": "M3",
+    "slug": "robo",
+    "title": "Robo-advisors",
+    "line": "M",
+    "lines": [
+      "M"
+    ],
+    "also": [],
+    "zone": 2,
+    "status": "planned",
+    "summary": "Automated portfolios for a fee. What they do, what the fee buys, and what a target-date fund does for less.",
+    "hook": null,
+    "related": [],
+    "connects": [
+      "I4"
+    ],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "M4": {
+    "code": "M4",
+    "slug": "aitools",
+    "title": "AI money tools",
+    "line": "M",
+    "lines": [
+      "M"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "How to evaluate one: who trained it, what it sells, whether it personalizes, and what it can't know about you.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "M5": {
+    "code": "M5",
+    "slug": "aicontent",
+    "title": "AI-generated finance content",
+    "line": "M",
+    "lines": [
+      "M"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "How to spot it, why it hallucinates numbers, and the questions to ask before trusting any explainer, including this one.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "M6": {
+    "code": "M6",
+    "slug": "crypto",
+    "title": "Crypto & stablecoins",
+    "line": "M",
+    "lines": [
+      "M"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "Tokens, exchanges, wallets, and what a stablecoin is actually backed by. The custody risk nobody explains.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "M7": {
+    "code": "M7",
+    "slug": "tokenized",
+    "title": "Tokenized assets",
+    "line": "M",
+    "lines": [
+      "M"
+    ],
+    "also": [],
+    "zone": 4,
+    "status": "planned",
+    "summary": "Stocks and real estate on a blockchain. What's real, what's a wrapper, and who holds the underlying thing.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "M8": {
+    "code": "M8",
+    "slug": "prediction",
+    "title": "Prediction markets",
+    "line": "M",
+    "lines": [
+      "M"
+    ],
+    "also": [],
+    "zone": 4,
+    "status": "planned",
+    "summary": "Betting on events, priced as probabilities. How the odds are set and why they're not quite forecasts.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "P1": {
+    "code": "P1",
+    "slug": "paycheck",
+    "title": "Paycheck",
+    "line": "P",
+    "lines": [
+      "P"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "What an employer pays you for a pay period after taxes and deductions, and how to read the stub that comes with it.",
+    "hook": "Your paycheck is lying to you. Not on purpose. Here's what it's actually saying.",
+    "related": [
+      "P2",
+      "P3",
+      "P4"
+    ],
+    "connects": [],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "The money an employer pays you for a pay period, after it takes out taxes and anything you've agreed to have deducted. The paper or PDF that comes with it is the pay stub, and it shows every deduction line by line.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Anyone employed by someone else. Self-employed people get paid differently (invoices, no withholding), which is why their taxes work differently too.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "It doesn't, but the companies around it do: payroll providers charge your employer, and some \"get paid early\" apps charge you a fee or tip to advance money you've already earned.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "Not reading the stub. Errors in withholding, missed hours, or a benefit deduction you never signed up for are common and go unnoticed for months.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "How often am I paid? What does each deduction line mean? Is this a W-2 job (employer withholds taxes) or 1099 work (I owe them myself)?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "P10": {
+    "code": "P10",
+    "slug": "capgains",
+    "title": "Capital gains tax",
+    "line": "P",
+    "lines": [
+      "P"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "What you owe when you sell something for more than you paid, and why holding a year changes the rate.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "P11": {
+    "code": "P11",
+    "slug": "tlh",
+    "title": "Tax-loss harvesting",
+    "line": "P",
+    "lines": [
+      "P"
+    ],
+    "also": [],
+    "zone": 4,
+    "status": "planned",
+    "summary": "Selling a loser to offset a winner's tax bill, and the wash-sale rule that trips people up.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "P2": {
+    "code": "P2",
+    "slug": "gross",
+    "title": "Gross vs net pay",
+    "line": "P",
+    "lines": [
+      "P"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "Gross is what you earned. Net is what landed. Offers and loan applications use gross; your budget runs on net.",
+    "hook": "A $25-an-hour job does not put $1,000 in the bank for a 40-hour week. Here's where the rest went.",
+    "related": [
+      "P1",
+      "P3",
+      "I1"
+    ],
+    "connects": [],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "Gross pay is what you earned before anything is taken out. Net pay is what actually lands in your account. The difference is taxes and deductions.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Everyone who gets a paycheck, and everyone who's ever been surprised that a $25/hour job doesn't put $1,000 in the bank for a 40-hour week.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "Nothing directly. But job offers, loan applications, and rent screens all use gross, while your actual budget runs on net. Mixing them up is how people overcommit.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "Budgeting on the gross number. For most people net is roughly 70 to 80% of gross, depending on state and benefits.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "What's my net per paycheck? Which deductions are required (taxes) and which did I choose (retirement, insurance)?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "P3": {
+    "code": "P3",
+    "slug": "withheld",
+    "title": "Taxes withheld",
+    "line": "P",
+    "lines": [
+      "P"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "Money sent to the government out of each check: federal, FICA, and state where it applies. A big refund was your money all along.",
+    "hook": "A big tax refund feels like a bonus. It's an interest-free loan you gave the government.",
+    "related": [
+      "P1",
+      "P2",
+      "I2"
+    ],
+    "connects": [],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [
+      "Paychex: How to calculate the FICA rate (6.2% Social Security",
+      "1.45% Medicare",
+      "2026 wage base $184",
+      "500) · https://www.paychex.com/articles/payroll-taxes/how-to-calculate-fica-rate · 2026-06-04"
+    ],
+    "updated": "2026-10-23",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "Money your employer sends to the government on your behalf out of each paycheck: federal income tax, Social Security (6.2%) and Medicare (1.45%), together called FICA, and state income tax where it applies. The W-4 form you filled out when hired tells them how much to take.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Every W-2 employee. It's not optional.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "The government doesn't profit, but over-withholding means you lend it money interest-free all year and get it back as a refund. Under-withholding means a bill, sometimes with a penalty, in April.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "Treating a big refund as a bonus. It was your money all along. The reverse risk is a surprise tax bill after a second job or a side gig with no withholding.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "What did I put on my W-4, and has my situation changed (marriage, second job, kids)? Does my state have income tax?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "P4": {
+    "code": "P4",
+    "slug": "deposit",
+    "title": "Direct deposit",
+    "line": "P",
+    "lines": [
+      "P"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "Pay sent straight to your account. Banks love it, which is why bonuses and fee waivers depend on it.",
+    "hook": "Banks pay $300 bonuses for direct deposit. Here's why it's worth that much to them.",
+    "related": [
+      "P5",
+      "C1",
+      "P1"
+    ],
+    "connects": [],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "Your employer sends pay electronically into a bank account instead of handing you a check. You give them a routing number and an account number once.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Nearly everyone with a bank account. Many employers require it.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "Banks love it: a steady deposit is why they offer \"$300 bonus with direct deposit\" and why fee waivers often depend on it. The bank earns by lending out the money that sits there.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "Low. The main one is splitting it wrong or forgetting to update it after changing banks.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "Can I split it between two accounts (say, checking and savings)? Does my bank waive fees if a deposit comes in?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "P5": {
+    "code": "P5",
+    "slug": "checking",
+    "title": "Checking account",
+    "line": "P",
+    "lines": [
+      "P"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "The account money moves through. Built for spending, not growing, so it pays almost nothing.",
+    "hook": "Your checking account is a hallway, not a room. Money that lives there earns nothing.",
+    "related": [
+      "P6",
+      "C1",
+      "C2",
+      "C4"
+    ],
+    "connects": [],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "The bank account money moves through: pay comes in, bills and purchases go out. Comes with a debit card. It's built for spending, not for growing money, so most pay little or no interest.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Anyone who gets paid and pays bills. It's the base account most people open first.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "Monthly maintenance fees (often waived with a minimum balance or direct deposit), ATM fees, overdraft fees, and the interest the bank earns lending out your balance while paying you close to nothing.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "Fees that add up quietly, and keeping a large balance here where it earns nothing while prices rise.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "What's the monthly fee and exactly what waives it? Which ATMs are free? What happens if I spend more than I have?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "P6": {
+    "code": "P6",
+    "slug": "overdraft",
+    "title": "Overdraft",
+    "line": "P",
+    "lines": [
+      "P"
+    ],
+    "also": [],
+    "zone": 1,
+    "status": "written",
+    "summary": "Spending more than you have. The bank declines it or covers it and charges a fee, historically $30 to $35 each.",
+    "hook": "The $35 fee for having $4 in your account.",
+    "related": [
+      "P5",
+      "P7",
+      "D2"
+    ],
+    "connects": [],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [
+      "Congress Repeals CFPB's Overdraft Rule (CRS IN12513) · https://www.everycrsreport.com/reports/IN12513.html · 2025-09-10",
+      "CFPB finalizes $5 overdraft fee cap for large banks (Banking Dive) · https://www.bankingdive.com/news/cfpb-overdraft-final-rule-5-dollar-fee-chopra-aba-cba/735348/ · 2024-12-12"
+    ],
+    "updated": "2026-10-23",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "Spending more than is in your checking account. The bank either declines the transaction or covers it and charges an overdraft fee, often around $35 per occurrence. Several large banks dropped the fee in 2021 and 2022 and others cut it to about $10; many still charge the full amount.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Nobody on purpose. It happens most to people living paycheck to paycheck, which is why it's been the subject of so much regulation.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "The fee itself. Overdraft and NSF fees ran about $5.8 billion in 2023, down from $12.6 billion in 2019. A federal rule capping the fee at $5 at large banks was finalized in December 2024 and repealed by Congress in May 2025, so the fee is back to whatever each bank sets. \"Overdraft protection\" is a product you opt into that covers the shortfall from a linked account, sometimes for a smaller fee.",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "Several fees in one day from small purchases. Some banks have reordered transactions largest-first, which triggers more overdrafts.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "Am I opted in to overdraft coverage, or will the card just decline? What's the fee, and is there a daily cap? Can I link savings as a backstop instead?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "P7": {
+    "code": "P7",
+    "slug": "emergency",
+    "title": "Emergency fund",
+    "line": "P",
+    "lines": [
+      "P",
+      "C"
+    ],
+    "also": [
+      "C5"
+    ],
+    "zone": 2,
+    "status": "written",
+    "summary": "Cash kept separate for the car repair or the job gap. A concept, not a product, and nobody is selling it.",
+    "hook": "The only money idea with nobody selling it.",
+    "related": [
+      "C1",
+      "C2",
+      "P6",
+      "D2"
+    ],
+    "connects": [],
+    "reading_minutes": {
+      "short": 2,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": "Cash kept separate from spending money, meant for things like a car repair, a medical bill, or a gap between jobs. It's a concept, not a product: it usually lives in a savings account.",
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": "Anyone whose income could stop or whose expenses could spike, which is nearly everyone. People without one tend to end up on credit cards or overdraft when the surprise comes.",
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": "Nothing. This is one of the few ideas in money with no one selling it. (Banks do benefit when it sits in a low-rate account; see High-yield savings.)",
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": "Raiding it for non-emergencies, so it's gone when needed. The opposite risk is keeping far more than needed in cash while it loses buying power to inflation.",
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": "What would I actually need to cover if income stopped? How many months of that feels like enough for my situation? Where can it sit so it's reachable in a day or two but not reachable by my debit card?",
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "P8": {
+    "code": "P8",
+    "slug": "budget",
+    "title": "Budget basics",
+    "line": "P",
+    "lines": [
+      "P"
+    ],
+    "also": [],
+    "zone": 2,
+    "status": "planned",
+    "summary": "Where the net pay goes each month, and the handful of methods people actually stick with.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "P9": {
+    "code": "P9",
+    "slug": "sideincome",
+    "title": "Side income & 1099",
+    "line": "P",
+    "lines": [
+      "P"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "Getting paid without withholding: what you owe, when, and the quarterly payments nobody mentions.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "T1": {
+    "code": "T1",
+    "slug": "orders",
+    "title": "Order types",
+    "line": "T",
+    "lines": [
+      "T"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "Market, limit, stop. What each one promises, and when a market order costs you.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "T10": {
+    "code": "T10",
+    "slug": "futures",
+    "title": "Futures",
+    "line": "T",
+    "lines": [
+      "T"
+    ],
+    "also": [],
+    "zone": 5,
+    "status": "planned",
+    "summary": "Contracts on a future price, built-in leverage, and why they were invented for farmers, not traders.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "T11": {
+    "code": "T11",
+    "slug": "backtest",
+    "title": "Backtesting",
+    "line": "T",
+    "lines": [
+      "T"
+    ],
+    "also": [],
+    "zone": 5,
+    "status": "planned",
+    "summary": "Testing a strategy on past data, and the overfitting trap that makes every backtest look great.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "T2": {
+    "code": "T2",
+    "slug": "spread",
+    "title": "Bid-ask spread",
+    "line": "T",
+    "lines": [
+      "T"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "The gap between the buy and sell price. The quiet fee on every trade, biggest where volume is thinnest.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "T3": {
+    "code": "T3",
+    "slug": "volatility",
+    "title": "Volatility",
+    "line": "T",
+    "lines": [
+      "T"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "How much a price moves, how it's measured, and why it's priced into everything on this line.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "T4": {
+    "code": "T4",
+    "slug": "techfund",
+    "title": "Technical vs fundamental",
+    "line": "T",
+    "lines": [
+      "T"
+    ],
+    "also": [],
+    "zone": 3,
+    "status": "planned",
+    "summary": "Charts versus financials. What each approach claims, and what the evidence says about both.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "T5": {
+    "code": "T5",
+    "slug": "margin",
+    "title": "Margin",
+    "line": "T",
+    "lines": [
+      "T"
+    ],
+    "also": [],
+    "zone": 4,
+    "status": "planned",
+    "summary": "Borrowing from your broker to buy more. The interest, the margin call, and who decides when you're sold out.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "T6": {
+    "code": "T6",
+    "slug": "short",
+    "title": "Short selling",
+    "line": "T",
+    "lines": [
+      "T"
+    ],
+    "also": [],
+    "zone": 4,
+    "status": "planned",
+    "summary": "Betting a price falls by selling what you borrowed. Why the loss is unlimited and the borrow has a fee.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "T8": {
+    "code": "T8",
+    "slug": "options",
+    "title": "Options basics",
+    "line": "T",
+    "lines": [
+      "T"
+    ],
+    "also": [],
+    "zone": 4,
+    "status": "planned",
+    "summary": "Calls, puts, premium, expiry. How most retail options expire worthless, and who collects the premium.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  },
+  "T9": {
+    "code": "T9",
+    "slug": "sizing",
+    "title": "Position sizing",
+    "line": "T",
+    "lines": [
+      "T"
+    ],
+    "also": [],
+    "zone": 5,
+    "status": "planned",
+    "summary": "How much to put in any one trade. The math that keeps one bad call from ending the account.",
+    "hook": null,
+    "related": [],
+    "connects": [],
+    "reading_minutes": {
+      "short": null,
+      "long": null
+    },
+    "sources": [],
+    "updated": "2026-10-22",
+    "fields": [
+      {
+        "key": "what",
+        "label": "What it is",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "who",
+        "label": "Who ends up using it",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "money",
+        "label": "How it makes money off you",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "wrong",
+        "label": "What goes wrong",
+        "short": null,
+        "long": null
+      },
+      {
+        "key": "ask",
+        "label": "What to ask",
+        "short": null,
+        "long": null
+      }
+    ],
+    "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
+    "pledge": "No affiliate links. No sponsored products. Routes is not paid when you sign up for anything."
+  }
+}

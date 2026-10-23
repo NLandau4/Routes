@@ -1,0 +1,190 @@
+{
+  "lines": {
+    "P": {
+      "name": "Paycheck & Taxes",
+      "color": "#1F9D5A",
+      "stations": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8",
+        "P9",
+        "P10",
+        "P11"
+      ]
+    },
+    "C": {
+      "name": "Cushion & Protection",
+      "color": "#2F6BFF",
+      "stations": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11"
+      ]
+    },
+    "D": {
+      "name": "Debt",
+      "color": "#E8322B",
+      "stations": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D8",
+        "D9",
+        "D10"
+      ]
+    },
+    "I": {
+      "name": "Investing",
+      "color": "#F28B00",
+      "stations": [
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5",
+        "I6",
+        "I7",
+        "I8",
+        "I9",
+        "I10",
+        "I11",
+        "I12",
+        "I13",
+        "I14",
+        "I15",
+        "I16",
+        "I17",
+        "I18",
+        "I19"
+      ]
+    },
+    "T": {
+      "name": "Trading",
+      "color": "#8A3FFC",
+      "stations": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5",
+        "T6",
+        "T7",
+        "T8",
+        "T9",
+        "T10",
+        "T11"
+      ]
+    },
+    "M": {
+      "name": "Modern Money",
+      "color": "#00A3A3",
+      "stations": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8"
+      ]
+    }
+  },
+  "zones": [
+    {
+      "n": 1,
+      "name": "Basics",
+      "tagline": "Your first paycheck"
+    },
+    {
+      "n": 2,
+      "name": "Getting set",
+      "tagline": "Accounts, cover, first borrowing"
+    },
+    {
+      "n": 3,
+      "name": "Building",
+      "tagline": "Investing with a plan"
+    },
+    {
+      "n": 4,
+      "name": "Advanced",
+      "tagline": "Markets, rates, leverage"
+    },
+    {
+      "n": 5,
+      "name": "Expert",
+      "tagline": "Long horizons and edge cases"
+    }
+  ],
+  "interchanges": [
+    {
+      "card": "P7",
+      "codes": [
+        "P7",
+        "C5"
+      ]
+    },
+    {
+      "card": "I5",
+      "codes": [
+        "I5",
+        "D5"
+      ]
+    },
+    {
+      "card": "I17",
+      "codes": [
+        "I17",
+        "T7"
+      ]
+    }
+  ],
+  "connections": [
+    [
+      "C3",
+      "D3"
+    ],
+    [
+      "C4",
+      "M2"
+    ],
+    [
+      "C10",
+      "I10"
+    ],
+    [
+      "C11",
+      "I16"
+    ],
+    [
+      "I4",
+      "M3"
+    ],
+    [
+      "D10",
+      "I5"
+    ],
+    [
+      "C9",
+      "I6"
+    ]
+  ]
+}

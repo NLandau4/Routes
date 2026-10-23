@@ -1,0 +1,39 @@
+{
+  "slug": "understand-the-market",
+  "title": "Understand the Market Before Touching It",
+  "for": "You want to know how investing works before opening anything.",
+  "stops": [
+    {
+      "code": "I7",
+      "why": "The two things nearly every investment is made of."
+    },
+    {
+      "code": "I3",
+      "why": "The most common way people hold many stocks at once, and the vocabulary that comes with it."
+    },
+    {
+      "code": "I8",
+      "why": "The two wrappers you'll see the same fund sold in."
+    },
+    {
+      "code": "I4",
+      "why": "The one cost known in advance, and how it's charged."
+    },
+    {
+      "code": "I10",
+      "why": "What spreading money across holdings protects against, and what it doesn't."
+    },
+    {
+      "code": "C10",
+      "why": "The reason cash isn't a neutral choice, and the yardstick returns are measured against."
+    },
+    {
+      "code": "T3",
+      "why": "What a 'drop' actually looks like in numbers, before you've seen one."
+    },
+    {
+      "code": "I14",
+      "why": "The behavior question that every other station on this route feeds into."
+    }
+  ]
+}

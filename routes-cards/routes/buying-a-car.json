@@ -1,0 +1,31 @@
+{
+  "slug": "buying-a-car",
+  "title": "Buying a Car",
+  "for": "You're about to finance a car and the dealer keeps talking about the monthly payment.",
+  "stops": [
+    {
+      "code": "D1",
+      "why": "The rate you'll be offered is set by this number before you walk in."
+    },
+    {
+      "code": "D3",
+      "why": "The number to compare across the dealer's offer and a bank's, and what a longer term does to it."
+    },
+    {
+      "code": "D7",
+      "why": "Why the conversation starts with the monthly payment and what that framing hides."
+    },
+    {
+      "code": "C6",
+      "why": "Auto coverage is required by the lender and priced separately; this card explains the parts."
+    },
+    {
+      "code": "D10",
+      "why": "How a loan's total cost is calculated over its full term."
+    },
+    {
+      "code": "P8",
+      "why": "Where a car payment sits alongside everything else that comes out of net pay."
+    }
+  ]
+}

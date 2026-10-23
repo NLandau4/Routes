@@ -1,0 +1,35 @@
+{
+  "slug": "first-paycheck",
+  "title": "First Paycheck",
+  "for": "You just started a job and the stub, the bank, and the fees are all new.",
+  "stops": [
+    {
+      "code": "P1",
+      "why": "The stub is the document everything else on this route refers to, so it comes first."
+    },
+    {
+      "code": "P2",
+      "why": "The gap between what you earned and what landed is the first number people misread."
+    },
+    {
+      "code": "P3",
+      "why": "Most of that gap is withholding, and the W-4 you signed on day one set it."
+    },
+    {
+      "code": "P5",
+      "why": "The account the money lands in has fees of its own, and they depend on the deposit you just set up."
+    },
+    {
+      "code": "P6",
+      "why": "The single most common fee in the first year of working, and the one people say they never understood."
+    },
+    {
+      "code": "P7",
+      "why": "The concept that explains why the overdraft fee happens to some people and not others."
+    },
+    {
+      "code": "D2",
+      "why": "Usually the next thing offered to someone with a new paycheck, so its mechanics come last on this route."
+    }
+  ]
+}

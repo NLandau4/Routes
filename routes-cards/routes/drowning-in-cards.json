@@ -1,0 +1,35 @@
+{
+  "slug": "drowning-in-cards",
+  "title": "Drowning in Cards",
+  "for": "You carry balances on more than one card and the statements don't make sense.",
+  "stops": [
+    {
+      "code": "D1",
+      "why": "Every card decision you've made is already recorded here, so it's the place to start reading."
+    },
+    {
+      "code": "D2",
+      "why": "How the bill, the grace period, and the minimum payment actually work."
+    },
+    {
+      "code": "D3",
+      "why": "The number on the statement that decides what the balance costs."
+    },
+    {
+      "code": "I5",
+      "why": "Why the balance grows faster than the purchases that created it."
+    },
+    {
+      "code": "D4",
+      "why": "The other installment plans that often run alongside cards and don't show up on one bill."
+    },
+    {
+      "code": "D10",
+      "why": "The arithmetic of minimums versus more, and how people describe the two common orderings."
+    },
+    {
+      "code": "P7",
+      "why": "The concept most people name as the reason the balances started."
+    }
+  ]
+}
