@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="right m">
             <YouCounter total={total} />
             <AuthButton />
-            <Link href="/about" className="pill-y">ABOUT · THE PLEDGE</Link>
+            <Link href="/about" className="pill-y"><span className="long-label">ABOUT · </span>THE PLEDGE</Link>
           </div>
         </header>
         {children}

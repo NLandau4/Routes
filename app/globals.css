@@ -140,3 +140,21 @@ button { font: inherit; cursor: pointer; }
 .subscribe button { font-weight: 800; font-size: 13px; padding: 0 14px; border-radius: 999px; border: 0; background: var(--yellow); color: var(--ink); }
 .page .subscribe input { border-color: var(--rule); background: var(--paper); color: var(--ink); }
 .page .subscribe input::placeholder { color: var(--muted); }
+
+/* phone: no empty sheet over the map; a hint instead. The card sheet keeps its close button. */
+.tap-hint { display: none; }
+@media (max-width: 900px) {
+  .panel-empty { display: none; }
+  .tap-hint { display: block; position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); font-size: 11px; color: #fff; background: rgba(14,17,22,.85); padding: 8px 14px; border-radius: 999px; z-index: 4; pointer-events: none; }
+  .panel { max-height: 70vh; }
+  .panel .cardhead { padding-top: 28px; }
+  .panel .cardhead::before { content: ""; position: absolute; top: 10px; left: 50%; transform: translateX(-50%); width: 40px; height: 4px; border-radius: 2px; background: rgba(255,255,255,.5); }
+}
+
+@media (max-width: 900px) {
+  .panel > * { flex-shrink: 0; }
+  .tap-hint { left: auto; right: 16px; transform: none; bottom: calc(22px + env(safe-area-inset-bottom, 0px)); font-size: 10px; padding: 7px 10px; }
+  .top .right { gap: 8px; }
+  .ghost-top, .pill-y { white-space: nowrap; padding: 7px 10px; font-size: 11px; }
+}
+@media (max-width: 900px) { .long-label { display: none; } }

@@ -47,7 +47,7 @@ export function MapScreen({ initial, initialRoute }: { initial?: string; initial
         {card ? (
           <CardPanel card={card} read={has(card.code)} onToggleRead={() => toggle(card.code)} routeSlug={slug} onClose={() => setSelected(null)} />
         ) : (
-          <aside className="panel">
+          <aside className="panel panel-empty">
             <div className="empty">
               <div className="d" style={{ fontSize: 28, fontWeight: 800, color: "var(--ink)" }}>Pick a station</div>
               <p>Each line is a learning path. Stations are lessons. Zones run left to right from first paycheck to expert topics, so you can start anywhere and know how far in you are.</p>
@@ -61,6 +61,7 @@ export function MapScreen({ initial, initialRoute }: { initial?: string; initial
             </div>
           </aside>
         )}
+        {!card && <div className="tap-hint m">TAP A STATION</div>}
       </div>
     </>
   );
