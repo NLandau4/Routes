@@ -92,6 +92,19 @@ button { font: inherit; cursor: pointer; }
 .toggle button:disabled { opacity: .45; cursor: default; }
 .body { margin-top: 10px; font-size: 15px; line-height: 1.55; color: #1E242C; white-space: pre-line; max-width: 62ch; }
 .body.planned { color: var(--muted); font-style: italic; }
+.body.long { white-space: normal; }
+.body.long p { margin: 0 0 12px; }
+.body.long h3 { font-family: var(--font-display), "Helvetica Neue", Arial, sans-serif; font-size: 16px; font-weight: 800; letter-spacing: -0.2px; margin: 20px 0 6px; }
+.body.long ul, .body.long ol { margin: 0 0 12px; padding-left: 20px; }
+.body.long li { margin: 0 0 4px; }
+.body.long blockquote { margin: 14px 0; padding: 10px 14px; border-left: 4px solid var(--yellow, #FFD100); background: #FFF8D6; border-radius: 0 10px 10px 0; font-size: 14px; }
+.body.long blockquote p { margin: 0; }
+.body.long figure { margin: 16px 0; }
+.body.long figure img { display: block; width: 100%; height: auto; border: 1.5px solid var(--rule); border-radius: 12px; background: #fff; }
+.body.long figcaption { font-family: var(--font-mono), monospace; font-size: 11px; color: var(--muted); margin-top: 6px; letter-spacing: .3px; }
+.body.long table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 12px 0; }
+.body.long th, .body.long td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.body.long th { font-family: var(--font-mono), monospace; font-size: 11px; letter-spacing: .4px; color: var(--muted); }
 .cardfoot { background: linear-gradient(180deg, #141B24, #0E1116); color: #fff; padding: 14px 28px; display: flex; flex-direction: column; gap: 10px; }
 .cardfoot .next { font-size: 12px; display: flex; gap: 10px; flex-wrap: wrap; }
 .cardfoot .next span:first-child { color: var(--yellow); }

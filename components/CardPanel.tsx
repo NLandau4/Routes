@@ -1,4 +1,5 @@
 "use client";
+import { Prose } from "./Prose";
 import { useState } from "react";
 import Link from "next/link";
 import { Card, map, routes, resolve, getCard } from "@/lib/data";
@@ -74,7 +75,7 @@ export function CardPanel({ card, read, onToggleRead, routeSlug, onClose }: Prop
                       <button className={mode === "short" ? "on" : ""} onClick={() => setMode("short")}>SHORT</button>
                       <button className={mode === "long" ? "on" : ""} onClick={() => setMode("long")} disabled={!f.long} title={f.long ? "" : "Long read not written yet"}>LONG READ{f.long ? "" : " · SOON"}</button>
                     </div>
-                    <div className={`body${text ? "" : " planned"}`}>{text ?? (f.short ? "The long read for this section isn't written yet. The short version is above." : "This card is planned. The station is on the map so you know it's coming.")}</div>
+                    {text ? <Prose text={text} long={mode === "long"} /> : <div className="body planned">{f.short ? "The long read for this section isn't written yet. The short version is above." : "This card is planned. The station is on the map so you know it's coming."}</div>}
                   </>
                 )}
               </div>

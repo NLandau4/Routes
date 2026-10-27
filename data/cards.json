@@ -769,43 +769,43 @@
     "connects": [],
     "reading_minutes": {
       "short": 2,
-      "long": null
+      "long": 10
     },
     "sources": [
       "Federal Reserve G.19 via FRED: interest rate on credit card accounts assessed interest",
       "22.36% in August 2026 · https://fred.stlouisfed.org/series/TERMCBCCINTNS · 2026-10-07"
     ],
-    "updated": "2026-10-23",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
         "short": "A card that lets you borrow from the card company each time you buy something. You get a bill once a month. Pay the full balance by the due date and you pay no interest. Pay less than that and interest starts on what's left, at a rate that's usually among the highest of any common loan.",
-        "long": null
+        "long": "A credit card is a loan that you re-borrow every month without filling out a form. The bank gives you a limit. You spend against it. Once a month it adds up what you spent and sends a statement with three numbers on it: the balance, the minimum payment, and the due date.\n\nPay the whole balance by the due date and the loan costs nothing; you've used the bank's money for free for three to seven weeks. Pay less than the whole thing and the rest starts accruing interest at the card's APR, which in August 2026 averaged 22.36% across accounts that carried a balance. That's the highest-cost consumer debt most people will ever hold, and it is handed out by mail.\n\nThe minimum payment is the number that does the work. It's usually set at a small share of the balance (commonly around 1% of what you owe plus that month's interest, with a floor of $25 or so). It is calculated to be affordable. It is also calculated to keep the balance alive for years.\n\n![Paying down $1,100 three ways](/figures/D2-minimum.svg \"Same balance, same APR, three payment habits. The minimum takes almost seven years.\")\n\nEvery statement is required by law to show a version of this math: how long the balance lasts if you pay only the minimum, and what it costs. It's in a box on the first page. Almost nobody reads it, because the number that's printed in large type is the minimum, and the minimum looks fine."
       },
       {
         "key": "who",
         "label": "Who ends up using it",
         "short": "Most adults. Used in full each month, it's a convenient way to pay that builds credit history and sometimes earns rewards. Used as a loan, it's expensive.",
-        "long": null
+        "long": "Most American adults have at least one. The question that sorts people isn't whether they have a card; it's which of two cards they have, because the same piece of plastic is two different products depending on how it's used.\n\nFor people who pay in full every month, it's a payment tool with a free float, some fraud protection, and maybe rewards. The bank earns on them through merchant fees and would rather they carried a balance, but they're fine customers.\n\nFor people who carry a balance, it's a loan at 22%, and they're the customers the business is built on. Roughly half of cardholders fall into this group in any given month. They skew younger, lower-income, and more likely to have hit an emergency (a car, a medical bill, a gap between jobs) that went on the card because nothing else was there.\n\nThe card industry has a name for the first group that tells you everything: *transactors*. The second group are *revolvers*. The marketing is aimed at the first. The revenue comes from the second."
       },
       {
         "key": "money",
         "label": "How it makes money off you",
         "short": "Three ways: interest on balances you carry (the big one), a fee the store pays on every swipe (which funds rewards), and annual or late fees. Rewards programs are designed to work only if you spend more, and they're funded by people who carry balances.",
-        "long": null
+        "long": "A card issuer has four ways to make money, and they add up in a particular order.\n\n**Interest** is the biggest. The 22% is charged monthly on whatever you didn't pay off, and it compounds: next month's interest is charged on this month's interest. On a revolving balance that's the whole profit model, and it's why the minimum is set where it is. Too high and people pay it off. Too low and they default. The number on your statement is tuned to the spot between.\n\n**Interchange** is the fee the merchant pays every time you swipe, typically 1.5% to 3% of the purchase. You don't see it, but you pay it; it's built into prices. This is what funds rewards. A 2% cash-back card is handing you most of the interchange and keeping the rest, in the hope that you'll carry a balance someday and make the real money.\n\n**Fees.** Annual fees on premium cards. Late fees when a payment misses the due date. Cash-advance fees, which come with a higher APR and no grace period. Foreign-transaction fees. Balance-transfer fees, usually 3% to 5% of the amount moved, charged up front on a \"0% offer.\"\n\n**The grace period as a trap door.** Here's the one that surprises people. The interest-free window between statement and due date exists only if you paid last month in full. One partial payment and it switches off: new purchases start accruing interest from the day you make them, until you've paid in full again.\n\n![How the grace period works, and how it turns off](/figures/D2-grace.svg \"Pay in full and the three weeks are free. Pay part and interest starts from the purchase date.\")\n\nNone of this is hidden. It's all in the cardholder agreement, which runs to thousands of words. The design relies on nobody reading them, and on the minimum payment looking like a reasonable number."
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
         "short": "The minimum payment. It's set low enough that a balance can take years and cost more in interest than the original purchase. Also: a card is not an emergency fund, though it gets used as one.",
-        "long": null
+        "long": "The slow version is the one in the chart: a balance that never quite goes away, paid at the minimum, costing nearly as much in interest as the original purchases. It doesn't feel like a crisis at any point. That's what makes it work.\n\nThe fast version is the stack. A balance on one card, a second card opened to breathe, a 0% balance transfer that was going to fix everything until the promotional period ended and the full rate kicked in on whatever was left. Each step is reasonable. The pile isn't.\n\nA few specific things go wrong often enough to name:\n\n- **Paying the minimum on time and thinking that's \"paying the card.\"** It's keeping the account current. It's not paying down the debt in any meaningful way.\n- **Missing the promo cliff.** Deferred-interest offers (common at furniture and electronics stores) charge all the interest retroactively from day one if any balance remains when the promo ends. That's different from a true 0% APR, and the paperwork doesn't make the difference obvious.\n- **Cash advances.** Higher rate, a fee on top, interest from the moment of withdrawal, no grace period. Using a credit card at an ATM is the most expensive way to get cash that isn't a payday loan.\n- **A late payment that moves the rate.** Some agreements allow a penalty APR after a missed payment, well above the standard rate, and it can apply to the whole existing balance.\n- **Utilization and the score.** A balance that's a large share of the limit lowers your credit score even if you pay it off every month, because the score is calculated on the statement balance. That raises the cost of the next loan you take."
       },
       {
         "key": "ask",
         "label": "What to ask",
         "short": "What's the APR, and is there a different one for cash advances? Is there an annual fee? What's the grace period? If I only paid the minimum, how long would this balance take to clear (the statement has to tell you)?",
-        "long": null
+        "long": "For the card you have, or one you're looking at:\n\n**What's the APR on purchases, and is it variable?** Almost all are variable, which means it moves with the Fed's rate. Ask what it's tied to.\n\n**How is the minimum payment calculated?** You're listening for the formula: a percent of the balance plus interest, and the floor.\n\n**If I pay only the minimum on my current balance, how long does the statement say it takes, and what does it cost?** That box is on the first page of every statement. Read it once out loud.\n\n**Did I pay last month in full? If not, am I being charged interest on this month's purchases from the day I made them?** This is the grace-period question, and most customer service agents can answer it.\n\n**On a 0% offer: is it a true 0% APR or deferred interest? What's the transfer fee? What's the rate the day the promotion ends?**\n\n**Is there a penalty APR, and what triggers it?**\n\n**What's my limit, and what share of it is my statement balance?** That's the number the credit score sees.\n\nAnd the question that reframes the whole card: *if I paid this off today, what would I have paid in interest since I opened it?* The issuer's app can usually show you. The number is clarifying."
       }
     ],
     "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
@@ -3249,43 +3249,43 @@
     "connects": [],
     "reading_minutes": {
       "short": 2,
-      "long": null
+      "long": 9
     },
     "sources": [
       "Congress Repeals CFPB's Overdraft Rule (CRS IN12513) · https://www.everycrsreport.com/reports/IN12513.html · 2025-09-10",
       "CFPB finalizes $5 overdraft fee cap for large banks (Banking Dive) · https://www.bankingdive.com/news/cfpb-overdraft-final-rule-5-dollar-fee-chopra-aba-cba/735348/ · 2024-12-12"
     ],
-    "updated": "2026-10-23",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
         "short": "Spending more than is in your checking account. The bank either declines the transaction or covers it and charges an overdraft fee, often around $35 per occurrence. Several large banks dropped the fee in 2021 and 2022 and others cut it to about $10; many still charge the full amount.",
-        "long": null
+        "long": "Here is the whole mechanism in one sentence: you try to spend money that isn't in your checking account, and the bank decides what to do about it.\n\nThere are only three things it can do. It can decline the transaction, and you pay with something else or not at all. It can cover the transaction out of its own pocket and charge you a fee for the favor, which is an overdraft. Or it can move money from a linked savings account to cover the gap, which is an overdraft transfer, usually free or a few dollars.\n\nThe second one is the product. For most of the last thirty years the fee was around $35, charged per transaction, and it didn't matter whether the transaction was a $4 coffee or a $400 car repair. The fee was the fee.\n\nTwo things changed recently, and they pull in opposite directions. From 2021 on, a handful of big banks dropped overdraft fees entirely or cut them to about $10, mostly because regulators and the press kept pointing at them. Then in late 2024 the CFPB finalized a rule that would have capped the fee at $5 for large banks. In May 2025 Congress repealed that rule before it took effect. So the cap is gone, the pressure that produced the voluntary cuts has eased, and what you pay now depends entirely on which bank you're at. Some charge nothing. Some charge $10. Plenty still charge $35.\n\nThe important word in all of this is *decline*. A declined card feels like failure. It's actually the cheap outcome. The expensive outcome is the one where everything goes through."
       },
       {
         "key": "who",
         "label": "Who ends up using it",
         "short": "Nobody on purpose. It happens most to people living paycheck to paycheck, which is why it's been the subject of so much regulation.",
-        "long": null
+        "long": "Nobody signs up for overdraft the way they sign up for a credit card. It happens to people. But it doesn't happen evenly.\n\nThe CFPB's own research over the years found the same shape every time: a small share of account holders pay the large majority of overdraft fees. Those are people who overdraft many times a year, which is another way of saying people whose balance lives near zero. If your account never drops below a few hundred dollars, the fee is theoretical. If you're timing rent against a paycheck, it's a line item.\n\nThere's a second group that pays occasionally and gets angrier about it: people with money in savings and almost nothing in checking, who forgot an autopay was coming. Same fee, different story.\n\nAnd there's a group that's shrinking but still real: people who think they're protected because their card \"always works.\" It always works because they opted in to overdraft coverage, sometimes years ago, often at account opening, and the bank is quietly covering and charging."
       },
       {
         "key": "money",
         "label": "How it makes money off you",
         "short": "The fee itself. Overdraft and NSF fees ran about $5.8 billion in 2023, down from $12.6 billion in 2019. A federal rule capping the fee at $5 at large banks was finalized in December 2024 and repealed by Congress in May 2025, so the fee is back to whatever each bank sets. \"Overdraft protection\" is a product you opt into that covers the shortfall from a linked account, sometimes for a smaller fee.",
-        "long": null
+        "long": "The fee is the product. That's not a cynical reading; it's how the banks' own financial statements describe it. Before the voluntary cuts, overdraft and non-sufficient-funds fees were one of the largest sources of consumer fee income at U.S. banks, in the tens of billions of dollars a year across the industry. A service that costs the bank almost nothing to provide (it's a short loan, repaid within days when your paycheck lands) and brings in that much is not a courtesy. It's a business line.\n\nThree mechanics make the business work.\n\n**Opt-in.** Since 2010, banks have needed your permission to charge overdraft fees on debit card purchases and ATM withdrawals. So they ask for it, at account opening, framed as protection: *would you like us to cover your purchases if you're short?* Most people say yes. Saying yes is what turns a free decline into a $35 fee.\n\n**Per-transaction pricing.** The fee attaches to each item, not to the day. Five small purchases over the line are five fees. This is where the $4 coffee becomes a $39 coffee.\n\n**Posting order.** For years, many banks processed a day's transactions from largest to smallest rather than in the order they happened. That drains the account faster and triggers more fees on the small items that follow. Here's the same $80 of spending, two ways:\n\n![The same five purchases, two posting orders](/figures/P6-ordering.svg \"Same day, same purchases: two fees or four, depending on the order the bank posts them\")\n\nLargest-first posting has been litigated repeatedly and many banks have stopped. Some haven't. The way to know is to ask, or to read the deposit agreement, which almost nobody does."
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
         "short": "Several fees in one day from small purchases. Some banks have reordered transactions largest-first, which triggers more overdrafts.",
-        "long": null
+        "long": "The classic failure is the cascade. One autopay lands a day early, the balance goes negative, and then the normal small purchases of a day each pick up a fee before you notice. By the time the paycheck arrives, the bank takes the fees first, which can leave the balance short again. Two or three fee days in a month is a few hundred dollars gone from someone who, by definition, didn't have a few hundred dollars to spare.\n\nThe second failure is the one the opt-in creates. People who are covered don't find out they were short until the statement, so there's no moment to stop and pay another way. A decline at the register is unpleasant and informative. Coverage is pleasant and expensive.\n\n![What happens when you swipe with $4 in the account](/figures/P6-optin.svg \"The opt-in decides whether a $12 charge costs $12 or $47\")\n\nThird, overdraft fees are sometimes confused with NSF fees, which are charged when the bank *declines* a check or an electronic payment for insufficient funds. Same trigger, opposite action, and historically a similar price. Most large banks dropped NSF fees between 2022 and 2024. Some smaller institutions still charge them, which means you can be charged for a payment that didn't go through.\n\nFourth, the fee keeps the account negative, and a negative balance for long enough gets the account closed and reported to a database banks check before opening new accounts. That can lock someone out of the banking system for years. The fee is the first domino."
       },
       {
         "key": "ask",
         "label": "What to ask",
         "short": "Am I opted in to overdraft coverage, or will the card just decline? What's the fee, and is there a daily cap? Can I link savings as a backstop instead?",
-        "long": null
+        "long": "These are questions for a bank, phrased so a teller or a chat agent can answer them.\n\n**Am I opted in to overdraft coverage on debit card purchases and ATM withdrawals?** If the answer is yes and you don't remember choosing it, the follow-up is how to opt out. Opting out means the card declines when you're short, and nothing else changes.\n\n**What is the overdraft fee, and is there a daily maximum on the number of fees?** Most banks cap it at three to six per day, which is still a lot.\n\n**Is there a grace amount or a grace period?** Some banks don't charge if the overdraft is under a small amount, or if the balance is brought positive by the end of the next business day.\n\n**In what order do you post a day's transactions?** You're listening for \"in the order received\" or \"smallest first.\" If the answer is \"largest first,\" that's a thing to know about your bank.\n\n**Can I link savings for overdraft transfers instead, and what does that cost?**\n\n**Do you charge an NSF fee when you decline a payment?**\n\nOne more question, and it's for yourself: what would change if the card just declined? For most people the honest answer is a moment of embarrassment and a different card. That's the trade the opt-in form is asking you to think about."
       }
     ],
     "disclaimer": "Educational only. Not investment, tax, or legal advice, and not personalized to you.",
