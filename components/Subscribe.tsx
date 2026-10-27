@@ -18,6 +18,7 @@ export function Subscribe({ source }: { source: string }) {
     <form onSubmit={go} className="subscribe" aria-label="Get one card a week by email">
       <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="One card a week · your email" aria-label="Email" />
       <button type="submit" className="d" disabled={state === "sending"}>{state === "sending" ? "…" : "JOIN"}</button>
+      <span className="m" style={{ fontSize: 10, color: "var(--muted)" }}>ONE EMAIL A WEEK · <a href="/privacy">PRIVACY</a></span>
       {state === "error" && <span className="m" style={{ fontSize: 11, color: "var(--D)" }}>DIDN'T WORK, TRY AGAIN</span>}
     </form>
   );
