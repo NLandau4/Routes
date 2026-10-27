@@ -73,48 +73,52 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "Why cash loses buying power, how it's measured, and what it does to every other station on this map.",
-    "hook": null,
+    "hook": "Nobody takes money out of your account. It just buys less each year.",
     "related": [],
     "connects": [
       "I10"
     ],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "BLS Consumer Price Index",
+      "September 2026: all-items index up 3.7% over the last 12 months (released October 14",
+      "2026) · https://www.bls.gov/news.release/cpi.nr0.htm · 2026-10-14"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "The general rise in prices over time, which means each dollar buys a little less. It's measured by indexes like the Consumer Price Index, a basket of goods and services priced every month. In September 2026 the CPI was up 3.7% from a year earlier. Inflation is the reason savings rates, loan rates, wages, and investment returns all get discussed as 'real' (after inflation) or 'nominal' (before).",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Everyone, whether they think about it or not. It hits hardest on cash and fixed payments: a savings balance earning less than inflation shrinks in buying power, and a fixed pension or bond coupon buys less each year. It's kinder to people who owe fixed-rate debt, because they repay with cheaper dollars.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Nobody collects it directly. But a bank paying 0.4% on savings while prices rise 3.7% is paying you a negative real rate and lending the money out at a positive one. Any product that quotes a return without saying 'after inflation' is quoting the bigger number.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Keeping decades of savings in cash because it feels safe. Judging a raise or a return without subtracting inflation. Assuming the official index matches your own costs; rent and healthcare can run well above the headline number.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What's the inflation rate right now, and what does my savings account pay? What's the real return on this? Is this payment fixed for life, or does it adjust? What did the same thing cost five years ago?",
         "long": null
       }
     ],
@@ -131,48 +135,52 @@
     ],
     "also": [],
     "zone": 4,
-    "status": "planned",
+    "status": "written",
     "summary": "Who sets the rate that moves your savings APY, your card APR, and your mortgage, and how to read a rate decision.",
-    "hook": null,
+    "hook": "Eight times a year, a committee sets one number. Your card, your savings, and your mortgage all move after it.",
     "related": [],
     "connects": [
       "I16"
     ],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "Federal Reserve FOMC statement",
+      "September 16",
+      "2026: target range raised 1/4 point to 3.75% to 4% · https://federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm · 2026-09-16"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "The Federal Reserve is the U.S. central bank. Its rate-setting committee meets eight times a year and sets a target range for the federal funds rate, which is what banks charge each other overnight. In September 2026 it raised that range to 3.75% to 4%. That one rate ripples outward: savings APYs, card APRs, auto and personal loan rates, and (less directly) mortgage rates all follow it.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Nobody signs up for it; it happens to everyone with a loan, a deposit, or a job. Borrowers with variable rates (cards, HELOCs, some student loans) feel each move within a billing cycle or two. Savers feel it when banks adjust, which is faster on the way down than on the way up.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "The Fed doesn't make money off you. Banks do, in the gap between how quickly they pass rate rises to your loans and how slowly they pass them to your savings. The lag is where the margin lives.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Reading a rate decision as a prediction of what comes next; the committee says what it did, not what it will do. Locking a long-term rate the day before a cut, or carrying a variable balance into a hike. Assuming mortgage rates move with the Fed; they track longer-term bond yields and often go the other way.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "Is this rate fixed or variable? If variable, what is it tied to and how fast does it reset? What happened to this product's rate after the last Fed move? Where does the next decision date fall relative to my decision?",
         "long": null
       }
     ],
@@ -439,46 +447,53 @@
     ],
     "also": [],
     "zone": 2,
-    "status": "planned",
+    "status": "written",
     "summary": "A health savings account with three tax breaks, and why some people treat it as a retirement account.",
-    "hook": null,
+    "hook": "The only account where the money goes in untaxed, grows untaxed, and comes out untaxed.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "IRS Rev. Proc. 2025-19 via IFEBP: 2026 HSA limits $4",
+      "400 self-only",
+      "$8",
+      "750 family; HDHP minimum deductible $1",
+      "700 / $3",
+      "400 · https://www.ifebp.org/detail-pages/news/2025/05/01/irs-releases-2026-hsa--hdhp--and-hra-inflation-adjusted-amounts · 2025-05-01"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "A savings account tied to a high-deductible health plan. Contributions skip income tax, growth isn't taxed, and withdrawals for medical costs aren't taxed either: three breaks, where a 401(k) or Roth gets two. In 2026 the limits are $4,400 for one person and $8,750 for a family. Unlike a flexible spending account, the balance rolls over forever and goes with you when you change jobs.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "People on a high-deductible plan through work or the marketplace. Some use it as a checking account for copays. Others pay medical bills out of pocket, invest the HSA, and keep the receipts, treating it as a second retirement account that happens to be medical.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "The bank or custodian running the account charges a monthly fee, pays little interest on the cash portion, and often requires a minimum cash balance before you can invest the rest. Some charge for the investment menu too. Employers pick the custodian; you can move the money to another one.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Spending it on something that isn't a qualified medical cost, which brings tax plus a penalty before 65. Leaving years of contributions in cash. Not realizing the high-deductible plan itself can cost more if you need a lot of care that year. Losing receipts for the expenses you meant to reimburse later.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "Is my health plan HSA-eligible? What does the custodian charge, and what's the cash minimum before investing? Does my employer contribute anything? If I leave this job, can I move the account?",
         "long": null
       }
     ],
@@ -495,46 +510,46 @@
     ],
     "also": [],
     "zone": 2,
-    "status": "planned",
+    "status": "written",
     "summary": "Lock money up for a set term for a set rate. The penalty for leaving early is the product.",
-    "hook": null,
+    "hook": "The bank pays you more to promise you won't ask for it back.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "A certificate of deposit: you hand the bank a sum for a set term (three months to five years) at a rate fixed for the whole term. At the end you get the sum back plus the interest. Take it out early and you pay a penalty, usually a few months of interest. Covered by FDIC insurance like any deposit.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "People with money they know they won't touch for a while and who want a rate locked in. Common for a house down payment a year out, or a chunk of an emergency fund past the first few months. Also popular with anyone who doesn't trust themselves not to dip into savings.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "The bank lends your locked-up money out at a higher rate and keeps the difference, same as any deposit, but a CD lets it plan because it knows the money stays. The early-withdrawal penalty is the product: it's what makes the higher rate possible. Many CDs auto-renew at whatever the rate is that day, which is often lower than the one you signed up for.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Needing the money early and eating the penalty. Locking a long term right before rates go up and watching savings accounts pass you. Missing the renewal window and getting rolled into a worse rate. Chasing a promo rate at a bank you'll never use again.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What's the penalty, in months of interest? What happens at maturity if I do nothing? Is this rate fixed for the whole term? How does it compare to a plain high-yield savings account right now, and what am I giving up for the difference?",
         "long": null
       }
     ],
@@ -551,48 +566,56 @@
     ],
     "also": [],
     "zone": 2,
-    "status": "planned",
+    "status": "written",
     "summary": "Looks like savings, is actually an investment fund. Not FDIC insured, and that difference matters.",
-    "hook": null,
+    "hook": "It looks like a savings account. It's an investment fund. One of them is insured.",
     "related": [],
     "connects": [
       "I6"
     ],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "SEC Investor Bulletin: money market funds are not FDIC insured; the Reserve Primary Fund fell below $1.00 per share in September 2008 · https://www.sec.gov/investor/alerts/mmf-investoralert.htm · 2026-10-26",
+      "SIPC: protection up to $500",
+      "000 per customer",
+      "including $250",
+      "000 for cash",
+      "against the failure of a brokerage",
+      "not against market loss · https://www.sipc.org/for-investors/what-sipc-protects · 2026-10-26"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "A mutual fund that holds very short-term, high-quality debt (Treasury bills, bank paper) and tries to keep its share price at exactly $1.00 while paying out the interest. Brokerages use them as the default place for uninvested cash. It's an investment, so it is not FDIC insured; if the brokerage fails, SIPC covers custody, not the value.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Anyone with cash sitting at a brokerage, often without knowing it. Also people who want a savings-like yield on money they'll invest soon, and businesses parking payroll.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "The fund charges an expense ratio, taken out of the yield before you see it. Brokerages often pay a lower sweep rate on your idle cash than their own money market fund yields, and they keep the gap unless you move the cash into the fund yourself.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Assuming it's insured. In 2008 one large fund's price dropped below $1.00 and investors lost money, which is why the SEC rewrote the rules afterward. Confusing a money market fund with a bank's money market account, which is a deposit and is insured. Not noticing the expense ratio on a fund whose entire return is a few percent.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "Is this a fund or a bank account? What's the expense ratio? What does it hold: Treasuries only, or bank and corporate paper? What's the yield after fees compared with my bank's savings rate?",
         "long": null
       }
     ],
@@ -1052,46 +1075,52 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "The biggest loan most people take, the insurance you pay when you put less than 20% down, and what escrow is.",
-    "hook": null,
+    "hook": "Thirty years, one signature, and a fee for not having a fifth of the price in cash.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "Freddie Mac Primary Mortgage Market Survey: 30-year fixed 7.32%",
+      "15-year fixed 6.68% for the week of October 22",
+      "2026 · https://www.freddiemac.com/pmms · 2026-10-22",
+      "CFPB: when can I remove private mortgage insurance (Homeowners Protection Act: request cancellation at 80% of original value",
+      "automatic at 78%) · https://www.consumerfinance.gov/ask-cfpb/when-can-i-remove-private-mortgage-insurance-pmi-from-my-loan-en-202/ · 2026-10-26"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "A loan to buy a home, secured by the home. Most are fixed for 15 or 30 years; in late October 2026 the average 30-year rate was 7.32% and the 15-year 6.68%. Put down less than 20% on a conventional loan and the lender adds private mortgage insurance (PMI), a monthly charge that protects the lender, not you. Escrow is the extra each month the lender collects to pay your property tax and homeowner's insurance.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Most homebuyers. First-time buyers are the ones most likely to pay PMI, because 20% of a house price is a lot of cash. FHA and VA loans have their own versions of mortgage insurance with different rules.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Interest over decades: on a 30-year loan the first years' payments are mostly interest. Then origination fees, points, and closing costs at the start. PMI is pure margin for the lender's risk. Servicers also earn float on the escrow balance they hold.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Shopping by monthly payment and ignoring the rate and fees behind it. Not knowing PMI can be removed: by law you can ask once the loan hits 80% of the original value, and it drops automatically at 78%. Escrow shortfalls when taxes or insurance rise, which show up as a payment jump. Stretching to the maximum the lender approves.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What's the APR, including fees, not just the rate? What's the total I'd pay over the life of the loan? When does PMI come off, and do I have to ask? What's in the escrow estimate, and what happens when it's short?",
         "long": null
       }
     ],
@@ -1108,46 +1137,50 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "Replacing a loan with a cheaper one, when the closing costs make it worth it, and when they don't.",
-    "hook": null,
+    "hook": "A lower rate is the headline. The closing costs are the fine print, and the clock restarts.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "Freddie Mac Primary Mortgage Market Survey: 30-year fixed 7.32%",
+      "15-year fixed 6.68% for the week of October 22",
+      "2026 · https://www.freddiemac.com/pmms · 2026-10-22"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Replacing an existing loan with a new one, usually to get a lower rate, a shorter term, or cash out of home equity. The new loan pays off the old one. You pay closing costs again (appraisal, title, origination), and on a mortgage the amortization clock starts over, so early payments go back to being mostly interest.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Homeowners when rates fall below what they locked in. Also people consolidating debt into a home loan, and student-loan borrowers moving to a private lender. In a 7% mortgage environment like late 2026, fewer people have a rate worth refinancing out of.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "The lender earns fresh origination fees and points, and a brand-new 30-year interest schedule. 'No-closing-cost' refinances roll the costs into the balance or a higher rate. Cash-out refinances turn unsecured debt into debt secured by your house.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Refinancing for a small rate drop and never staying long enough for the savings to cover the costs. Resetting a 30-year loan with 20 years left and paying more total interest despite the lower rate. Refinancing federal student loans into private ones and losing income-based repayment and forgiveness options. Cashing out equity to pay off cards, then running the cards back up.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What are the total closing costs, and how many months of savings does it take to recover them? Will I still be here then? What's the total interest on the new loan versus finishing the old one? For student loans: what federal protections am I giving up?",
         "long": null
       }
     ],
@@ -1228,48 +1261,48 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "Not putting it all in one place. What it protects against, and what it doesn't.",
-    "hook": null,
+    "hook": "It's not about owning more things. It's about owning things that don't all fall on the same day.",
     "related": [],
     "connects": [
       "C10"
     ],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Spreading money across investments that don't move together: many companies instead of one, several industries, more than one country, stocks and bonds rather than only stocks. The point is that one bad outcome, a company failing or a sector collapsing, doesn't take the whole account with it. A broad index fund is diversification in one purchase.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Everyone, including people who think they're diversified because they own ten tech stocks. Also the employee whose retirement account is heavy in their own company's shares, which puts their paycheck and their savings on the same bet.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Diversification itself is free. Products sold under its name aren't: overlapping funds that each charge a fee while holding the same stocks, 'alternative' investments with high costs and lockups pitched as diversifiers, and advisors charging to assemble what one fund already does.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Owning twelve funds that all hold the same large U.S. companies. Thinking it protects against a market-wide drop; it doesn't, it protects against a single-name drop. Mistaking it for a guarantee against loss. Diversifying so far into obscure things that fees eat the benefit.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "If my biggest holding went to zero, what would happen to the account? How much overlap is there between these funds? How much is in my employer's stock? What's the one thing that, if it went wrong, would hurt everything I own at once?",
         "long": null
       }
     ],
@@ -1286,46 +1319,51 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "Investing a fixed amount on a schedule regardless of price. What it does to your average cost, and what it doesn't.",
-    "hook": null,
+    "hook": "Same amount, same day each month, no matter the price. The math is modest. The habit is the point.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "Vanguard",
+      "'Cost averaging: Invest now or temporarily hold your cash?' (lump sum came out ahead of a 3-month cost-averaging plan about two-thirds of the time",
+      "1976 to 2022",
+      "across markets) · https://corporate.vanguard.com/content/dam/corp/research/pdf/cost_averaging_invest_now_or_temporarily_hold_your_cash.pdf · 2023-02-01"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Investing a fixed amount on a regular schedule regardless of what the market is doing. When prices are low the amount buys more shares; when high, fewer. Anyone contributing from each paycheck into a 401(k) is already doing it. The alternative, for a lump sum, is investing it all at once.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Most people, by default, because money arrives in paychecks. Also people who received a lump sum (bonus, inheritance, sale) and are nervous about putting it all in the day before a drop.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Nobody charges for the idea. Brokers do earn more when it's done in small frequent trades with spreads or commissions on each one, and apps built around 'round-ups' and micro-investing often charge flat monthly fees that are a large percentage of a small balance.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Treating it as a way to beat the market. Vanguard's research found that for a lump sum, investing it all at once came out ahead of spreading it over three months about two-thirds of the time, because markets have risen more often than fallen. Cost averaging reduces regret, not expected return. Stopping the schedule during a drop, which is the moment it does the most.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "Am I doing this because money arrives monthly, or because I'm nervous about a lump sum? What does each purchase cost me in fees or spread? If the market fell by a third next month, would I keep the schedule?",
         "long": null
       }
     ],
@@ -1342,46 +1380,51 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "Cash a company pays holders, how it's taxed, and why a high yield can be a warning rather than a gift.",
-    "hook": null,
+    "hook": "A dividend isn't free money. The share price drops by the same amount the morning it's paid.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "IRS Topic No. 404",
+      "Dividends: qualified dividends taxed at the 0%",
+      "15%",
+      "or 20% capital gains rates; ordinary dividends at regular income rates · https://www.irs.gov/taxtopics/tc404 · 2026-10-26"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Cash a company pays out to shareholders from its profits, usually quarterly. The yield is the annual dividend divided by the share price. On the day a dividend is paid, the share price drops by about that amount; the money moved from the company's account to yours. In a taxable account, 'qualified' dividends are taxed at the lower capital-gains rates; others at regular income rates.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Anyone who owns stocks or stock funds gets them, often reinvested automatically. Retirees sometimes build portfolios around them for income. Dividend-focused funds and 'high-yield' strategies are marketed heavily to people who want cash flow without selling shares.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "The company doesn't profit from paying you. Funds built around dividends charge expense ratios like any other, and some 'income' products use options or leverage to manufacture a high payout while the underlying value erodes. Tax is the quiet cost: dividends in a taxable account are taxed the year they're paid whether you wanted the cash or not.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Chasing a high yield without asking why it's high; often the share price has fallen because the business is in trouble and the dividend is about to be cut. Thinking dividends are extra return on top of price gains. Holding dividend payers in a taxable account when a retirement account would shelter them.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "Why is this yield higher than similar companies? Has the dividend ever been cut? Is it qualified for tax purposes? Am I holding this in the right kind of account? What's the total return including price, not just the yield?",
         "long": null
       }
     ],
@@ -1398,46 +1441,46 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "Selling what grew to buy what shrank, back to your target mix. How often, and why it feels wrong.",
-    "hook": null,
+    "hook": "Sell some of what went up. Buy some of what went down. It feels wrong every single time.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Bringing a portfolio back to its intended mix after markets move it. If the plan was 70% stocks and 30% bonds and a good year made it 78/22, rebalancing sells some stock and buys bonds to get back to 70/30. It's done on a calendar (once a year), on a trigger (when the mix drifts by a set amount), or by directing new contributions to whatever is under target.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Anyone with more than one kind of investment. Target-date funds and robo-advisors do it automatically; that's a large part of what they charge for. People managing their own 401(k) often never do it, which is how a retirement account quietly becomes all stocks.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Each trade can carry a spread or commission, and in a taxable account selling a winner triggers capital gains tax. Services sell automatic rebalancing as a feature worth an ongoing fee, when a once-a-year calendar reminder does most of it.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Never doing it, so risk creeps up during booms and the account is at its riskiest right before a fall. Doing it too often and paying taxes and spreads for tiny adjustments. Rebalancing in a taxable account when it could be done free inside the 401(k). Abandoning the plan during a crash, when rebalancing means buying the thing that just dropped.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What mix did I set out to hold, and what is it now? Can I rebalance with new contributions instead of selling? Which account can I do this in without triggering tax? When did I last check?",
         "long": null
       }
     ],
@@ -1454,46 +1497,46 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "How much drop you can sit through without selling. A behavior, not a questionnaire score.",
-    "hook": null,
+    "hook": "Everyone is a long-term investor until the account is down 30%.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "How much of a drop you can sit through without selling. It's a behavior, discovered in a real decline, not a score from a ten-question quiz. It has two parts people conflate: capacity (how much loss your life can absorb: time until you need the money, stability of income) and tolerance (how much you can stomach). A twenty-five-year-old has high capacity and may still have low tolerance.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Every investor, whether they've named it or not. Brokerages and advisors ask about it on sign-up because regulators require them to match what they sell to what the client can bear.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "The questionnaire is free. What's sold on the back of it isn't: 'conservative' portfolios heavy in high-fee products, annuities pitched to anyone who checked 'I worry about losses,' and advisory fees for managing anxiety rather than money. Panic-selling in a crash is the most expensive thing most people ever do, and someone is on the other side of that trade.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Answering the questionnaire in a calm year and finding out the answer in a bad one. Confusing a long time horizon with a strong stomach. Holding all stocks because that's what 'aggressive' people do, then selling at the bottom. Holding all cash because a drop once scared you and losing decades to inflation.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "How much did a portfolio like this fall in 2008 and in 2020, in dollars, not percent? What would I have done? When do I need this money? If it dropped by a third tomorrow, what's my plan, written down now?",
         "long": null
       }
     ],
@@ -1510,46 +1553,46 @@
     ],
     "also": [],
     "zone": 4,
-    "status": "planned",
+    "status": "written",
     "summary": "P/E, market cap, and the other numbers on a quote page, and what each one can and can't tell you.",
-    "hook": null,
+    "hook": "The quote page has a dozen numbers. Two of them matter, and neither tells you what to do.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "The numbers on a stock quote page and what they mean. Market cap: share price times shares outstanding, the total price of the company. P/E ratio: price divided by a year's earnings per share, roughly how many years of profit you're paying for. Earnings per share, revenue, dividend yield, and 52-week range fill out the rest. None is a verdict; each is a measurement.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Anyone who looks at an individual stock. Analysts and fund managers run deeper versions. Most index-fund investors never need them, and that's fine; the numbers matter for understanding what you own, not for timing anything.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "The data is free. What's sold is interpretation: stock-picking newsletters, screeners with premium tiers, 'undervalued stock' lists, and courses that teach a formula as if it were a secret. Brokers benefit when the numbers prompt trading.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Comparing P/E across industries where normal ranges differ wildly. Treating a low P/E as 'cheap' when it may mean the market expects earnings to fall. Looking at share price alone, which says nothing without the share count. Mistaking a story about a company for its numbers, or the numbers for the whole story.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What's the market cap, and what business is actually worth that much? What's the P/E, and what's typical for this industry? Are earnings growing or shrinking? What would have to be true for this price to make sense?",
         "long": null
       }
     ],
@@ -1566,48 +1609,48 @@
     ],
     "also": [],
     "zone": 4,
-    "status": "planned",
+    "status": "written",
     "summary": "Why bond prices fall when rates rise, what a yield curve is, and why people watch its shape.",
-    "hook": null,
+    "hook": "When rates go up, the bond you already own goes down. Here's why that's not a contradiction.",
     "related": [],
     "connects": [
       "C11"
     ],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "A bond's yield is what it pays relative to its price. Prices and yields move opposite: if new bonds pay more, nobody pays full price for an old one paying less, so its price falls until the two match. The yield curve plots yields of government bonds from short to long maturity. Normally longer bonds pay more. When short-term yields rise above long-term, the curve is 'inverted,' which has often come before recessions and is watched for that reason.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Anyone with a bond fund, including most target-date and balanced funds. Savers comparing CDs to Treasuries. Homebuyers, indirectly: mortgage rates track the 10-year Treasury yield more than they track the Fed.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Bond funds charge expense ratios. Brokers earn a markup (the spread) on individual bonds that doesn't show up as a commission. Rising rates cost bond holders through price drops; falling rates cost savers through lower yields. Banks live in the gap between short rates they pay depositors and long rates they lend at.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Learning that bonds can lose money the year it happens, as many did in 2022. Buying a long-term bond fund for 'safety' when it has more rate risk than a short one. Reading an inverted curve as a certain forecast; it's a signal with a mixed record, not a schedule.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What's the duration of this bond fund, and what does that mean if rates rise one point? What's the yield after the expense ratio? Is this a Treasury or corporate bond, and what's the default risk? What's the 10-year yield doing, and why do I care?",
         "long": null
       }
     ],
@@ -1627,46 +1670,46 @@
       "T7"
     ],
     "zone": 4,
-    "status": "planned",
+    "status": "written",
     "summary": "Borrowing to invest or trade. Multiplies gains and losses alike, and the broker gets paid either way.",
-    "hook": null,
+    "hook": "Borrowed money doubles the gain and doubles the loss. The lender gets paid either way.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Using borrowed money to control more of an investment than your cash alone would buy. Margin loans at a broker, leveraged ETFs that aim for two or three times an index's daily move, options and futures, and a mortgage on a rental property are all forms. Gains and losses both scale with the borrowed amount; the loan and its interest don't shrink when the asset does.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Traders, by design. Everyday investors, often by accident: a leveraged ETF bought because it was 'the 3x version,' or a margin loan taken to avoid selling. Real estate investors use it deliberately, with the property as collateral.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Interest on the borrowed amount, charged daily, in good markets and bad. Leveraged ETFs carry higher expense ratios and lose value over time from the daily reset even when the index goes nowhere. Brokers collect margin interest and can force-sell your positions at the worst moment to protect their loan.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Losing more than you put in. A margin call that sells you out at the bottom. Holding a daily-reset leveraged fund for months and getting a return nothing like three times the index. Treating leverage as a way to catch up after a loss.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What am I paying to borrow, and what return does the investment need to cover it? What's the worst case, in dollars? Who decides when I'm sold out, and at what level? Is this fund designed to be held for one day or one year?",
         "long": null
       }
     ],
@@ -1683,46 +1726,52 @@
     ],
     "also": [],
     "zone": 5,
-    "status": "planned",
+    "status": "written",
     "summary": "How much a portfolio can pay out each year without running dry, and where the famous 4% came from.",
-    "hook": null,
+    "hook": "The famous 4% came from one planner, one spreadsheet, and the worst years of the 1960s.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "William Bengen",
+      "'Determining Withdrawal Rates Using Historical Data",
+      "' Journal of Financial Planning",
+      "October 1994 (origin of the 4% figure",
+      "tested on 30-year periods from 1926) · https://www.financialplanningassociation.org/sites/default/files/2020-05/MAR04%20Determining%20Withdrawal%20Rates%20Using%20Historical%20Data.pdf · 1994-10-01"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "How much a retirement portfolio can pay out each year without running dry. In 1994 a financial planner named William Bengen tested every 30-year stretch since 1926 and found that a first-year withdrawal of 4% of the portfolio, raised each year for inflation, had survived all of them, including the stretch beginning in the late 1960s. That's the origin of 'the 4% rule.' It's a historical finding about a 50/50 stock-bond mix, not a law.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Anyone planning to live off savings, and anyone trying to figure out how much savings that takes. Advisors, planning software, and retirement calculators all build on some version of it.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "The research is public. The industry around it sells certainty: annuities marketed as the answer to running out, advisory fees for a withdrawal plan, and 'income' products with high costs. Guaranteed-income pitches target exactly the fear this topic raises.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Treating 4% as safe for any portfolio, any time horizon, any market. A bad first few years (sequence risk) hurts far more than the same bad years later. Withdrawing a fixed amount from an all-stock portfolio. Ignoring taxes: a withdrawal from a traditional IRA is income; from a Roth it isn't.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What mix is this portfolio, and what time horizon am I planning for? What happens to the plan if the first three years are bad? Which accounts do I draw from first, and what's the tax on each? What's my plan to adjust if the balance falls?",
         "long": null
       }
     ],
@@ -1739,46 +1788,46 @@
     ],
     "also": [],
     "zone": 5,
-    "status": "planned",
+    "status": "written",
     "summary": "Beneficiaries, wills, and why the form you filled out at the bank can override the will.",
-    "hook": null,
+    "hook": "The form you filled out when you opened the account beats the will you paid a lawyer to write.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "What happens to your accounts and property when you die. A will covers things that don't already have a named recipient. Retirement accounts, life insurance, and many bank and brokerage accounts pass by beneficiary designation, the form on file with the institution, and that form overrides the will. Property with no clear path goes through probate, a court process that is public, slow, and costs money.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Everyone with an account or a dependent, which is everyone. Especially anyone who has married, divorced, or had a child since they opened an account; the beneficiary form doesn't update itself.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Probate fees, attorney fees, and in some states a percentage of the estate. Institutions charge nothing for a beneficiary form, which is why it's the single highest-value piece of paperwork in personal finance. Estate-planning packages and trusts are sold to people whose situation a form and a simple will would cover.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "An ex-spouse still named on the 401(k). No beneficiary at all, which sends a retirement account through probate and can trigger a faster, larger tax bill for heirs. A minor named directly, who can't legally receive it. Nobody knowing where the accounts are.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "Who is the beneficiary on each of my accounts, right now? Is there a contingent? Does anyone I trust know what accounts exist? What in my situation actually needs a will or a trust, and what's already handled by the forms?",
         "long": null
       }
     ],
@@ -2350,48 +2399,52 @@
     ],
     "also": [],
     "zone": 2,
-    "status": "planned",
+    "status": "written",
     "summary": "Apps that look like banks but aren't. Where your money actually sits, and what happens if the app fails.",
-    "hook": null,
+    "hook": "The app has a debit card and a routing number. It is not a bank, and the difference showed up in 2024.",
     "related": [],
     "connects": [
       "C4"
     ],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "FDIC Consumer News",
+      "Banking With Third-Party Apps: deposit insurance covers bank failure",
+      "not the failure of a nonbank app; pass-through coverage depends on the app's records · https://www.fdic.gov/consumer-resource-center/2024-06/banking-third-party-apps · 2024-06-01"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Apps that offer checking-like accounts, cards, and savings but aren't banks themselves. They hold your money at a partner bank behind the scenes, often through a middleman that keeps the ledger of whose money is whose. The FDIC insures the bank; it does not insure the app or the middleman. If the app or its ledger-keeper fails, getting your money back depends on how good their records were.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Younger customers, people frustrated with bank fees, gig workers who get paid through the app, and anyone who signed up for a high promotional rate. Many don't know they aren't at a bank.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Interchange fees every time you swipe the card, interest on your deposits that the partner bank shares with the app, subscription tiers, instant-transfer fees, and sometimes the sale of your transaction data. The 'no fees' pitch means no monthly fee; it doesn't mean free.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "The middleman failing. In 2024 a ledger company between several apps and their banks collapsed, and customers were locked out for months while regulators tried to reconstruct who was owed what. Thinking 'FDIC insured' on the app's website means the app is insured. No branch and a chatbot when something goes wrong. Account freezes with no human to call.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "Which bank actually holds my money? Is the account in my name at that bank, or in the app's name? What happens to my money if the app shuts down? How do I reach a person?",
         "long": null
       }
     ],
@@ -2408,48 +2461,50 @@
     ],
     "also": [],
     "zone": 2,
-    "status": "planned",
+    "status": "written",
     "summary": "Automated portfolios for a fee. What they do, what the fee buys, and what a target-date fund does for less.",
-    "hook": null,
+    "hook": "A computer builds the portfolio a target-date fund already is, and charges a little extra for the dashboard.",
     "related": [],
     "connects": [
       "I4"
     ],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "Betterment pricing page: Digital plan 0.25% annual fee (example of the category) · https://www.betterment.com/pricing · 2026-10-26"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "An automated investing service: answer a questionnaire, get a portfolio of low-cost index funds matched to it, and the service rebalances and (on some tiers) tax-loss harvests for you. Fees are typically around a quarter of a percent a year on top of the funds' own expense ratios. The main examples are standalone apps and the robo arms of the big brokerages.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "People who want to invest without choosing funds and without an advisor's price tag. Common for a first brokerage account or a rollover IRA.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "The advisory fee, every year, on the whole balance, regardless of performance. Some keep a cash allocation that earns the firm interest. Premium tiers add human advisors and higher fees. The underlying funds charge their own expense ratios on top.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Paying 0.25% a year for what a single target-date or balanced fund does for less. Multiple accounts across multiple robos, each with its own fee. Not realizing the questionnaire's 'risk score' drives everything and you answered it in five minutes. Assuming the tax-loss harvesting feature is worth the fee when the account is small or in an IRA.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What's the total I pay, the advisory fee plus the funds' expense ratios? What does a target-date fund with the same mix cost? How much cash does the portfolio hold, and who earns the interest on it? What am I getting that a single fund doesn't do?",
         "long": null
       }
     ],
@@ -2466,46 +2521,46 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "How to evaluate one: who trained it, what it sells, whether it personalizes, and what it can't know about you.",
-    "hook": null,
+    "hook": "It answers instantly, sounds sure, and doesn't know your balance, your taxes, or what it was trained to sell.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Chatbots and apps that answer money questions, categorize spending, or suggest what to do with cash. Some are general assistants; some are built into banks, brokers, and budgeting apps. Four questions sort them: who built it and what they sell, whether it personalizes (and if so, whether anyone is licensed to), what data it keeps, and what it can't know about you.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Nearly everyone now, often without noticing: the 'ask us anything' box in a banking app, the budgeting assistant, the chatbot a friend screenshots. People use them for exactly the questions they're embarrassed to ask a person.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "If it's inside a product, the product's incentives are its incentives: a bank's assistant explains the bank's accounts, a broker's assistant is comfortable with trading. Standalone tools earn through subscriptions, data, or referrals to the things they mention. An answer that ends with a specific product to open is a sales channel, whatever it calls itself.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Trusting a number it stated with confidence and never checking it. Giving it account details it stores. Taking a recommendation from something that isn't licensed to give one and has no liability if it's wrong. Mistaking fluency for accuracy.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "Who made this and how do they make money? Is it telling me what something is, or what I should do? Where did that number come from, and can I find the source? What did I just give it, and where does that go?",
         "long": null
       }
     ],
@@ -2522,46 +2577,46 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "How to spot it, why it hallucinates numbers, and the questions to ask before trusting any explainer, including this one.",
-    "hook": null,
+    "hook": "If an explainer has no author, no date, and no sources, including this one, that's your answer.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Articles, videos, and posts about money produced wholly or mostly by AI, which now make up a large share of what a search returns. They read smoothly, cite nothing, and state figures that are sometimes years stale or invented. The tells: no named author, no date, numbers with no source, generic advice that could apply to anyone, and a product link at the end.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Anyone who searches a money question. The content is built to rank, not to be right, and it increasingly outranks the primary sources it paraphrases.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Ad revenue and affiliate links. A page that explains high-yield savings accounts and ends with three 'top picks' is paid when you click. The explanation is the bait; the links are the business. Volume is cheap, so the incentive is to produce more, not better.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Acting on a rate, limit, or rule that changed two years ago. Trusting a confident paragraph about tax law that was never checked. Not noticing the same wrong figure repeated across ten sites because they all copied each other. Reading an ad as an explainer.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "Who wrote this and when? Where does each number come from, and can I click through to it? Does the page get paid if I click something? Does it tell me what a thing is, or push me toward one? Would this still be true if the writer had nothing to sell me?",
         "long": null
       }
     ],
@@ -2578,46 +2633,50 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "Tokens, exchanges, wallets, and what a stablecoin is actually backed by. The custody risk nobody explains.",
-    "hook": null,
+    "hook": "Whoever holds the keys holds the coins. If that's an exchange, you own an IOU.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "GENIUS Act",
+      "Public Law 119-27 (signed July 18",
+      "2025): payment stablecoin issuers must hold 1:1 reserves in cash and short-term Treasuries and publish monthly reserve reports · https://www.congress.gov/bill/119th-congress/senate-bill/1582 · 2025-07-18"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Digital tokens recorded on a blockchain, a shared ledger no single company controls. Bitcoin and ether are the largest. A stablecoin is a token meant to hold a fixed value, usually one dollar; since a 2025 federal law, U.S. payment stablecoin issuers must back each token one-for-one with cash and short-term Treasuries and publish monthly reports. You hold crypto either in your own wallet (you control the keys) or at an exchange (they do).",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Traders, people moving money across borders, people who distrust banks or their government's currency, and a lot of people who bought because a price was going up. Stablecoins are used for trading pairs and, increasingly, for payments.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Exchanges charge trading fees, spreads, withdrawal fees, and earn interest on the cash and stablecoins customers leave with them. Stablecoin issuers keep the interest on the reserves; the token pays you nothing. 'Yield' programs lend your coins out and keep part of the return, with your coins as the thing at risk.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "An exchange failing with customer coins inside; several have. Losing the keys to a self-custody wallet, which is permanent. Sending to a wrong address, which is also permanent. Tax: every swap between coins is a taxable sale. Scams, which are over-represented here because payments can't be reversed.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "Where are my coins held, and who controls the keys? If this exchange failed tomorrow, what would I be? What backs this stablecoin, and where's the report? What's the total fee on a round trip in and out? Have I recorded every trade for taxes?",
         "long": null
       }
     ],
@@ -2634,46 +2693,46 @@
     ],
     "also": [],
     "zone": 4,
-    "status": "planned",
+    "status": "written",
     "summary": "Stocks and real estate on a blockchain. What's real, what's a wrapper, and who holds the underlying thing.",
-    "hook": null,
+    "hook": "A token that says 'one share of a company' is a claim on whoever is holding the actual share.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Traditional assets (stocks, Treasuries, real estate, funds) represented as tokens on a blockchain. The token usually isn't the asset; it's a claim on an asset that a company holds in custody somewhere. The pitch is 24-hour trading, fractional ownership, and faster settlement. The question is always what sits behind the token and what legal rights the holder has to it.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Early adopters, crypto traders who want exposure to stocks without leaving their platform, overseas investors reaching U.S. assets, and institutions testing settlement systems. Still a small corner of the market.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Issuance and redemption fees, trading spreads on thin markets, and custody fees on the underlying asset. Some tokens don't pass through dividends or voting rights, so the issuer keeps what the real shareholder would get.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Discovering the token conveys a contract with the issuer, not ownership of the share, when the issuer gets into trouble. Thin liquidity: a price that exists on screen but not when you try to sell. Regulatory status that's still being worked out, with products that may be pulled from U.S. customers. Paying a premium over the real asset's price for the convenience.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What exactly do I own: the asset, or a claim on a company that holds it? Who's the custodian and who audits them? Do I get the dividends and votes? What happens if the issuer fails? What does the same asset cost in a regular brokerage account?",
         "long": null
       }
     ],
@@ -2690,46 +2749,46 @@
     ],
     "also": [],
     "zone": 4,
-    "status": "planned",
+    "status": "written",
     "summary": "Betting on events, priced as probabilities. How the odds are set and why they're not quite forecasts.",
-    "hook": null,
+    "hook": "The market says 62%. That's a price, set by people with money on the line. It's not quite a forecast.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Markets where you buy and sell contracts that pay out if an event happens: an election result, a Fed decision, a sports outcome. A contract trades between zero and one dollar, and its price is read as the crowd's probability. The platforms are regulated in the U.S. as exchanges for event contracts; the legal line between this and gambling is still being argued in court and state by state.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Traders, political junkies, hedgers (someone whose business depends on a rate decision), and journalists quoting the odds. Volume spikes around elections and big economic releases.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Trading fees, a spread between buy and sell prices, and interest on the cash you deposit while you wait for a contract to resolve. Like any exchange, the house earns on volume, not on which side wins.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Reading the price as a forecast when it reflects who's betting and how much; a thin market can be moved by one large trade. Betting on things you think you understand because of your job, which can be insider trading. Chasing losses. Ambiguous resolution rules that pay out on a technicality.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "Who's on the other side of this, and why? How much volume is behind this price? What exactly counts as 'yes,' and who decides? What are the fees on a round trip? Do I know something about this outcome that I'm not allowed to trade on?",
         "long": null
       }
     ],
@@ -2806,46 +2865,53 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "What you owe when you sell something for more than you paid, and why holding a year changes the rate.",
-    "hook": null,
+    "hook": "Hold it 366 days instead of 365 and the tax rate on the gain can drop by half or more.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "Kiplinger",
+      "citing IRS 2026 inflation adjustments: 0% long-term capital gains rate up to $49",
+      "450 taxable income (single) and $98",
+      "900 (married filing jointly); 20% above $545",
+      "500 / $613",
+      "700 · https://www.kiplinger.com/taxes/irs-updates-capital-gains-tax-thresholds · 2026-03-09"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "The tax on the profit when you sell something for more than you paid: stocks, funds, crypto, property. Held a year or less, the gain is 'short-term' and taxed like wages. Held more than a year, it's 'long-term' and taxed at 0%, 15%, or 20% depending on income. For 2026 the 0% rate covers taxable income up to $49,450 single or $98,900 married filing jointly. Losses offset gains. None of this applies inside a 401(k), IRA, or HSA.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Anyone who sells an investment in a taxable account. Also people selling a home (there's a large exclusion for a primary residence), a business, or collectibles (which have their own rate).",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "The government is the one collecting, but the cost shows up where you don't expect: mutual funds that pass capital gains to holders every year whether or not you sold; frequent trading that turns long-term gains into short-term ones; tax software that upsells for investment forms. Brokers report your cost basis, and mistakes there are yours to fix.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Selling at eleven months when another month would have cut the rate. Forgetting that reinvested dividends raise your cost basis, and paying tax twice. Not knowing a fund's distributions are taxable in a taxable account. Trading crypto between coins and not realizing each swap is a sale.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "How long have I held this? What's my cost basis, and does the broker have it right? What bracket does this gain land in? Would this be taxed differently inside a retirement account? Do I have losses that could offset it?",
         "long": null
       }
     ],
@@ -2862,46 +2928,54 @@
     ],
     "also": [],
     "zone": 4,
-    "status": "planned",
+    "status": "written",
     "summary": "Selling a loser to offset a winner's tax bill, and the wash-sale rule that trips people up.",
-    "hook": null,
+    "hook": "Sell the loser, bank the loss against the winner, buy something almost identical. Wait 31 days or it doesn't count.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "IRS Topic No. 409",
+      "Capital Gains and Losses: net capital losses offset up to $3",
+      "000 of other income per year ($1",
+      "500 married filing separately)",
+      "remainder carries forward · https://www.irs.gov/taxtopics/tc409 · 2026-10-26",
+      "IRS Publication 550: wash sale rule",
+      "30 days before or after the sale · https://www.irs.gov/publications/p550 · 2026-10-26"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Selling an investment that's down to realize the loss on paper, then using that loss to offset gains elsewhere, which cuts the tax bill. Losses beyond your gains can offset up to $3,000 of regular income a year, with the rest carrying forward. The catch is the wash-sale rule: buy the same or a 'substantially identical' investment within 30 days before or after the sale and the loss is disallowed.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "People with taxable brokerage accounts and gains to offset. Robo-advisors sell automated versions as a premium feature. Useless inside a 401(k) or IRA, where gains aren't taxed anyway.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "The tax benefit is real but it's a deferral, not a gift: the replacement investment has a lower cost basis, so the gain shows up later. Robo-advisors and advisors market it as a return-enhancer worth their fee. The IRS collects when the wash-sale rule is broken by accident.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Rebuying the same fund inside the window, including automatically through dividend reinvestment or a 401(k) contribution to the same fund, which triggers the rule across accounts. Selling a position just for the loss and missing a rebound while sitting in cash. Doing it in a year with no gains and a low bracket, where the loss is worth little.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What gains do I have this year to offset? What will I hold instead, and is it 'substantially identical'? Do any of my other accounts buy this same fund automatically? What's the new cost basis, and when will that gain come due?",
         "long": null
       }
     ],
@@ -3347,46 +3421,51 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "Getting paid without withholding: what you owe, when, and the quarterly payments nobody mentions.",
-    "hook": null,
+    "hook": "Nobody withheld anything. That's not a bonus. That's a bill arriving in April.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "IRS Form 1040-ES (2026): self-employment tax 15.3% (12.4% Social Security + 2.9% Medicare); estimated payments due April 15",
+      "June 15",
+      "September 15",
+      "January 15 · https://www.irs.gov/forms-pubs/about-form-1040-es · 2026-10-26"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Money earned outside a regular paycheck: freelancing, gig apps, a small business, selling things. It arrives with no tax withheld, and you owe both income tax and self-employment tax (15.3%, which is both halves of Social Security and Medicare that an employer would otherwise split with you). The IRS expects it paid through the year in four estimated payments, due around April 15, June 15, September 15, and January 15.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Anyone with a 1099 instead of a W-2: drivers, contractors, consultants, creators, resellers. Also W-2 employees with a side project that crosses a few hundred dollars of profit.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "The IRS charges a penalty for underpaying through the year, even if you pay in full in April. Platforms take their cut before you see the money and then report your gross to the IRS. Tax software charges extra for the self-employment forms. Bookkeeping and 'business formation' services sell structure most small side incomes don't need.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Spending all of it and meeting the tax bill in April. Not tracking expenses, which are deductible and reduce both taxes. Missing the quarterly dates. Not knowing that half the self-employment tax is itself deductible. Assuming a loss-making hobby can offset a salary.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "How much of each payment do I set aside? What expenses count against this income? Do I owe estimated payments this year? What did the platform report, and does my own record match it?",
         "long": null
       }
     ],
@@ -3403,46 +3482,46 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "Market, limit, stop. What each one promises, and when a market order costs you.",
-    "hook": null,
+    "hook": "'Buy' isn't an order. It's three different orders, and one of them can fill at a price you never saw.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Instructions to a broker. A market order says 'get me in now at whatever the price is.' A limit order says 'only at this price or better,' and may never fill. A stop order sits dormant until the price hits a trigger, then becomes a market order, which is how a stop set to limit a loss can fill well below the trigger in a fast move. A stop-limit adds a floor, at the cost of maybe not filling at all.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Everyone who places a trade, including people who only ever hit the big green button, which is usually a market order. Active traders use limits by default.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Market orders fill at the ask (buying) or the bid (selling), so you pay the spread every time. Brokers that sell your order flow to market makers earn more on market orders because those are the easiest to profit from. The fees are invisible; they show up as a slightly worse price.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "A market order on a thinly traded stock or ETF at the open, filling far from the last price you saw. A stop-loss triggered by a brief dip, selling you out right before the rebound. A limit set so tight it never fills while the price runs away. Not knowing which type the app's default button is.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What type of order is this button? What's the spread right now? If I use a stop, what happens in a gap down? Is this order good for the day or until cancelled?",
         "long": null
       }
     ],
@@ -3459,46 +3538,48 @@
     ],
     "also": [],
     "zone": 5,
-    "status": "planned",
+    "status": "written",
     "summary": "Contracts on a future price, built-in leverage, and why they were invented for farmers, not traders.",
-    "hook": null,
+    "hook": "Invented so a farmer could lock in a price before harvest. Now mostly traded by people who've never seen a bushel.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "CME Group: the Chicago Board of Trade was founded in 1848 and standardized grain futures contracts in 1865 · https://www.cmegroup.com/company/history/timeline-of-achievements.html · 2026-10-26"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "A contract to buy or sell something at a set price on a future date: grain, oil, gold, a stock index, interest rates. Standardized futures date to Chicago in the 1860s, built so farmers and millers could fix a price ahead of harvest. Today most volume is financial. You post a small deposit (margin) against a much larger contract, so leverage is built in, and gains and losses are settled to your account every day.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Producers and big users hedging real exposure: farmers, airlines, refiners, pension funds. Speculators providing the other side. Retail traders through 'micro' contracts and through ETFs that hold futures (most commodity funds work this way).",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Exchange and broker fees per contract, interest on the margin deposit the broker holds, and the daily spread. Funds that hold futures pay a 'roll' cost each time a contract expires, which can quietly erode returns even when the commodity price is flat.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Leverage that turns a small move into a wipeout and a margin call. Holding a contract into delivery. Buying an oil ETF, watching oil rise, and losing money anyway because of roll costs. Not understanding that losses are debited nightly, not at the end.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What's the full contract value, not just the margin? What does a one-percent move do to my account? When does this expire and what happens then? If this is a fund, what's the roll cost been over the past year?",
         "long": null
       }
     ],
@@ -3515,46 +3596,46 @@
     ],
     "also": [],
     "zone": 5,
-    "status": "planned",
+    "status": "written",
     "summary": "Testing a strategy on past data, and the overfitting trap that makes every backtest look great.",
-    "hook": null,
+    "hook": "Every strategy looks great on the data it was built from. That's not a result. That's a mirror.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Running a trading rule against past prices to see how it would have done. Useful for finding out whether an idea is nonsense; dangerous because of overfitting: tweak the rules enough and any strategy will fit history perfectly and fail going forward. The honest version tests on data the rule never saw, includes trading costs and spreads, and counts the strategies that were tried and discarded.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Quant funds, with teams and skepticism. Retail traders and the people selling to them, usually with a chart of a line going up and to the right.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Backtesting software subscriptions, 'proven' systems sold on their historical curve, signal services, and algorithmic-trading courses. The curve in the ad was chosen from many; you're paying for the survivor.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Fitting the rule to the data and calling it a discovery. Leaving out costs, slippage, and the stocks that went bankrupt and dropped out of the database. Testing on ten years that happened to be a bull market. Trading real money on a backtest with no out-of-sample period.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "Was any of this data held back and tested after the rule was fixed? Are spreads, commissions, and taxes included? How many versions were tried before this one? What happens to the curve if I start it a year later?",
         "long": null
       }
     ],
@@ -3571,46 +3652,46 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "The gap between the buy and sell price. The quiet fee on every trade, biggest where volume is thinnest.",
-    "hook": null,
+    "hook": "There are two prices for everything. You buy at the higher one and sell at the lower one. The gap is the fee.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "The difference between the highest price a buyer will pay (the bid) and the lowest a seller will accept (the ask). Buy at the ask, sell at the bid, and you've lost the spread before anything moves. On a heavily traded stock or ETF it's a penny; on a small company, a niche ETF, an option, or a crypto token it can be a percent or more. It's widest at the open, the close, and in a panic.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Everyone who trades, every time. Index investors pay it rarely; day traders pay it constantly, which is a large part of why frequent trading is expensive even with zero commissions.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Market makers earn the spread: they buy at the bid, sell at the ask, and pocket the difference thousands of times a day. Brokers that route your orders to those market makers are paid for sending them. 'Commission-free' moved the cost from a line item into the spread.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Trading a thin ETF because it had the right name and paying a wide spread each way. Placing a market order on an option and filling at the far edge of a wide spread. Not noticing the cost because it never appears as a fee. Day-trading a small account where spreads alone eat the gains.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What's the bid and ask on this right now, and what's that as a percent? How much does this trade a day? What time is it, and is the spread wider than usual? If I bought and sold this instantly, what would I lose?",
         "long": null
       }
     ],
@@ -3627,46 +3708,48 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "How much a price moves, how it's measured, and why it's priced into everything on this line.",
-    "hook": null,
+    "hook": "Volatility isn't risk of losing money. It's how big the swings are. The two get confused on purpose.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "Cboe: the VIX Index measures the market's expectation of 30-day volatility implied by S&P 500 option prices · https://www.cboe.com/tradable_products/vix/ · 2026-10-26"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "A measure of how much a price moves, up or down, over time, usually stated as an annualized percentage. Historical volatility looks back; implied volatility is what option prices suggest traders expect ahead. The VIX, often called the fear index, is the implied 30-day volatility of the S&P 500. Options cost more when volatility is high, because bigger swings make them more likely to pay.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Options traders live by it. Everyone else feels it: a high-volatility fund is the one whose statements are hard to open. Risk-scoring tools and 'conservative' portfolio labels are mostly volatility measurements.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Products sold on volatility: VIX-linked funds that lose value over time by design, 'low-volatility' funds with higher fees than a plain index, and option strategies pitched as income that are short volatility and blow up when it spikes. Brokers earn more when volatility rises because people trade more.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Buying a VIX product as a long-term hedge and watching it decay. Mistaking a calm stretch for safety and a volatile one for danger; some of the best buying days in history were the scariest. Selling options for 'income' without understanding that the premium is pay for taking the big-swing risk.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What's the volatility of this, and what has that meant in dollars over a bad month? Is this product long or short volatility? Is it designed to be held for a day or a decade? What happens to it when the VIX doubles?",
         "long": null
       }
     ],
@@ -3683,46 +3766,49 @@
     ],
     "also": [],
     "zone": 3,
-    "status": "planned",
+    "status": "written",
     "summary": "Charts versus financials. What each approach claims, and what the evidence says about both.",
-    "hook": null,
+    "hook": "One camp reads the charts. One reads the financials. The record says most of both trail an index.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "S&P Dow Jones Indices",
+      "SPIVA U.S. Scorecard (year-end 2025): most actively managed U.S. equity funds trailed their benchmark over 15 years · https://www.spglobal.com/spdji/en/research-insights/spiva/ · 2026-03-15"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Two schools of picking what to buy. Technical analysis studies price and volume patterns on charts, on the theory that past movement predicts future movement. Fundamental analysis studies the business: earnings, debt, growth, competition, on the theory that price eventually follows value. Most professional managers use the second; most retail trading apps are built around the first.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Traders use technicals. Analysts and long-term investors lean fundamental. Most people mix them without naming either. Course sellers and chart-pattern influencers target beginners with the first because it looks learnable in a weekend.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Charting platforms, data subscriptions, trading courses, signal services, and newsletters, most priced monthly. Brokers earn when either method produces trades, and technical analysis produces far more of them.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Seeing patterns in noise. The long-running SPIVA scorecards find most professional stock pickers, with teams and data, trail a plain index fund over 15 years; a retail trader with a pattern and a phone is unlikely to do better. Paying for a course that teaches what's free. Confusing a strategy that worked in a bull market with one that works.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What's the evidence this method beats an index after costs? Who's selling it to me and what do they earn? How would I know if it stopped working? What's my result over the last two years compared to just holding a broad fund?",
         "long": null
       }
     ],
@@ -3739,46 +3825,49 @@
     ],
     "also": [],
     "zone": 4,
-    "status": "planned",
+    "status": "written",
     "summary": "Borrowing from your broker to buy more. The interest, the margin call, and who decides when you're sold out.",
-    "hook": null,
+    "hook": "The broker lends you money to buy more, charges interest daily, and decides when to sell you out.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
-    "sources": [],
-    "updated": "2026-10-22",
+    "sources": [
+      "FINRA",
+      "Margin Regulation: Regulation T initial margin 50%; FINRA maintenance margin 25% of market value · https://www.finra.org/rules-guidance/key-topics/margin-accounts · 2026-10-26"
+    ],
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Borrowing from your broker against the investments in your account to buy more. Federal rules let you borrow up to half the purchase price; brokers require you to keep at least 25% equity after that, and most set a higher bar. Fall below it and you get a margin call: add cash or the broker sells your holdings, at its choice of which and when.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Active traders by design. Ordinary investors sometimes by accident, when an app enables margin by default or offers 'instant buying power.' Some use margin loans as a cheap way to borrow against a portfolio without selling.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Interest on the loan, compounded daily, often at rates well above a mortgage. The broker also earns by lending out the shares you bought on margin to short sellers, and from the extra trading margin encourages. A forced sale in a crash is executed to protect the broker's loan, not your position.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "A 30% drop in a fully margined account is a 60% drop in your equity, plus a margin call at the bottom. The broker selling the position you'd have kept. Not realizing margin was on. Using it to average down into a falling stock.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "Is margin enabled on this account, and did I ask for it? What's the interest rate? At what price would I get a call, and what happens if I don't answer the phone? What's the worst case in dollars?",
         "long": null
       }
     ],
@@ -3795,46 +3884,46 @@
     ],
     "also": [],
     "zone": 4,
-    "status": "planned",
+    "status": "written",
     "summary": "Betting a price falls by selling what you borrowed. Why the loss is unlimited and the borrow has a fee.",
-    "hook": null,
+    "hook": "Buy low, sell high, in the other order. The most you can make is 100%. The most you can lose has no limit.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Betting on a price falling. You borrow shares through your broker, sell them, and plan to buy them back cheaper to return. If the price falls, the difference is yours. If it rises, you owe the difference, and there's no ceiling on how high a price can go. You pay a borrow fee while the position is open and owe any dividends the stock pays.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Hedge funds, professional traders, and market makers hedging. Retail investors occasionally, usually on a stock they're angry at, and more often through inverse ETFs, which short for you with their own costs.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "The broker charges a borrow fee that can be small or enormous on hard-to-borrow names, plus margin interest, since shorting requires a margin account. The broker also earns by lending your long shares to other shorts. Inverse ETFs carry high expense ratios and daily-reset decay.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "A short squeeze: a rising price forces shorts to buy back, which pushes it higher, which forces more buying. Unlimited loss, which margin calls make real. Being right about a company and still losing because the timing was off. Borrow fees that quietly exceed any gain.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "What's the borrow fee today, and can it change? What's the most I can lose, and is there a number at all? What happens to this position if the stock doubles overnight? Do I owe the dividend?",
         "long": null
       }
     ],
@@ -3851,46 +3940,46 @@
     ],
     "also": [],
     "zone": 4,
-    "status": "planned",
-    "summary": "Calls, puts, premium, expiry. How most retail options expire worthless, and who collects the premium.",
-    "hook": null,
+    "status": "written",
+    "summary": "Calls, puts, premium, expiry. Why so many short-dated options expire worthless, and who collects the premium.",
+    "hook": "The buyer pays for the right to be right by a deadline. The seller collects the fee and waits for the clock.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "A contract on 100 shares. A call is the right to buy at a set price (the strike) before a set date (expiry); a put is the right to sell. The buyer pays a premium for that right. The seller collects the premium and takes on the obligation. Options lose value as expiry approaches, so a buyer needs to be right about direction, size, and timing; the seller is paid for the buyer's chance of missing one of them.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Professionals, for hedging and income. Retail traders, in large numbers since commissions went to zero, mostly buying short-dated calls on the apps that make it feel like a game. Covered calls (selling calls against stock you own) are the common 'income' version.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "The premium flows from buyers to sellers, and sellers as a group have a structural edge because time is on their side. Brokers earn on every contract, and options order flow is far more valuable to market makers than stock order flow, so apps push options hard. Spreads on options are wide, especially on far-out strikes.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Buying short-dated options because they're cheap and watching them go to zero in a week. Selling 'naked' calls with unlimited loss. Getting assigned on a short put and owning stock you didn't budget for. Treating a 10x story as the typical outcome rather than the rare one.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "Am I the buyer or the seller here, and what's my maximum loss? What has to happen, by when, for this to profit? What's the spread on this contract? Does the app earn more when I trade options than stock?",
         "long": null
       }
     ],
@@ -3907,46 +3996,46 @@
     ],
     "also": [],
     "zone": 5,
-    "status": "planned",
+    "status": "written",
     "summary": "How much to put in any one trade. The math that keeps one bad call from ending the account.",
-    "hook": null,
+    "hook": "The question isn't what to buy. It's how much. Get that wrong and being right doesn't matter.",
     "related": [],
     "connects": [],
     "reading_minutes": {
-      "short": null,
+      "short": 2,
       "long": null
     },
     "sources": [],
-    "updated": "2026-10-22",
+    "updated": "2026-10-26",
     "fields": [
       {
         "key": "what",
         "label": "What it is",
-        "short": null,
+        "short": "Deciding how much of the account goes into any one position. The usual framing: how much would I lose if this is wrong, and what fraction of the account is that? Traders often cap the loss per trade at a small fixed fraction of the account so that a string of losses, which happens to everyone, can't end it. The size follows from the distance to the exit, not from conviction.",
         "long": null
       },
       {
         "key": "who",
         "label": "Who ends up using it",
-        "short": null,
+        "short": "Every trader, and every investor who's ever put a large share of their money in one stock. The employee with most of their net worth in company shares has a position-sizing problem whether or not they trade.",
         "long": null
       },
       {
         "key": "money",
         "label": "How it makes money off you",
-        "short": null,
+        "short": "Nobody charges for the idea; the cost of ignoring it is paid to the market. Brokers earn more from large, frequent, concentrated bets than from small careful ones, and app design (leaderboards, confetti, 'buying power') pushes toward the former.",
         "long": null
       },
       {
         "key": "wrong",
         "label": "What goes wrong",
-        "short": null,
+        "short": "Betting big on a sure thing. Averaging down into a loser until it's most of the account. Sizing by how confident you feel instead of how much you'd lose. Surviving ten trades and being wiped out by the eleventh. Never writing down the exit before entering.",
         "long": null
       },
       {
         "key": "ask",
         "label": "What to ask",
-        "short": null,
+        "short": "If this goes against me, where do I get out, and what's that in dollars? What fraction of the account is that? How many losses in a row could I survive? Is this size based on the math or on how sure I feel?",
         "long": null
       }
     ],

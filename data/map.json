@@ -252,7 +252,7 @@
         "P"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "Getting paid without withholding: what you owe, when, and the quarterly payments nobody mentions."
     },
     "P10": {
@@ -265,7 +265,7 @@
         "P"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "What you owe when you sell something for more than you paid, and why holding a year changes the rate."
     },
     "P11": {
@@ -278,7 +278,7 @@
         "P"
       ],
       "zone": 4,
-      "status": "planned",
+      "status": "written",
       "summary": "Selling a loser to offset a winner's tax bill, and the wash-sale rule that trips people up."
     },
     "C1": {
@@ -356,7 +356,7 @@
         "C"
       ],
       "zone": 2,
-      "status": "planned",
+      "status": "written",
       "summary": "A health savings account with three tax breaks, and why some people treat it as a retirement account."
     },
     "C8": {
@@ -369,7 +369,7 @@
         "C"
       ],
       "zone": 2,
-      "status": "planned",
+      "status": "written",
       "summary": "Lock money up for a set term for a set rate. The penalty for leaving early is the product."
     },
     "C9": {
@@ -382,7 +382,7 @@
         "C"
       ],
       "zone": 2,
-      "status": "planned",
+      "status": "written",
       "summary": "Looks like savings, is actually an investment fund. Not FDIC insured, and that difference matters."
     },
     "C10": {
@@ -395,7 +395,7 @@
         "C"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "Why cash loses buying power, how it's measured, and what it does to every other station on this map."
     },
     "C11": {
@@ -408,7 +408,7 @@
         "C"
       ],
       "zone": 4,
-      "status": "planned",
+      "status": "written",
       "summary": "Who sets the rate that moves your savings APY, your card APR, and your mortgage, and how to read a rate decision."
     },
     "D1": {
@@ -515,7 +515,7 @@
         "D"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "The biggest loan most people take, the insurance you pay when you put less than 20% down, and what escrow is."
     },
     "D9": {
@@ -528,7 +528,7 @@
         "D"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "Replacing a loan with a cheaper one, when the closing costs make it worth it, and when they don't."
     },
     "D10": {
@@ -658,7 +658,7 @@
         "I"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "Not putting it all in one place. What it protects against, and what it doesn't."
     },
     "I11": {
@@ -671,7 +671,7 @@
         "I"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "Investing a fixed amount on a schedule regardless of price. What it does to your average cost, and what it doesn't."
     },
     "I12": {
@@ -684,7 +684,7 @@
         "I"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "Cash a company pays holders, how it's taxed, and why a high yield can be a warning rather than a gift."
     },
     "I13": {
@@ -697,7 +697,7 @@
         "I"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "Selling what grew to buy what shrank, back to your target mix. How often, and why it feels wrong."
     },
     "I14": {
@@ -710,7 +710,7 @@
         "I"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "How much drop you can sit through without selling. A behavior, not a questionnaire score."
     },
     "I15": {
@@ -723,7 +723,7 @@
         "I"
       ],
       "zone": 4,
-      "status": "planned",
+      "status": "written",
       "summary": "P/E, market cap, and the other numbers on a quote page, and what each one can and can't tell you."
     },
     "I16": {
@@ -736,7 +736,7 @@
         "I"
       ],
       "zone": 4,
-      "status": "planned",
+      "status": "written",
       "summary": "Why bond prices fall when rates rise, what a yield curve is, and why people watch its shape."
     },
     "I17": {
@@ -752,7 +752,7 @@
         "T"
       ],
       "zone": 4,
-      "status": "planned",
+      "status": "written",
       "summary": "Borrowing to invest or trade. Multiplies gains and losses alike, and the broker gets paid either way."
     },
     "I18": {
@@ -765,7 +765,7 @@
         "I"
       ],
       "zone": 5,
-      "status": "planned",
+      "status": "written",
       "summary": "How much a portfolio can pay out each year without running dry, and where the famous 4% came from."
     },
     "I19": {
@@ -778,7 +778,7 @@
         "I"
       ],
       "zone": 5,
-      "status": "planned",
+      "status": "written",
       "summary": "Beneficiaries, wills, and why the form you filled out at the bank can override the will."
     },
     "T1": {
@@ -791,7 +791,7 @@
         "T"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "Market, limit, stop. What each one promises, and when a market order costs you."
     },
     "T2": {
@@ -804,7 +804,7 @@
         "T"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "The gap between the buy and sell price. The quiet fee on every trade, biggest where volume is thinnest."
     },
     "T3": {
@@ -817,7 +817,7 @@
         "T"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "How much a price moves, how it's measured, and why it's priced into everything on this line."
     },
     "T4": {
@@ -830,7 +830,7 @@
         "T"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "Charts versus financials. What each approach claims, and what the evidence says about both."
     },
     "T5": {
@@ -843,7 +843,7 @@
         "T"
       ],
       "zone": 4,
-      "status": "planned",
+      "status": "written",
       "summary": "Borrowing from your broker to buy more. The interest, the margin call, and who decides when you're sold out."
     },
     "T6": {
@@ -856,7 +856,7 @@
         "T"
       ],
       "zone": 4,
-      "status": "planned",
+      "status": "written",
       "summary": "Betting a price falls by selling what you borrowed. Why the loss is unlimited and the borrow has a fee."
     },
     "T8": {
@@ -869,8 +869,8 @@
         "T"
       ],
       "zone": 4,
-      "status": "planned",
-      "summary": "Calls, puts, premium, expiry. How most retail options expire worthless, and who collects the premium."
+      "status": "written",
+      "summary": "Calls, puts, premium, expiry. Why so many short-dated options expire worthless, and who collects the premium."
     },
     "T9": {
       "code": "T9",
@@ -882,7 +882,7 @@
         "T"
       ],
       "zone": 5,
-      "status": "planned",
+      "status": "written",
       "summary": "How much to put in any one trade. The math that keeps one bad call from ending the account."
     },
     "T10": {
@@ -895,7 +895,7 @@
         "T"
       ],
       "zone": 5,
-      "status": "planned",
+      "status": "written",
       "summary": "Contracts on a future price, built-in leverage, and why they were invented for farmers, not traders."
     },
     "T11": {
@@ -908,7 +908,7 @@
         "T"
       ],
       "zone": 5,
-      "status": "planned",
+      "status": "written",
       "summary": "Testing a strategy on past data, and the overfitting trap that makes every backtest look great."
     },
     "M1": {
@@ -934,7 +934,7 @@
         "M"
       ],
       "zone": 2,
-      "status": "planned",
+      "status": "written",
       "summary": "Apps that look like banks but aren't. Where your money actually sits, and what happens if the app fails."
     },
     "M3": {
@@ -947,7 +947,7 @@
         "M"
       ],
       "zone": 2,
-      "status": "planned",
+      "status": "written",
       "summary": "Automated portfolios for a fee. What they do, what the fee buys, and what a target-date fund does for less."
     },
     "M4": {
@@ -960,7 +960,7 @@
         "M"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "How to evaluate one: who trained it, what it sells, whether it personalizes, and what it can't know about you."
     },
     "M5": {
@@ -973,7 +973,7 @@
         "M"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "How to spot it, why it hallucinates numbers, and the questions to ask before trusting any explainer, including this one."
     },
     "M6": {
@@ -986,7 +986,7 @@
         "M"
       ],
       "zone": 3,
-      "status": "planned",
+      "status": "written",
       "summary": "Tokens, exchanges, wallets, and what a stablecoin is actually backed by. The custody risk nobody explains."
     },
     "M7": {
@@ -999,7 +999,7 @@
         "M"
       ],
       "zone": 4,
-      "status": "planned",
+      "status": "written",
       "summary": "Stocks and real estate on a blockchain. What's real, what's a wrapper, and who holds the underlying thing."
     },
     "M8": {
@@ -1012,7 +1012,7 @@
         "M"
       ],
       "zone": 4,
-      "status": "planned",
+      "status": "written",
       "summary": "Betting on events, priced as probabilities. How the odds are set and why they're not quite forecasts."
     }
   },
