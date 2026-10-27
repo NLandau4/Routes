@@ -1,0 +1,86 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#FFD100}.wrap{width:1500px;height:750px;position:relative;overflow:hidden;background:#FFD100;font-family:'Inter Display','Inter',sans-serif}</style>
+</head><body><div class="wrap">
+<svg width="1500" height="750" viewBox="0 0 1500 750" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="wob"><feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="4"/></filter>
+      <g id="cab" filter="url(#wob)">
+    <rect x="0" y="0" width="260" height="330" rx="18" fill="#FFFFFF" stroke="#0E1116" stroke-width="10"/>
+    <rect x="22" y="150" width="216" height="80" rx="10" fill="none" stroke="#0E1116" stroke-width="8"/>
+    <rect x="22" y="240" width="216" height="80" rx="10" fill="none" stroke="#0E1116" stroke-width="8"/>
+    <rect x="100" y="182" width="60" height="16" rx="8" fill="#0E1116"/>
+    <rect x="100" y="272" width="60" height="16" rx="8" fill="#0E1116"/>
+    <!-- open top drawer, papers sticking out -->
+    <rect x="22" y="50" width="216" height="80" rx="10" fill="#0E1116"/>
+    <rect x="40" y="18" width="70" height="60" fill="#FFFFFF" stroke="#0E1116" stroke-width="7" transform="rotate(-8 75 48)"/>
+    <rect x="120" y="14" width="70" height="60" fill="#FFFFFF" stroke="#0E1116" stroke-width="7" transform="rotate(6 155 44)"/>
+    <!-- eyes on the middle drawer -->
+    <ellipse cx="90" cy="118" rx="22" ry="22" fill="#FFFFFF" stroke="#0E1116" stroke-width="7"/>
+    <ellipse cx="170" cy="118" rx="22" ry="22" fill="#FFFFFF" stroke="#0E1116" stroke-width="7"/>
+    <circle cx="96" cy="122" r="8" fill="#0E1116"/><circle cx="176" cy="122" r="8" fill="#0E1116"/>
+  </g>
+<pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="3" fill="#0E1116" opacity=".08"/></pattern>
+  </defs>
+  <rect width="1500" height="750" fill="#FFD100"/>
+  <rect width="1500" height="750" fill="url(#dots)"/>
+  <rect x="0" y="588" width="1500" height="162" fill="#0E1116"/>
+  <ellipse cx="750" cy="590" rx="620" ry="16" fill="#0E1116" opacity=".22"/>
+
+
+  <!-- cabinet 1 -->
+  <g transform="translate(150 250) rotate(-3 130 165)">
+    <use href="#cab"/>
+    <path d="M250 200 Q310 170 330 110" fill="none" stroke="#0E1116" stroke-width="12" stroke-linecap="round"/>
+    <g transform="translate(300 40) rotate(8)">
+      <rect x="0" y="0" width="130" height="80" rx="10" fill="#E8322B" stroke="#0E1116" stroke-width="8"/>
+      <text x="65" y="56" text-anchor="middle" font-family="Courier, monospace" font-weight="bold" font-size="44" fill="#FFFFFF">712</text>
+    </g>
+  </g>
+  <!-- cabinet 2 -->
+  <g transform="translate(620 230) rotate(2 130 165)">
+    <use href="#cab"/>
+    <path d="M250 200 Q310 170 330 110" fill="none" stroke="#0E1116" stroke-width="12" stroke-linecap="round"/>
+    <g transform="translate(300 40) rotate(-5)">
+      <rect x="0" y="0" width="130" height="80" rx="10" fill="#E8322B" stroke="#0E1116" stroke-width="8"/>
+      <text x="65" y="56" text-anchor="middle" font-family="Courier, monospace" font-weight="bold" font-size="44" fill="#FFFFFF">688</text>
+    </g>
+  </g>
+  <!-- cabinet 3 -->
+  <g transform="translate(1090 255) rotate(-1 130 165)">
+    <use href="#cab"/>
+    <path d="M250 200 Q310 170 330 110" fill="none" stroke="#0E1116" stroke-width="12" stroke-linecap="round"/>
+    <g transform="translate(300 40) rotate(10)">
+      <rect x="0" y="0" width="130" height="80" rx="10" fill="#E8322B" stroke="#0E1116" stroke-width="8"/>
+      <text x="65" y="56" text-anchor="middle" font-family="Courier, monospace" font-weight="bold" font-size="44" fill="#FFFFFF">703</text>
+    </g>
+  </g>
+
+  <!-- the person, tiny, between cabinets 1 and 2, looking up -->
+  <g transform="translate(520 400)" filter="url(#wob)">
+    <circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#0E1116" stroke-width="8"/>
+    <circle cx="-11" cy="-4" r="5" fill="#0E1116"/><circle cx="11" cy="-4" r="5" fill="#0E1116"/>
+    <ellipse cx="0" cy="16" rx="7" ry="9" fill="#0E1116"/>
+    <path d="M0 34 V120" stroke="#0E1116" stroke-width="10" stroke-linecap="round"/>
+    <path d="M0 60 L-40 40 M0 60 L40 40" stroke="#0E1116" stroke-width="10" stroke-linecap="round"/>
+    <path d="M0 120 L-24 158 M0 120 L24 158" stroke="#0E1116" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <!-- question marks -->
+  <text x="575" y="350" font-family="Inter Display, Inter, sans-serif" font-weight="900" font-size="58" fill="#0E1116" transform="rotate(12 565 380)">?</text>
+
+  <!-- top label -->
+  <g font-family="Courier, monospace" font-weight="bold" font-size="22" fill="#0E1116">
+    <text x="60" y="80">EQUIFAX</text><text x="640" y="80">EXPERIAN</text><text x="1180" y="80">TRANSUNION</text>
+  </g>
+  <text x="60" y="150" font-family="Inter Display, Inter, sans-serif" font-weight="800" font-size="30" fill="#0E1116">Same person. Same month.</text>
+
+  <!-- headline band -->
+  <text x="60" y="680" font-family="Inter Display, Inter, sans-serif" font-weight="900" font-size="54" fill="#FFFFFF" letter-spacing="-1">THREE FILES. ONE YOU.</text>
+  <g transform="translate(1230 638)">
+    <circle cx="28" cy="34" r="26" fill="#E8322B" stroke="#FFFFFF" stroke-width="6"/>
+    <text x="28" y="43" text-anchor="middle" font-family="Courier, monospace" font-weight="bold" font-size="24" fill="#FFFFFF">D1</text>
+    <text x="70" y="30" font-family="Inter Display, Inter, sans-serif" font-weight="900" font-size="28" fill="#FFFFFF">ROUTES</text>
+    <text x="70" y="56" font-family="Courier, monospace" font-weight="bold" font-size="16" fill="#FFD100">DEBT LINE</text>
+  </g>
+</svg>
+</div></body></html>
