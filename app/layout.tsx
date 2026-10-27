@@ -6,9 +6,16 @@ import { YouCounter } from "@/components/YouCounter";
 import { AuthButton } from "@/components/AuthButton";
 
 
+const SITE = "https://routesmoney.com";
+const DESC = "Every money term, one map. Educational only, no affiliate links, not advice.";
+
 export const metadata: Metadata = {
-  title: "Routes",
-  description: "Every money term, one map. Educational only, no affiliate links, not advice.",
+  metadataBase: new URL(SITE),
+  title: { default: "Routes", template: "%s · Routes" },
+  description: DESC,
+  alternates: { canonical: "/" },
+  openGraph: { type: "website", siteName: "Routes", url: SITE, title: "Routes", description: DESC },
+  twitter: { card: "summary_large_image", title: "Routes", description: DESC },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
